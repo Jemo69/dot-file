@@ -37,11 +37,7 @@ alias activate='source .venv/bin/activate'
 export PIPENV_DONT_LOAD=1
 source <(fzf --zsh)
 
-source <(ng completion script)
 
-. "$HOME/.local/bin/env"
-[ -s "$HOME/.config/envman/load.sh" ] && source "$HOME/.config/envman/load.sh"
-. "/home/jemo/.deno/env"
 # pnpm
 export PNPM_HOME="/home/jemo/.local/share/pnpm"
 case ":$PATH:" in
@@ -51,11 +47,7 @@ esac
 # pnpm end
 
 # bun completions
-[ -s "/home/jemo/.bun/_bun" ] && source "/home/jemo/.bun/_bun"
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH="$PATH:/home/jemo/.local/share/pnpm/global/5/node_modules/.bin"
 
 eval "$(zoxide init --cmd cd zsh)"
