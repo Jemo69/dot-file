@@ -54,3 +54,4 @@ esac
 # bun
 
 eval "$(zoxide init --cmd cd zsh)"
+export PATH=$HOME/flutter/bin:$PATH
