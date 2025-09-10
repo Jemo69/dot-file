@@ -15,6 +15,8 @@ source $ZSH/oh-my-zsh.sh
 alias c="cursor"
 alias t='trae'
 alias cls="clear"
+alias n="nvim"
+alias ls="eza"
 alias open='explorer.exe .'
 alias gs='git stash'
 alias gsp='git stash pop'
