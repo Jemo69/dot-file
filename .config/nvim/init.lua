@@ -42,7 +42,6 @@ require("lazy").setup({
   { 'jay-babu/mason-lspconfig.nvim' },
   { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' }, -- Faster fuzzy finder (optional)
   { 'nvim-telescope/telescope-live-grep-args.nvim' }, -- More powerful live grep (optional)
-  -- { 'github/copilot.lua' }, -- GitHub Copilot plugin - Original line causing error
   { 'github/copilot.vim' }, -- Corrected GitHub Copilot plugin (official one)
   { dir = '/home/jemo/projects/mytheme/Celestial-Echoes/nvim', name = 'mytheme' },
 }, {})
