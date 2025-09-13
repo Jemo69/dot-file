@@ -56,11 +56,8 @@ esac
 # pnpm end
 
 # bun completions
-[ -s "/home/jemo/.bun/_bun" ] && source "/home/jemo/.bun/_bun"
+
 
 # bun
-export BUN_INSTALL="$HOME/.bun"
-export PATH="$BUN_INSTALL/bin:$PATH"
-export PATH="$PATH:/home/jemo/.local/share/pnpm/global/5/node_modules/.bin"
 
 eval "$(zoxide init --cmd cd zsh)"
