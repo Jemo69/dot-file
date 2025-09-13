@@ -29,8 +29,8 @@ require("lazy").setup({
   { 'nvim-tree/nvim-tree.lua' },
   { 'nvim-tree/nvim-web-devicons' },
   { 'folke/tokyonight.nvim' }, -- Or any other base theme if you prefer
-  -- { 'catppuccin/nvim', name = 'catppuccin' },
   { 'nvim-lualine/lualine.nvim' },
+  {'Jemo69/celestial-echoes-nvim'},
   { 'nvim-neorg/neorg' }, -- For note-taking (optional)
   { 'tpope/vim-surround' },
   { 'tpope/vim-commentary' },
@@ -43,7 +43,6 @@ require("lazy").setup({
   { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' }, -- Faster fuzzy finder (optional)
   { 'nvim-telescope/telescope-live-grep-args.nvim' }, -- More powerful live grep (optional)
   { 'github/copilot.vim' }, -- Corrected GitHub Copilot plugin (official one)
-  { dir = '/home/jemo/projects/mytheme/Celestial-Echoes/nvim', name = 'mytheme' },
 }, {})
 -- require('Celestial-Echoes.nvim.Celestial-Echoes_Dark').colorscheme() -- Commented out missing theme
 vim.cmd.colorscheme 'tokyonight' -- Use tokyonight as fallback
