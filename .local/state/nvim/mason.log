@@ -1,0 +1,1708 @@
+[ERROR Tue Aug 26 20:59:03 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Tue Aug 26 20:59:06 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=pyright) {}
+[INFO  Tue Aug 26 20:59:06 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Tue Aug 26 20:59:06 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[INFO  Tue Aug 26 20:59:22 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:245: Installation succeeded for Package(name=pyright)
+[ERROR Tue Aug 26 21:15:42 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Tue Aug 26 21:15:43 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Tue Aug 26 21:15:44 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Wed Aug 27 17:30:00 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Wed Aug 27 17:30:00 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Wed Aug 27 17:30:02 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Wed Aug 27 19:05:37 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Wed Aug 27 19:05:39 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Wed Aug 27 19:05:39 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Wed Aug 27 19:06:14 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Wed Aug 27 19:06:16 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Wed Aug 27 19:06:16 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Wed Aug 27 19:11:24 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Wed Aug 27 19:11:25 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Wed Aug 27 19:11:26 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Wed Aug 27 19:12:29 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Wed Aug 27 19:12:34 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Wed Aug 27 19:12:34 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Wed Aug 27 19:12:53 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Wed Aug 27 19:12:53 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:184: Executing installer for Package(name=lua-language-server) {}
+[ERROR Wed Aug 27 19:12:55 2025] ...e/nvim/lazy/mason.nvim/lua/mason-core/installer/init.lua:249: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Fri Aug 29 16:13:29 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Fri Aug 29 16:13:30 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Aug 29 16:13:30 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Fri Aug 29 17:51:58 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Fri Aug 29 17:51:59 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Aug 29 17:52:00 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Sat Aug 30 02:04:18 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Sat Aug 30 02:04:19 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Sat Aug 30 02:04:20 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Sat Aug 30 02:05:54 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Sat Aug 30 02:05:54 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Sat Aug 30 02:05:55 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Sun Aug 31 13:24:33 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Sun Aug 31 13:24:35 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Sun Aug 31 13:24:36 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Sun Aug 31 14:56:18 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Sun Aug 31 14:56:19 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Sun Aug 31 14:56:19 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Sun Aug 31 14:56:34 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Sun Aug 31 14:56:36 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Sun Aug 31 14:56:36 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Sun Aug 31 17:58:51 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Sun Aug 31 17:58:52 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Sun Aug 31 17:58:52 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  1 09:28:05 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  1 09:28:05 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  1 09:28:07 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Tue Sep  2 07:34:14 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[ERROR Tue Sep  2 07:34:15 2025] .../share/nvim/lazy/mason.nvim/lua/mason-core/providers.lua:81: Provider "github" "get_latest_release" failed: spawn: wget failed with exit code 4 and signal 0. 
+[ERROR Tue Sep  2 07:34:15 2025] .../share/nvim/lazy/mason.nvim/lua/mason-core/providers.lua:81: Provider "github" "get_latest_release" failed: spawn: wget failed with exit code 4 and signal 0. 
+[ERROR Tue Sep  2 07:34:15 2025] .../share/nvim/lazy/mason.nvim/lua/mason-core/providers.lua:92: No provider implementation succeeded for github.get_latest_release
+[ERROR Tue Sep  2 07:34:15 2025] ...im/lazy/mason.nvim/lua/mason-registry/sources/github.lua:145: Failed to install registry GitHubRegistrySource(repo=mason-org/mason-registry). "Failed to fetch latest registry version from GitHub API."
+[ERROR Tue Sep  2 07:34:15 2025] ...l/share/nvim/lazy/mason.nvim/lua/mason-registry/init.lua:126: Failed to update registries. { "GitHubRegistrySource(repo=mason-org/mason-registry) failed to install: Failed to fetch latest registry version from GitHub API." }
+[INFO  Tue Sep  2 07:34:16 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue Sep  2 07:34:16 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Tue Sep  2 17:08:47 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Tue Sep  2 17:08:49 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue Sep  2 17:08:49 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Tue Sep  2 21:36:25 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Tue Sep  2 21:36:25 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue Sep  2 21:36:27 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Wed Sep  3 21:10:23 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Wed Sep  3 21:10:25 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Wed Sep  3 21:10:25 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Thu Sep  4 08:36:35 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Thu Sep  4 08:36:36 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Thu Sep  4 08:36:37 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Thu Sep  4 08:51:44 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Thu Sep  4 08:51:45 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Thu Sep  4 08:51:46 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Thu Sep  4 16:23:11 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Thu Sep  4 16:23:11 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Thu Sep  4 16:23:12 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Thu Sep  4 16:45:37 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Thu Sep  4 16:45:37 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Thu Sep  4 16:45:38 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Thu Sep  4 21:49:10 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Thu Sep  4 21:49:12 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Thu Sep  4 21:49:12 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Fri Sep  5 18:45:43 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Fri Sep  5 18:45:45 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Sep  5 18:45:45 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  8 07:36:42 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  8 07:36:44 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  8 07:36:44 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  8 19:18:40 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  8 19:18:41 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  8 19:18:42 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  8 19:25:20 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  8 19:25:21 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  8 19:25:22 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  8 19:41:11 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  8 19:41:13 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  8 19:41:13 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  8 20:01:21 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  8 20:01:22 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  8 20:01:23 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  8 20:18:45 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  8 20:18:45 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  8 20:18:46 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Mon Sep  8 20:55:29 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Mon Sep  8 20:55:29 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Mon Sep  8 20:55:30 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Tue Sep  9 15:55:13 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Tue Sep  9 15:55:15 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue Sep  9 15:55:15 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Tue Sep  9 17:09:44 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Tue Sep  9 17:09:44 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Tue Sep  9 17:09:46 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Fri Sep 12 08:04:21 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Fri Sep 12 08:04:23 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Sep 12 08:04:23 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[ERROR Fri Sep 12 08:25:15 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+[INFO  Fri Sep 12 08:25:16 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Sep 12 08:25:17 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[INFO  Fri Sep 12 08:26:52 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=pyright) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Fri Sep 12 08:27:07 2025] .../mason.nvim/lua/mason-core/installer/UninstallRunner.lua:37: Executing uninstaller for Package(name=pyright) {
+  bypass_permit = true
+}
+[INFO  Fri Sep 12 08:27:10 2025] .../mason.nvim/lua/mason-core/installer/UninstallRunner.lua:61: Uninstallation succeeded for Package(name=pyright)
+[INFO  Fri Sep 12 08:27:10 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=pyright)
+[INFO  Fri Sep 12 08:28:00 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=ruff) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Fri Sep 12 08:28:22 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=prettier) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Fri Sep 12 08:28:28 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=prettier)
+[INFO  Fri Sep 12 08:29:58 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=typescript-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Fri Sep 12 08:29:59 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=ty) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Sep 12 08:30:09 2025] ...zy/mason.nvim/lua/mason-core/installer/compiler/init.lua:190: Failed to download schemas Package(name=typescript-language-server) Schema download timed out.
+[INFO  Fri Sep 12 08:30:09 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:86: Installation succeeded for Package(name=typescript-language-server)
+[ERROR Fri Sep 12 08:32:54 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=ruff) error="Installation was aborted."
+[ERROR Fri Sep 12 08:32:54 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=ty) error="Installation was aborted."
+[ERROR Fri Sep 12 08:34:10 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Fri Sep 12 08:34:10 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Sep 12 08:34:12 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."
+[INFO  Fri Sep 12 08:38:11 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=ruff) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Fri Sep 12 08:38:29 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=ty) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[INFO  Fri Sep 12 08:39:40 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=eslint_d) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Sep 12 08:40:05 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=ty) error="Installation was aborted."
+[ERROR Fri Sep 12 08:40:06 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=ruff) error="Installation was aborted."
+[ERROR Fri Sep 12 08:40:09 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=eslint_d) error="Installation was aborted."
+[ERROR Fri Sep 12 15:38:29 2025] ...m/lazy/mason-lspconfig.nvim/lua/mason-lspconfig/init.lua:33: Failed to set up lspconfig integration. ...ig.nvim/lua/mason-lspconfig/server_config_extensions.lua:4: module 'lspconfig.server_configurations.omnisharp' not found:
+	no field package.preload['lspconfig.server_configurations.omnisharp']
+	cache_loader: module 'lspconfig.server_configurations.omnisharp' not found
+	cache_loader_lib: module 'lspconfig.server_configurations.omnisharp' not found
+	no file './lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/luajit-2.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/usr/local/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/usr/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp.lua'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/share/lua/5.1/lspconfig/server_configurations/omnisharp/init.lua'
+	no file './lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig/server_configurations/omnisharp.so'
+	no file './lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/usr/lib/lua/5.1/lspconfig.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/pathlib.nvim/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/neorg/lib64/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib/lua/5.1/lspconfig.so'
+	no file '/data/data/com.termux/files/home/.local/share/nvim/lazy-rocks/telescope.nvim/lib64/lua/5.1/lspconfig.so'
+[INFO  Fri Sep 12 15:38:30 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:40: Executing installer for Package(name=lua-language-server) {
+  debug = false,
+  force = false,
+  strict = false
+}
+[ERROR Fri Sep 12 15:38:30 2025] ...zy/mason.nvim/lua/mason-core/installer/InstallRunner.lua:93: Installation failed for Package(name=lua-language-server) error="The current platform is unsupported."

@@ -394,6 +394,26 @@ require('telescope').setup({
 -- Load the fzf extension (if installed)
 pcall(require('telescope').load_extension, 'fzf')
 pcall(require('telescope').load_extension, 'live_grep_args')
+vim.lsp.config('ruff', {
+  init_options = {
+    settings = {
+      -- Ruff language server settings go here
+    }
+  }
+})
+
+vim.lsp.enable('ruff')
+-- Optional: Only required if you need to update the language server settings
+vim.lsp.config('ty', {
+  settings = {
+    ty = {
+      -- ty language server settings go here
+    }
+  }
+})
+
+-- Required: Enable the language server
+vim.lsp.enable('ty')
 
 -- Copilot Configuration (using copilot.vim)
 -- No specific Lua setup needed for copilot.vim, but ensure it's installed via lazy.nvim
