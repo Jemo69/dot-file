@@ -388,3 +388,57 @@ pcall(function()
   pcall(require('telescope').load_extension, 'fzf')
   pcall(require('telescope').load_extension, 'live_grep_args')
 end)
+-- General Neovim settings
+vim.opt.number = true
+vim.opt.relativenumber = true
+vim.opt.cursorline = true
+vim.opt.termguicolors = true
+vim.opt.background = "dark"
+vim.opt.showmode = false
+vim.opt.signcolumn = "auto"
+vim.opt.clipboard = "unnamedplus"
+vim.opt.tabstop = 4
+vim.opt.softtabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.autoindent = true
+vim.opt.wrap = false
+vim.opt.splitbelow = true
+vim.opt.splitright = true
+vim.opt.scrolloff = 8
+vim.opt.sidescrolloff = 8
+
+-- Keymappings
+vim.g.mapleader = ' '
+vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Open current file in explorer' })
+vim.keymap.set('n', '<C-p>', ':Telescope find_files<CR>', { desc = 'Find files' })
+vim.keymap.set('n', '<C-S-f>', ':Telescope live_grep<CR>', { desc = 'Find text' })
+vim.keymap.set('n', '<leader>b', ':Telescope buffers<CR>', { desc = 'Find buffers' })
+vim.keymap.set('n', '<leader>h', ':Telescope help_tags<CR>', { desc = 'Find help' })
+vim.keymap.set('n', '<leader>r', ':Telescope oldfiles<CR>', { desc = 'Find recent files' })
+vim.keymap.set('n', '<leader>gg', ':G<CR>', { desc = 'Git status' })
+vim.keymap.set('n', '<leader>gc', ':Git commit<CR>', { desc = 'Git commit' })
+vim.keymap.set('n', '<leader>gb', ':Git blame<CR>', { desc = 'Git blame' })
+vim.keymap.set('n', 'gd', vim.lsp.buf.definition, { desc = 'Go to definition' })
+vim.keymap.set('n', 'gD', vim.lsp.buf.declaration, { desc = 'Go to declaration' })
+vim.keymap.set('n', 'gt', vim.lsp.buf.type_definition, { desc = 'Go to type definition' })
+vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, { desc = 'Go to implementation' })
+vim.keymap.set('n', 'gr', vim.lsp.buf.references, { desc = 'Find references' })
+vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, { desc = 'Rename' })
+vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, { desc = 'Code actions' })
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = 'Toggle file explorer' })
+vim.keymap.set('n', '<C-b>', ':NvimTreeToggle<CR>', { desc = 'Toggle file explorer (VSCode style)' })
+vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show diagnostics' })
+vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic' })
+vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic' })
+vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } end, { desc = 'Format code (LSP)' })
+
+-- VSCode-like keybindings
+vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save file' })
+vim.keymap.set('i', '<C-s>', '<Esc>:w<CR>a', { desc = 'Save file (insert mode)' })
+vim.keymap.set('n', '<C-a>', 'ggVG', { desc = 'Select all' })
+vim.keymap.set('n', '<C-z>', 'u', { desc = 'Undo' })
+vim.keymap.set('n', '<C-y>', '<C-r>', { desc = 'Redo' })
+vim.keymap.set('n', '<C-/>', 'gcc', { desc = 'Toggle comment', remap = true })
+vim.keymap.set('v', '<C-/>', 'gc', { desc = 'Toggle comment', remap = true })
+vim.keymap.set('i', '<C-/>', '<Esc>gcca', { desc = 'Toggle comment', remap = true })
