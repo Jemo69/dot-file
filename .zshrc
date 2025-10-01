@@ -5,11 +5,15 @@ ZSH_THEME="agnoster"
 
 autoload -Uz compinit
 compinit                                
+set -o vi
 
 
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+eval "$(ssh-agent -s)" ssh-add ~/.ssh/jemo
+ssh -T git@github.com
+clear
 
 
 alias c="cursor"
@@ -64,3 +68,8 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$PATH:/home/jemo/.local/share/pnpm/global/5/node_modules/.bin"
 
 eval "$(zoxide init --cmd cd zsh)"
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
+eval "$(atuin init zsh)"
