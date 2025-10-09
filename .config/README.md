@@ -27,8 +27,7 @@ The Neovim configuration is managed using `lazy.nvim`, a modern plugin manager f
 | `gr`                | Find references (LSP)                             |
 | `<leader>rn`        | Rename symbol (LSP)                               |
 | `<leader>ca`        | Show code actions (LSP)                           |
-| `<leader>e`         | Toggle file explorer (NvimTree)                   |
-| `<C-b>`             | Toggle file explorer (VSCode style)               |
+| `<C-S-s>`           | Toggle file explorer                              |
 | `<leader>d`         | Show diagnostics (LSP)                            |
 | `[d`                | Go to previous diagnostic (LSP)                   |
 | `]d`                | Go to next diagnostic (LSP)                       |
