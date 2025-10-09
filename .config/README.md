@@ -2,6 +2,15 @@
 
 This document provides an overview of the configuration for Neovim and Tmux, including a comprehensive list of keybindings.
 
+## File Structure
+
+All configuration files are located in the `.config` directory.
+
+-   **`.config/nvim/`**: Contains the Neovim configuration.
+    -   `init.lua`: The main entry point for the Neovim configuration. It sets up `lazy.nvim` and defines all the plugins and their settings.
+-   **`.config/tmux/`**: While not present in the current structure, this is where Tmux-specific plugin configurations would reside.
+-   **`.tmux.conf`**: The main configuration file for Tmux, located in the root directory.
+
 ## Neovim Configuration (`nvim/init.lua`)
 
 The Neovim configuration is managed using `lazy.nvim`, a modern plugin manager for Neovim. The configuration is designed to be modular and easy to maintain.
