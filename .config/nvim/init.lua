@@ -46,6 +46,13 @@ require("lazy").setup({
     { 'github/copilot.lua' },
     { "zbirenbaum/copilot-cmp" },
     { 'chikko80/error-lens.nvim' },
+    {
+        'supermaven-inc/supermaven-nvim',
+        config = function()
+            require("supermaven-nvim").setup({})
+        end,
+    },
+    { "mattn/emmet-vim" },
 }, {})
 
 -- General Neovim settings
@@ -463,4 +470,3 @@ require("catppuccin").setup({
 
 -- setup must be called before loading
 vim.cmd.colorscheme "catppuccin"
-
