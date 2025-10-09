@@ -30,15 +30,13 @@ require("lazy").setup({
     { 'nvim-tree/nvim-web-devicons' },
     { 'folke/tokyonight.nvim' },
     { 'nvim-lualine/lualine.nvim' },
-    -- { 'Jemo69/celestial-echoes-nvim' },
     { 'nvim-neorg/neorg' },
     { 'tpope/vim-surround' },
-    { 'tpope/vim-commentary' },
     { 'tpope/vim-fugitive' },
     { 'mfussenegger/nvim-dap' },
     { 'rcarriga/nvim-dap-ui' },
-    { 'stevearc/conform.nvim' },  -- Modern formatter (replaces null-ls)
-    { 'mfussenegger/nvim-lint' }, -- Modern linter (replaces null-ls)
+    { 'stevearc/conform.nvim' },
+    { 'mfussenegger/nvim-lint' },
     { 'williamboman/mason.nvim' },
     { 'jay-babu/mason-lspconfig.nvim' },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
@@ -46,13 +44,31 @@ require("lazy").setup({
     { 'github/copilot.lua' },
     { "zbirenbaum/copilot-cmp" },
     { 'chikko80/error-lens.nvim' },
-    {
-        'supermaven-inc/supermaven-nvim',
-        config = function()
-            require("supermaven-nvim").setup({})
-        end,
-    },
+    -- {
+    --     'supermaven-inc/supermaven-nvim',
+    --     config = function()
+    --         require("supermaven-nvim").setup({})
+    --     end,
+    -- },
     { "mattn/emmet-vim" },
+    -- New Plugins
+    { 'folke/trouble.nvim',        dependencies = { 'nvim-tree/nvim-web-devicons' }, opts = {} },
+    {
+        "folke/noice.nvim",
+        event = "VeryLazy",
+        opts = {
+            -- add any options here
+        },
+        dependencies = {
+            "MunifTanjim/nui.nvim",
+            "rcarriga/nvim-notify",
+        }
+    },
+    { "Exafunction/codeium.nvim",  dependencies = { "nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp" } },
+    { 'numToStr/Comment.nvim',     opts = {} },
+    { "folke/todo-comments.nvim",  dependencies = { "nvim-lua/plenary.nvim" },       opts = {} },
+    { "christoomey/vim-tmux-navigator" },
+
 }, {})
 
 -- General Neovim settings
@@ -99,6 +115,8 @@ vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show diagn
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic' })
 vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } end, { desc = 'Format code (LSP)' })
+vim.keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>", { desc = "Toggle Trouble" })
+vim.keymap.set("n", "<leader>xt", "<cmd>TodoTrouble<cr>", { desc = "Todo (Trouble)" })
 
 -- VSCode-like keybindings
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save file' })
@@ -106,11 +124,29 @@ vim.keymap.set('i', '<C-s>', '<Esc>:w<CR>a', { desc = 'Save file (insert mode)' 
 vim.keymap.set('n', '<C-a>', 'ggVG', { desc = 'Select all' })
 vim.keymap.set('n', '<C-z>', 'u', { desc = 'Undo' })
 vim.keymap.set('n', '<C-y>', '<C-r>', { desc = 'Redo' })
-vim.keymap.set('n', '<C-/>', 'gcc', { desc = 'Toggle comment', remap = true })
-vim.keymap.set('v', '<C-/>', 'gc', { desc = 'Toggle comment', remap = true })
-vim.keymap.set('i', '<C-/>', '<Esc>gcca', { desc = 'Toggle comment', remap = true })
+-- Commenting is now handled by Comment.nvim
 
 -- Plugin configurations
+
+-- nvim-notify
+pcall(function()
+    require("notify").setup({
+        background_colour = "#000000",
+        stages = "fade_in_slide_out",
+        timeout = 3000,
+    })
+    vim.notify = require("notify")
+end)
+
+-- Comment.nvim
+pcall(function()
+    require('Comment').setup()
+end)
+
+-- Codeium
+pcall(function()
+    require('codeium').setup({})
+end)
 
 -- Autocompletion (nvim-cmp) - with error handling
 pcall(function()
@@ -134,6 +170,7 @@ pcall(function()
         sources = cmp.config.sources({
             { name = 'nvim_lsp' },
             { name = 'copilot' },
+            { name = 'codeium' },
             { name = 'luasnip' },
             { name = 'buffer' },
             { name = 'path' },
@@ -156,12 +193,12 @@ pcall(function()
     require("mason-lspconfig").setup({
         ensure_installed = {
             -- Web development
-            'ts_ls',
+            'tsserver',
             'cssls',
             'html',
             'jsonls',
-            'svelteserver',
-            'volar',
+            'svelte',
+            'vue',
             -- Python
             'pyright',
             -- Lua
@@ -318,11 +355,11 @@ pcall(function()
     require('lualine').setup {
         options = {
             icons_enabled = true,
-            theme = 'auto',
+            theme = 'catppuccin',
             component_separators = { left = '', right = '' },
             section_separators = { left = '', right = '' },
             disabled_filetypes = {
-                statusline = {},
+                statusline = { "NvimTree", "dashboard", "noice" },
                 winbar = {},
             },
             ignore_focus = {},
@@ -459,7 +496,7 @@ require("catppuccin").setup({
         cmp = true,
         gitsigns = true,
         nvimtree = true,
-        notify = false,
+        notify = true,
         mini = {
             enabled = true,
             indentscope_color = "",
