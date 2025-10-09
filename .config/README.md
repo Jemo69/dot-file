@@ -1,6 +1,6 @@
 # Development Environment Documentation
 
-This document provides an overview of the configuration for Neovim and Tmux, including a comprehensive list of keybindings.
+This document provides an overview of the configuration for Neovim and Tmux, including a comprehensive list of keybindings and custom snippets.
 
 ## File Structure
 
@@ -8,12 +8,12 @@ All configuration files are located in the `.config` directory.
 
 -   **`.config/nvim/`**: Contains the Neovim configuration.
     -   `init.lua`: The main entry point for the Neovim configuration. It sets up `lazy.nvim` and defines all the plugins and their settings.
--   **`.config/tmux/`**: While not present in the current structure, this is where Tmux-specific plugin configurations would reside.
--   **`.tmux.conf`**: The main configuration file for Tmux, located in the root directory.
+    -   `lua/custom_snippets.lua`: Contains custom snippets for `luasnip`.
+-   **`.tmux.conf`**: The main configuration file for Tmux, located in the root directory of the repository.
 
 ## Neovim Configuration (`nvim/init.lua`)
 
-The Neovim configuration is managed using `lazy.nvim`, a modern plugin manager for Neovim. The configuration is designed to be modular and easy to maintain.
+The Neovim configuration is managed using `lazy.nvim`, a modern plugin manager for Neovim. It is designed to be modular and easy to maintain.
 
 ### Keybindings
 
@@ -47,8 +47,32 @@ The Neovim configuration is managed using `lazy.nvim`, a modern plugin manager f
 | `<C-a>`             | Select all                                        |
 | `<C-z>`             | Undo                                              |
 | `<C-y>`             | Redo                                              |
-| `gcc`               | Toggle comment (Normal mode)                      |
-| `gc`                | Toggle comment (Visual mode)                      |
+
+### Custom Snippets
+
+Custom snippets are managed by `luasnip` and can be added to the `.config/nvim/lua/custom_snippets.lua` file. Any snippets added to this file will be automatically loaded.
+
+#### Available Snippets
+
+| Trigger  | Language | Description                |
+| -------- | -------- | -------------------------- |
+| `dmodel` | python   | Creates a Django model class. |
+
+To add a new snippet, you can follow the example in the `custom_snippets.lua` file. The basic structure for a snippet is:
+
+```lua
+ls.add_snippets("filetype", {
+    s("trigger", {
+        t("snippet text"),
+        i(1, "placeholder"),
+    })
+})
+```
+
+-   `filetype`: The file type for which the snippet should be active (e.g., "python", "javascript", "all").
+-   `trigger`: The text that will expand into the snippet.
+-   `snippet text`: The static text of the snippet.
+-   `placeholder`: An interactive placeholder where you can type. The number `1` indicates the position in the tab order.
 
 ## Tmux Configuration (`.tmux.conf`)
 
@@ -63,3 +87,11 @@ The Tmux configuration is designed for a seamless experience with Neovim, featur
 | `C-k`      | Navigate to the pane above       |
 | `C-l`      | Navigate to the right pane       |
 | `C-\`     | Navigate to the previous pane    |
+| `h` (prefix) | Navigate to the left pane (repeatable) |
+| `j` (prefix) | Navigate to the pane below (repeatable) |
+| `k` (prefix) | Navigate to the pane above (repeatable) |
+| `l` (prefix) | Navigate to the right pane (repeatable) |
+| `S-h` (prefix) | Resize pane left (repeatable) |
+| `S-j` (prefix) | Resize pane down (repeatable) |
+| `S-k` (prefix) | Resize pane up (repeatable) |
+| `S-l` (prefix) | Resize pane right (repeatable) |
