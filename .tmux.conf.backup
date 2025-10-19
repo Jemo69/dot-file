@@ -1,5 +1,5 @@
 # oh-my-posh integration (handled by shell, not tmux)
-# oh-my-posh should be initialized in your shell config (.zshrc), not here
+# Remove this line as oh-my-posh should be initialized in your shell config
 
 # Vim-style pane navigation
 bind -r h select-pane -L

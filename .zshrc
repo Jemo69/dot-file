@@ -14,6 +14,7 @@ source $ZSH/oh-my-zsh.sh
 eval "$(ssh-agent -s)" ssh-add ~/.ssh/jemo
 ssh -T git@github.com
 clear
+export PATH="$PATH:$HOME/flutter/bin"
 
 
 alias c="cursor"
@@ -66,6 +67,10 @@ esac
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$PATH:/home/jemo/.local/share/pnpm/global/5/node_modules/.bin"
+export ANDROID_SDK_ROOT=$HOME/android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
 
 eval "$(zoxide init --cmd cd zsh)"
 
@@ -73,3 +78,4 @@ eval "$(zoxide init --cmd cd zsh)"
 
 eval "$(atuin init zsh)"
 eval "$(atuin init zsh)"
+eval "$(~/.local/bin/oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/jandedobbeleer.omp.json)"
