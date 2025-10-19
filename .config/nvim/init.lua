@@ -229,7 +229,7 @@ pcall(function()
         ensure_installed = {
             'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
-            'rust_analyzer', 'clangd', 'jdtls', 'ruff'
+            'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
         },
         automatic_installation = true,
     })
@@ -252,7 +252,7 @@ pcall(function()
             html = { "prettier" },
             css = { "prettier" },
             json = { "prettier" },
-            python = { "ruff" },
+            python = { "ruff_format" },
             lua = { "stylua" },
         },
         format_on_save = {
@@ -268,7 +268,6 @@ pcall(function()
         linters_by_ft = {
             javascript = { 'eslint' },
             typescript = { 'eslint' },
-            python = { 'ruff' },
         },
     })
     vim.api.nvim_create_autocmd({ "BufWritePost", "BufRead", "InsertLeave" }, {
