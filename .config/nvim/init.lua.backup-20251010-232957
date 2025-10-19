@@ -93,20 +93,22 @@ require("lazy").setup({
     { 'numToStr/Comment.nvim',         opts = {} },
     { "christoomey/vim-tmux-navigator" },
     {
-        "linux-cultist/venv-selector.nvim",
-        dependencies = {
-            "neovim/nvim-lspconfig",
-            { "nvim-telescope/telescope.nvim", branch = "0.1.x", dependencies = { "nvim-lua/plenary.nvim" } }, -- optional: you can also use fzf-lua, snacks, mini-pick instead.
-        },
-        ft = "python",                                                                                         -- Load when opening Python files
-        keys = {
-            { ",v", "<cmd>VenvSelect<cr>" },                                                                   -- Open picker on keymap
-        },
-        opts = {                                                                                               -- this can be an empty lua table - just showing below for clarity.
-            search = {},                                                                                       -- if you add your own searches, they go here.
-            options = {}                                                                                       -- if you add plugin options, they go here.
-        },
-    },
+        'OlegGulevskyy/better-ts-errors.nvim',
+        -- Make sure to run the setup function
+        config = function()
+            require('better-ts-errors').setup({
+                -- Optional: Configure keymaps for convenience
+                keymaps = {
+                    -- Toggles the pretty error popup
+                    toggle = '<leader>dt',
+                    -- Go to problematic type from the popup window (if supported)
+                    go_to_definition = '<leader>dd'
+                }
+            })
+        end,
+        -- Only load when you are in a TypeScript file
+        ft = { 'typescript', 'typescriptreact', 'javascript', 'javascriptreact', 'svelte', 'vue' },
+    }
 
 }, {})
 
@@ -229,7 +231,7 @@ pcall(function()
         ensure_installed = {
             'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
-            'rust_analyzer', 'clangd', 'jdtls', 'ruff'
+            'rust_analyzer', 'clangd', 'jdtls',
         },
         automatic_installation = true,
     })
@@ -252,7 +254,7 @@ pcall(function()
             html = { "prettier" },
             css = { "prettier" },
             json = { "prettier" },
-            python = { "ruff" },
+            python = { "black" },
             lua = { "stylua" },
         },
         format_on_save = {
@@ -266,9 +268,7 @@ end)
 pcall(function()
     require('lint').setup({
         linters_by_ft = {
-            javascript = { 'eslint' },
-            typescript = { 'eslint' },
-            python = { 'ruff' },
+            javascript = { 'eslint' }, typescript = { 'eslint' }, python = { 'pylint' },
         },
     })
     vim.api.nvim_create_autocmd({ "BufWritePost", "BufRead", "InsertLeave" }, {
@@ -307,7 +307,7 @@ pcall(function()
             width = 30,
         },
         renderer = { group_empty = true },
-        filters = { dotfiles = true },
+        filters = { dotfiles = false },
     })
 end)
 
