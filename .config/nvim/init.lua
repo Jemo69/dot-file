@@ -214,7 +214,7 @@ pcall(function()
         ensure_installed = {
             'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
-            'rust_analyzer', 'clangd', 'jdtls',
+            'rust_analyzer', 'clangd', 'jdtls', 'ruff'
         },
         automatic_installation = true,
     })
@@ -234,7 +234,7 @@ pcall(function()
         formatters_by_ft = {
             javascript = { "prettier" }, typescript = { "prettier" },
             html = { "prettier" }, css = { "prettier" }, json = { "prettier" },
-            python = { "black" }, lua = { "stylua" },
+            python = { "ruff" }, lua = { "stylua" },
         },
         format_on_save = {
             timeout_ms = 500,
@@ -247,7 +247,9 @@ end)
 pcall(function()
     require('lint').setup({
         linters_by_ft = {
-            javascript = { 'eslint' }, typescript = { 'eslint' }, python = { 'pylint' },
+            javascript = { 'eslint' },
+            typescript = { 'eslint' },
+            python = { 'ruff' },
         },
     })
     vim.api.nvim_create_autocmd({ "BufWritePost", "BufRead", "InsertLeave" }, {
@@ -286,7 +288,7 @@ pcall(function()
             width = 30,
         },
         renderer = { group_empty = true },
-        filters = { dotfiles = false },
+        filters = { dotfiles = true },
     })
 end)
 
