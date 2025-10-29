@@ -37,6 +37,7 @@ require("lazy").setup({
     { 'williamboman/mason.nvim' },
     { 'jay-babu/mason-lspconfig.nvim' },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
+    { "nvim-telescope/telescope-ui-select.nvim" },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
     { "mattn/emmet-vim" },
 
@@ -343,33 +344,31 @@ end)
 
 -- Telescope
 pcall(function()
+    local actions = require("telescope.actions")
     require('telescope').setup({
         defaults = {
-            layout_strategy = 'horizontal',
-            layout_config = {
-                horizontal = { prompt_position = "top", preview_width = 0.55 },
-                vertical = { mirror = false },
-                width = 0.87,
-                height = 0.80,
-                preview_cutoff = 120,
-            },
-            file_sorter = require("telescope.sorters").get_fuzzy_file,
-            generic_sorter = require("telescope.sorters").get_generic_fuzzy_sorter,
-            path_display = { "truncate" },
-            winblend = 0,
-            border = {},
-            borderchars = { "─", "│", "─", "│", "╭", "╮", "╯", "╰" },
-            color_devicons = true,
-            use_less = true,
-            set_env = { ["COLORTERM"] = "truecolor" },
-            file_previewer = require("telescope.previewers").vim_buffer_cat.new,
-            grep_previewer = require("telescope.previewers").vim_buffer_vimgrep.new,
-            qflist_previewer = require("telescope.previewers").vim_buffer_qflist.new,
-            buffer_previewer_maker = require("telescope.previewers").buffer_previewer_maker,
+            -- Default configuration for telescope
+            mappings = {
+                i = {
+                    -- map actions.which_key to <C-h> (for example)
+                    ["<C-h>"] = "which_key"
+                }
+            }
         },
+        pickers = {
+            -- Default configuration for builtin pickers
+        },
+        extensions = {
+            ["ui-select"] = {
+                require("telescope.themes").get_dropdown {
+                    -- even more opts
+                }
+            }
+        }
     })
     pcall(require('telescope').load_extension, 'fzf')
     pcall(require('telescope').load_extension, 'live_grep_args')
+    pcall(require('telescope').load_extension, "ui-select")
 end)
 
 -- Catppuccin
