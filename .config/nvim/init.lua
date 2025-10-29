@@ -135,7 +135,7 @@ vim.opt.sidescrolloff = 8
 vim.g.mapleader = ' '
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Open current file in explorer' })
 vim.keymap.set('n', '<C-p>', ':Telescope find_files<CR>', { desc = 'Find files' })
-vim.keymap.set('n', '<C-S-f>', ':Telescope live_grep<CR>', { desc = 'Find text' })
+vim.keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { desc = 'Find text in files' })
 vim.keymap.set('n', '<leader>b', ':Telescope buffers<CR>', { desc = 'Find buffers' })
 vim.keymap.set('n', '<leader>h', ':Telescope help_tags<CR>', { desc = 'Find help' })
 vim.keymap.set('n', '<leader>r', ':Telescope oldfiles<CR>', { desc = 'Find recent files' })
@@ -363,6 +363,15 @@ pcall(function()
                 require("telescope.themes").get_dropdown {
                     -- even more opts
                 }
+            },
+            live_grep_args = {
+                auto_quoting = true, -- enable/disable auto-quoting
+                mappings = { -- define mappings, e.g.
+                    i = {
+                        ["<C-n>"] = require("telescope-live-grep-args.actions").promote_first_result,
+                        ["<C-y>"] = require("telescope-live-grep-args.actions").copy_command,
+                    },
+                },
             }
         }
     })
