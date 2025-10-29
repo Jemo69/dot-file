@@ -44,7 +44,13 @@ require("lazy").setup({
     -- UI & Theme
     { "catppuccin/nvim",                             name = "catppuccin",                              priority = 1000 },
     { 'nvim-lualine/lualine.nvim' },
-    { 'folke/trouble.nvim',                          dependencies = { 'nvim-tree/nvim-web-devicons' }, opts = {} },
+        {
+        'folke/trouble.nvim',
+        dependencies = { 'nvim-tree/nvim-web-devicons' },
+        config = function()
+            require("trouble").setup({})
+        end
+    },
     {
         "folke/noice.nvim",
         event = "VeryLazy",
