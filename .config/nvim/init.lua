@@ -43,7 +43,44 @@ require("lazy").setup({
     -- UI & Theme
     { "catppuccin/nvim",                             name = "catppuccin",                              priority = 1000 },
     { 'nvim-lualine/lualine.nvim', dependencies = { 'linux-cultist/venv-selector.nvim' } },
-    { 'folke/trouble.nvim',                          dependencies = { 'nvim-tree/nvim-web-devicons' }, opts = {} },
+    {
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        opts = {},
+        cmd = "Trouble",
+        keys = {
+            {
+                "<leader>xx",
+                "<cmd>Trouble diagnostics toggle<cr>",
+                desc = "Diagnostics (Trouble)",
+            },
+            {
+                "<leader>xX",
+                "<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
+                desc = "Buffer Diagnostics (Trouble)",
+            },
+            {
+                "<leader>cs",
+                "<cmd>Trouble symbols toggle focus=false<cr>",
+                desc = "Symbols (Trouble)",
+            },
+            {
+                "<leader>cl",
+                "<cmd>Trouble lsp toggle focus=false win.position=right<cr>",
+                desc = "LSP Definitions / references / ... (Trouble)",
+            },
+            {
+                "<leader>xL",
+                "<cmd>Trouble loclist toggle<cr>",
+                desc = "Location List (Trouble)",
+            },
+            {
+                "<leader>xQ",
+                "<cmd>Trouble qflist toggle<cr>",
+                desc = "Quickfix List (Trouble)",
+            },
+        },
+    },
     {
         "folke/noice.nvim",
         event = "VeryLazy",
@@ -68,7 +105,16 @@ require("lazy").setup({
             "rcarriga/nvim-notify",
         }
     },
-    { "folke/todo-comments.nvim",      dependencies = { "nvim-lua/plenary.nvim" }, opts = {} },
+    {
+        "folke/todo-comments.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" },
+        opts = {
+            keywords = {
+                ERROR = { icon = " ", color = "error" },
+                TODO = { icon = " ", color = "info" },
+            },
+        },
+    },
 
     -- AI & Completion
     -- { "Exafunction/codeium.nvim", dependencies = { "nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp" } },
@@ -92,6 +138,7 @@ require("lazy").setup({
     -- Utility
     { 'numToStr/Comment.nvim',         opts = {} },
     { "christoomey/vim-tmux-navigator" },
+    { "chenasraf/text-transform.nvim", version = "*" },
     {
         "linux-cultist/venv-selector.nvim",
         dependencies = {
@@ -132,6 +179,9 @@ vim.opt.sidescrolloff = 8
 
 -- Keymappings
 vim.g.mapleader = ' '
+vim.keymap.set("n", "<leader>ca", function()
+    require("text-transform").actions.change_case_telescope()
+end, { desc = "Change Case" })
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Open current file in explorer' })
 vim.keymap.set('n', '<C-p>', ':Telescope find_files<CR>', { desc = 'Find files' })
 vim.keymap.set('n', '<C-S-f>', ':Telescope live_grep<CR>', { desc = 'Find text' })
@@ -153,7 +203,6 @@ vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show diagn
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic' })
 vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } end, { desc = 'Format code (LSP)' })
-vim.keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>", { desc = "Toggle Trouble" })
 vim.keymap.set("n", "<leader>xt", "<cmd>TodoTrouble<cr>", { desc = "Todo (Trouble)" })
 
 -- VSCode-like keybindings
@@ -268,6 +317,7 @@ pcall(function()
         linters_by_ft = {
             javascript = { 'eslint' },
             typescript = { 'eslint' },
+            python = { 'ruff' },
         },
     })
     vim.api.nvim_create_autocmd({ "BufWritePost", "BufRead", "InsertLeave" }, {
