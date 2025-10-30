@@ -37,19 +37,49 @@ require("lazy").setup({
     { 'williamboman/mason.nvim' },
     { 'jay-babu/mason-lspconfig.nvim' },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
-    { "nvim-telescope/telescope-ui-select.nvim" },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
     { "mattn/emmet-vim" },
 
     -- UI & Theme
     { "catppuccin/nvim",                             name = "catppuccin",                              priority = 1000 },
-    { 'nvim-lualine/lualine.nvim' },
-        {
-        'folke/trouble.nvim',
-        dependencies = { 'nvim-tree/nvim-web-devicons' },
-        config = function()
-            require("trouble").setup({})
-        end
+    { 'nvim-lualine/lualine.nvim', dependencies = { 'linux-cultist/venv-selector.nvim' } },
+    {
+        "folke/trouble.nvim",
+        dependencies = { "nvim-tree/nvim-web-devicons" },
+        opts = {},
+        cmd = "Trouble",
+        keys = {
+            {
+                "<leader>xx",
+                "<cmd>Trouble diagnostics toggle<cr>",
+                desc = "Diagnostics (Trouble)",
+            },
+            {
+                "<leader>xX",
+                "<cmd>Trouble diagnostics toggle filter.buf=0<cr>",
+                desc = "Buffer Diagnostics (Trouble)",
+            },
+            {
+                "<leader>cs",
+                "<cmd>Trouble symbols toggle focus=false<cr>",
+                desc = "Symbols (Trouble)",
+            },
+            {
+                "<leader>cl",
+                "<cmd>Trouble lsp toggle focus=false win.position=right<cr>",
+                desc = "LSP Definitions / references / ... (Trouble)",
+            },
+            {
+                "<leader>xL",
+                "<cmd>Trouble loclist toggle<cr>",
+                desc = "Location List (Trouble)",
+            },
+            {
+                "<leader>xQ",
+                "<cmd>Trouble qflist toggle<cr>",
+                desc = "Quickfix List (Trouble)",
+            },
+        },
     },
     {
         "folke/noice.nvim",
@@ -75,9 +105,20 @@ require("lazy").setup({
             "rcarriga/nvim-notify",
         }
     },
-    { "folke/todo-comments.nvim",      dependencies = { "nvim-lua/plenary.nvim" }, opts = {} },
+    {
+        "folke/todo-comments.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" },
+        opts = {
+            keywords = {
+                ERROR = { icon = " ", color = "error" },
+                TODO = { icon = " ", color = "info" },
+            },
+        },
+    },
 
     -- AI & Completion
+    { "e3oroush/askCode", config = function() require("askCode").setup() end },
+    { "monkoose/neocodeium", event = "VeryLazy", config = function() require("neocodeium").setup() end },
     -- { "Exafunction/codeium.nvim", dependencies = { "nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp" } },
     -- { 'github/copilot.lua' },
     -- { "zbirenbaum/copilot-cmp" },
@@ -99,6 +140,9 @@ require("lazy").setup({
     -- Utility
     { 'numToStr/Comment.nvim',         opts = {} },
     { "christoomey/vim-tmux-navigator" },
+    { "chenasraf/text-transform.nvim", version = "*" },
+    { "mistricky/codesnap.nvim", build = "make build_generator" },
+    { "APZelos/blamer.nvim" },
     {
         "linux-cultist/venv-selector.nvim",
         dependencies = {
@@ -118,6 +162,7 @@ require("lazy").setup({
 }, {})
 
 -- General Neovim settings
+vim.g.blamer_enabled = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
@@ -139,9 +184,17 @@ vim.opt.sidescrolloff = 8
 
 -- Keymappings
 vim.g.mapleader = ' '
+vim.keymap.set("i", "<A-f>", function() require("neocodeium").accept() end)
+vim.keymap.set("v", "<leader>ae", ":AskCodeExplain<CR>")
+vim.keymap.set("v", "<leader>ab", ":AskCode \"Find potential bugs\"<CR>")
+vim.keymap.set("v", "<leader>ad", ":AskCodeAddDocstring<CR>")
+vim.keymap.set("v", "<leader>ar", ":AskCodeReplace \"Refactor this code\"<CR>", { noremap = true, silent = true })
+vim.keymap.set("n", "<leader>ca", function()
+    require("text-transform").actions.change_case_telescope()
+end, { desc = "Change Case" })
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Open current file in explorer' })
 vim.keymap.set('n', '<C-p>', ':Telescope find_files<CR>', { desc = 'Find files' })
-vim.keymap.set('n', '<leader>fg', ':Telescope live_grep<CR>', { desc = 'Find text in files' })
+vim.keymap.set('n', '<C-S-f>', ':Telescope live_grep<CR>', { desc = 'Find text' })
 vim.keymap.set('n', '<leader>b', ':Telescope buffers<CR>', { desc = 'Find buffers' })
 vim.keymap.set('n', '<leader>h', ':Telescope help_tags<CR>', { desc = 'Find help' })
 vim.keymap.set('n', '<leader>r', ':Telescope oldfiles<CR>', { desc = 'Find recent files' })
@@ -160,8 +213,8 @@ vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show diagn
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic' })
 vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } end, { desc = 'Format code (LSP)' })
-vim.keymap.set("n", "<leader>xx", "<cmd>TroubleToggle<cr>", { desc = "Toggle Trouble" })
 vim.keymap.set("n", "<leader>xt", "<cmd>TodoTrouble<cr>", { desc = "Todo (Trouble)" })
+vim.keymap.set('v', '<leader>cs', '<cmd>CodeSnap<cr>', { desc = 'Code snap' })
 
 -- VSCode-like keybindings
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save file' })
@@ -336,7 +389,7 @@ pcall(function()
             lualine_a = { 'mode' },
             lualine_b = { 'branch', 'diff', { 'diagnostics', sources = { "nvim_diagnostic" } } },
             lualine_c = { 'filename' },
-            lualine_x = { 'encoding', 'fileformat', 'filetype' },
+            lualine_x = { 'encoding', 'fileformat', 'filetype', 'venv-selector' },
             lualine_y = { 'progress' },
             lualine_z = { 'location' }
         },
@@ -351,40 +404,33 @@ end)
 
 -- Telescope
 pcall(function()
-    local actions = require("telescope.actions")
     require('telescope').setup({
         defaults = {
-            -- Default configuration for telescope
-            mappings = {
-                i = {
-                    -- map actions.which_key to <C-h> (for example)
-                    ["<C-h>"] = "which_key"
-                }
-            }
-        },
-        pickers = {
-            -- Default configuration for builtin pickers
-        },
-        extensions = {
-            ["ui-select"] = {
-                require("telescope.themes").get_dropdown {
-                    -- even more opts
-                }
+            layout_strategy = 'horizontal',
+            layout_config = {
+                horizontal = { prompt_position = "top", preview_width = 0.55 },
+                vertical = { mirror = false },
+                width = 0.87,
+                height = 0.80,
+                preview_cutoff = 120,
             },
-            live_grep_args = {
-                auto_quoting = true, -- enable/disable auto-quoting
-                mappings = { -- define mappings, e.g.
-                    i = {
-                        ["<C-n>"] = require("telescope-live-grep-args.actions").promote_first_result,
-                        ["<C-y>"] = require("telescope-live-grep-args.actions").copy_command,
-                    },
-                },
-            }
-        }
+            file_sorter = require("telescope.sorters").get_fuzzy_file,
+            generic_sorter = require("telescope.sorters").get_generic_fuzzy_sorter,
+            path_display = { "truncate" },
+            winblend = 0,
+            border = {},
+            borderchars = { "─", "│", "─", "│", "╭", "╮", "╯", "╰" },
+            color_devicons = true,
+            use_less = true,
+            set_env = { ["COLORTERM"] = "truecolor" },
+            file_previewer = require("telescope.previewers").vim_buffer_cat.new,
+            grep_previewer = require("telescope.previewers").vim_buffer_vimgrep.new,
+            qflist_previewer = require("telescope.previewers").vim_buffer_qflist.new,
+            buffer_previewer_maker = require("telescope.previewers").buffer_previewer_maker,
+        },
     })
     pcall(require('telescope').load_extension, 'fzf')
     pcall(require('telescope').load_extension, 'live_grep_args')
-    pcall(require('telescope').load_extension, "ui-select")
 end)
 
 -- Catppuccin
