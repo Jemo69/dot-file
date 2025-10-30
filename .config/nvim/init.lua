@@ -117,6 +117,8 @@ require("lazy").setup({
     },
 
     -- AI & Completion
+    { "e3oroush/askCode", config = function() require("askCode").setup() end },
+    { "monkoose/neocodeium", event = "VeryLazy", config = function() require("neocodeium").setup() end },
     -- { "Exafunction/codeium.nvim", dependencies = { "nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp" } },
     -- { 'github/copilot.lua' },
     -- { "zbirenbaum/copilot-cmp" },
@@ -140,6 +142,7 @@ require("lazy").setup({
     { "christoomey/vim-tmux-navigator" },
     { "chenasraf/text-transform.nvim", version = "*" },
     { "mistricky/codesnap.nvim", build = "make build_generator" },
+    { "APZelos/blamer.nvim" },
     {
         "linux-cultist/venv-selector.nvim",
         dependencies = {
@@ -159,6 +162,7 @@ require("lazy").setup({
 }, {})
 
 -- General Neovim settings
+vim.g.blamer_enabled = true
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.cursorline = true
@@ -180,6 +184,11 @@ vim.opt.sidescrolloff = 8
 
 -- Keymappings
 vim.g.mapleader = ' '
+vim.keymap.set("i", "<A-f>", function() require("neocodeium").accept() end)
+vim.keymap.set("v", "<leader>ae", ":AskCodeExplain<CR>")
+vim.keymap.set("v", "<leader>ab", ":AskCode \"Find potential bugs\"<CR>")
+vim.keymap.set("v", "<leader>ad", ":AskCodeAddDocstring<CR>")
+vim.keymap.set("v", "<leader>ar", ":AskCodeReplace \"Refactor this code\"<CR>", { noremap = true, silent = true })
 vim.keymap.set("n", "<leader>ca", function()
     require("text-transform").actions.change_case_telescope()
 end, { desc = "Change Case" })
