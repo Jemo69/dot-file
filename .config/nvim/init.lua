@@ -16,7 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
     -- Core plugins
     { 'nvim-lua/plenary.nvim' },
-    { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',                                    dependencies = { 'nvim-lua/plenary.nvim' } },
+    { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',                                        dependencies = { 'nvim-lua/plenary.nvim' } },
     { 'nvim-treesitter/nvim-treesitter',             build = ':TSUpdate' },
     { 'neovim/nvim-lspconfig' },
     { 'hrsh7th/nvim-cmp' },
@@ -41,8 +41,8 @@ require("lazy").setup({
     { "mattn/emmet-vim" },
 
     -- UI & Theme
-    { "catppuccin/nvim",                             name = "catppuccin",                              priority = 1000 },
-    { 'nvim-lualine/lualine.nvim', dependencies = { 'linux-cultist/venv-selector.nvim' } },
+    { "catppuccin/nvim",                             name = "catppuccin",                                  priority = 1000 },
+    { 'nvim-lualine/lualine.nvim',                   dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons" },
@@ -112,13 +112,24 @@ require("lazy").setup({
             keywords = {
                 ERROR = { icon = " ", color = "error" },
                 TODO = { icon = " ", color = "info" },
+                WARNING = { icon = " ", color = "warning" },
+                todo = { icon = " ", color = "info" },
+                error = { icon = " ", color = "error" },
+                warning = { icon = " ", color = "warning" },
             },
         },
     },
 
     -- AI & Completion
-    { "e3oroush/askCode", config = function() require("askCode").setup() end },
-    { "monkoose/neocodeium", event = "VeryLazy", config = function() require("neocodeium").setup() end },
+    { "e3oroush/askCode",              config = function() require("askCode").setup() end },
+    {
+        "monkoose/neocodeium",
+        event = "VeryLazy",
+        config = function()
+            require("neocodeium")
+                .setup()
+        end
+    },
     -- { "Exafunction/codeium.nvim", dependencies = { "nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp" } },
     -- { 'github/copilot.lua' },
     -- { "zbirenbaum/copilot-cmp" },
@@ -141,7 +152,7 @@ require("lazy").setup({
     { 'numToStr/Comment.nvim',         opts = {} },
     { "christoomey/vim-tmux-navigator" },
     { "chenasraf/text-transform.nvim", version = "*" },
-    { "mistricky/codesnap.nvim", build = "make build_generator" },
+    { "mistricky/codesnap.nvim",       build = "make build_generator" },
     { "APZelos/blamer.nvim" },
     {
         "linux-cultist/venv-selector.nvim",
@@ -154,8 +165,8 @@ require("lazy").setup({
             { ",v", "<cmd>VenvSelect<cr>" },                                                                   -- Open picker on keymap
         },
         opts = {                                                                                               -- this can be an empty lua table - just showing below for clarity.
-            search = {},                                                                                       -- if you add your own searches, they go here.
-            options = {}                                                                                       -- if you add plugin options, they go here.
+            search = {},
+            options = {}
         },
     },
 
@@ -194,7 +205,7 @@ vim.keymap.set("n", "<leader>ca", function()
 end, { desc = "Change Case" })
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Open current file in explorer' })
 vim.keymap.set('n', '<C-p>', ':Telescope find_files<CR>', { desc = 'Find files' })
-vim.keymap.set('n', '<C-S-f>', ':Telescope live_grep<CR>', { desc = 'Find text' })
+vim.keymap.set('n', '<leader>g', ':Telescope live_grep<CR>', { desc = 'Find text' })
 vim.keymap.set('n', '<leader>b', ':Telescope buffers<CR>', { desc = 'Find buffers' })
 vim.keymap.set('n', '<leader>h', ':Telescope help_tags<CR>', { desc = 'Find help' })
 vim.keymap.set('n', '<leader>r', ':Telescope oldfiles<CR>', { desc = 'Find recent files' })
@@ -208,7 +219,7 @@ vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, { desc = 'Go to implementa
 vim.keymap.set('n', 'gr', vim.lsp.buf.references, { desc = 'Find references' })
 vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, { desc = 'Rename' })
 vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, { desc = 'Code actions' })
-vim.keymap.set('n', '<C-S-s>', ':NvimTreeToggle<CR>', { desc = 'Toggle file explorer' })
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = 'Toggle file explorer' })
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show diagnostics' })
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic' })
@@ -367,7 +378,10 @@ pcall(function()
             width = 30,
         },
         renderer = { group_empty = true },
-        filters = { dotfiles = true },
+        filters = {
+            dotfiles = false,
+            respect_gitignore = false
+        },
     })
 end)
 
@@ -473,3 +487,4 @@ require("catppuccin").setup({
 
 -- Set colorscheme
 vim.cmd.colorscheme "catppuccin"
+
