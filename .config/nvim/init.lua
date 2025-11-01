@@ -302,7 +302,7 @@ pcall(function()
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
             'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
         },
-        automatic_installation = true,
+        -- automatic_installation = true,
     })
 
     require("mason-lspconfig").setup_handlers {
