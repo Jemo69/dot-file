@@ -200,7 +200,7 @@ vim.keymap.set("v", "<leader>ae", ":AskCodeExplain<CR>")
 vim.keymap.set("v", "<leader>ab", ":AskCode \"Find potential bugs\"<CR>")
 vim.keymap.set("v", "<leader>ad", ":AskCodeAddDocstring<CR>")
 vim.keymap.set("v", "<leader>ar", ":AskCodeReplace \"Refactor this code\"<CR>", { noremap = true, silent = true })
-vim.keymap.set("n", "<leader>ca", function()
+vim.keymap.set("n", "<leader>cA", function()
     require("text-transform").actions.change_case_telescope()
 end, { desc = "Change Case" })
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex, { desc = 'Open current file in explorer' })
@@ -302,7 +302,7 @@ pcall(function()
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
             'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
         },
-        -- automatic_installation = true,
+        automatic_installation = true,
     })
 
     require("mason-lspconfig").setup_handlers {
