@@ -302,7 +302,9 @@ pcall(function()
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
             'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
         },
-        automatic_installation = true,
+        -- The `automatic_installation` option is deprecated and has been replaced
+        -- by the `ensure_installed` option.
+        -- automatic_installation = true,
     })
 
     require("mason-lspconfig").setup_handlers {
