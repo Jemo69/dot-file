@@ -12,6 +12,9 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- Check for Termux environment to conditionally load plugins
+local is_termux = vim.fn.isdirectory("/data/data/com.termux") == 1
+
 -- Setup lazy.nvim with plugins
 require("lazy").setup({
     -- Core plugins
@@ -34,8 +37,8 @@ require("lazy").setup({
     { 'rcarriga/nvim-dap-ui' },
     { 'stevearc/conform.nvim' },
     { 'mfussenegger/nvim-lint' },
-    { 'williamboman/mason.nvim' },
-    { 'jay-babu/mason-lspconfig.nvim' },
+    { 'williamboman/mason.nvim',         cond = not is_termux },
+    { 'jay-babu/mason-lspconfig.nvim',   cond = not is_termux },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
     { "mattn/emmet-vim" },
@@ -297,37 +300,39 @@ pcall(function()
     local capabilities = vim.lsp.protocol.make_client_capabilities()
     capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
-    require("mason").setup({
-        ui = {
-            border = "rounded",
-        },
-    })
+    -- Define the list of servers to set up
+    local servers = {
+        'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
+        'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
+        'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
+    }
 
-    -- Conditionally set up servers to install based on the environment
-    local ensure_installed_servers
-    if vim.fn.isdirectory("/data/data/com.termux") == 1 then
-        -- In Termux, LSPs are installed via `pkg`, not Mason
-        ensure_installed_servers = {}
-    else
-        -- On other systems, use Mason to install LSPs
-        ensure_installed_servers = {
-            'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
-            'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
-            'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
-        }
-    end
-
-    require("mason-lspconfig").setup({
-        ensure_installed = ensure_installed_servers,
-    })
-
-    require("mason-lspconfig").setup_handlers {
-        function(server_name)
+    if is_termux then
+        -- In Termux, LSPs are expected to be in the path.
+        -- We just need to set them up with lspconfig.
+        for _, server_name in ipairs(servers) do
             lspconfig[server_name].setup {
                 capabilities = capabilities,
             }
-        end,
-    }
+        end
+    else
+        -- On other systems, use Mason to manage and set up LSPs.
+        require("mason").setup({
+            ui = {
+                border = "rounded",
+            },
+        })
+        require("mason-lspconfig").setup({
+            ensure_installed = servers,
+        })
+        require("mason-lspconfig").setup_handlers {
+            function(server_name)
+                lspconfig[server_name].setup {
+                    capabilities = capabilities,
+                }
+            end,
+        }
+    end
 end)
 
 -- Formatter
