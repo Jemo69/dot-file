@@ -169,6 +169,12 @@ require("lazy").setup({
             options = {}
         },
     },
+    {
+        "iamcco/markdown-preview.nvim",
+        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+        ft = { "markdown" },
+        build = function() vim.fn["mkdp#util#install"]() end,
+    },
 
 }, {})
 
@@ -219,13 +225,14 @@ vim.keymap.set('n', 'gi', vim.lsp.buf.implementation, { desc = 'Go to implementa
 vim.keymap.set('n', 'gr', vim.lsp.buf.references, { desc = 'Find references' })
 vim.keymap.set('n', '<leader>rn', vim.lsp.buf.rename, { desc = 'Rename' })
 vim.keymap.set('n', '<leader>ca', vim.lsp.buf.code_action, { desc = 'Code actions' })
-vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = 'Toggle file explorer' })
+vim.keymap.set('n', '<leader>s', ':NvimTreeToggle<CR>', { desc = 'Toggle file explorer' })
 vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Show diagnostics' })
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic' })
 vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } end, { desc = 'Format code (LSP)' })
 vim.keymap.set("n", "<leader>xt", "<cmd>TodoTrouble<cr>", { desc = "Todo (Trouble)" })
 vim.keymap.set('v', '<leader>cs', '<cmd>CodeSnap<cr>', { desc = 'Code snap' })
+vim.keymap.set('n', '<leader>m', ':MarkdownPreviewToggle<CR>', { desc = 'Toggle markdown preview' })
 
 -- VSCode-like keybindings
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save file' })
@@ -296,15 +303,22 @@ pcall(function()
         },
     })
 
-    require("mason-lspconfig").setup({
-        ensure_installed = {
+    -- Conditionally set up servers to install based on the environment
+    local ensure_installed_servers
+    if vim.fn.isdirectory("/data/data/com.termux") == 1 then
+        -- In Termux, LSPs are installed via `pkg`, not Mason
+        ensure_installed_servers = {}
+    else
+        -- On other systems, use Mason to install LSPs
+        ensure_installed_servers = {
             'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
             'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
-        },
-        -- The `automatic_installation` option is deprecated and has been replaced
-        -- by the `ensure_installed` option.
-        -- automatic_installation = true,
+        }
+    end
+
+    require("mason-lspconfig").setup({
+        ensure_installed = ensure_installed_servers,
     })
 
     require("mason-lspconfig").setup_handlers {
