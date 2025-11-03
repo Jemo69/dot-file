@@ -303,15 +303,22 @@ pcall(function()
         },
     })
 
-    require("mason-lspconfig").setup({
-        ensure_installed = {
+    -- Conditionally set up servers to install based on the environment
+    local ensure_installed_servers
+    if vim.fn.isdirectory("/data/data/com.termux") == 1 then
+        -- In Termux, LSPs are installed via `pkg`, not Mason
+        ensure_installed_servers = {}
+    else
+        -- On other systems, use Mason to install LSPs
+        ensure_installed_servers = {
             'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
             'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
             'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
-        },
-        -- The `automatic_installation` option is deprecated and has been replaced
-        -- by the `ensure_installed` option.
-        -- automatic_installation = true,
+        }
+    end
+
+    require("mason-lspconfig").setup({
+        ensure_installed = ensure_installed_servers,
     })
 
     require("mason-lspconfig").setup_handlers {
