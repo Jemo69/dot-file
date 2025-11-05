@@ -48,7 +48,7 @@ require("lazy").setup({
     { 'nvim-lualine/lualine.nvim',                   dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
-        dependencies = { "nvim-tree/nvim-web-devicons" },
+        dependencies = { "nvim-tree/nvim-web-devicons", "neovim/nvim-lspconfig" },
         opts = {},
         cmd = "Trouble",
         keys = {
@@ -146,6 +146,7 @@ require("lazy").setup({
     -- Snippets
     {
         'L3MON4D3/LuaSnip',
+        dependencies = { "saadparwaiz1/cmp_luasnip", "rafamadriz/friendly-snippets" },
         config = function()
             require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/custom_snippets.lua" })
         end,
@@ -177,6 +178,9 @@ require("lazy").setup({
         cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
         ft = { "markdown" },
         build = function() vim.fn["mkdp#util#install"]() end,
+        init = function()
+            vim.g.mkdp_filetypes = { "markdown" }
+        end,
     },
 
 }, {})
@@ -269,10 +273,11 @@ end)
 -- Autocompletion (nvim-cmp)
 pcall(function()
     local cmp = require('cmp')
+    local luasnip = require('luasnip')
     cmp.setup({
         snippet = {
             expand = function(args)
-                require('luasnip').lsp_expand(args.body)
+                luasnip.lsp_expand(args.body)
             end,
         },
         mapping = cmp.mapping.preset.insert({
@@ -283,6 +288,20 @@ pcall(function()
             ['<C-Space>'] = cmp.mapping.complete(),
             ['<C-e>'] = cmp.mapping.abort(),
             ['<CR>'] = cmp.mapping.confirm({ select = true }),
+            ['<Tab>'] = cmp.mapping(function(fallback)
+                if luasnip.expand_or_jumpable() then
+                    luasnip.expand_or_jump()
+                else
+                    fallback()
+                end
+            end, { 'i', 's' }),
+            ['<S-Tab>'] = cmp.mapping(function(fallback)
+                if luasnip.jumpable(-1) then
+                    luasnip.jump(-1)
+                else
+                    fallback()
+                end
+            end, { 'i', 's' }),
         }),
         sources = cmp.config.sources({
             { name = 'nvim_lsp' },
@@ -302,7 +321,7 @@ pcall(function()
 
     -- Define the list of servers to set up
     local servers = {
-        'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
+        'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue', 'volar',
         'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
         'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
     }
