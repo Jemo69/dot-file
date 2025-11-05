@@ -12,5 +12,13 @@ ls.add_snippets("python", {
     t({"", "\t"}),
     i(2, "pass"),
     t({"", ""})
-  })
+  }),
+    s("python_func" , {
+        t("def "),
+        i(1,"function_name"),
+        t("()"),
+        t({"", "\t"}),
+        i(2 , "pass"),
+        t({"",""})
+    })
 })
