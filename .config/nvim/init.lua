@@ -314,10 +314,10 @@ pcall(function()
 end)
 
 -- LSP Configuration
-pcall(function()
-    local lspconfig = require('lspconfig')
-    local capabilities = vim.lsp.protocol.make_client_capabilities()
-    capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+local lspconfig = require('lspconfig')
+local capabilities = vim.lsp.protocol.make_client_capabilities()
+capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+
 
     -- Define the list of servers to set up
     local servers = {
@@ -326,33 +326,32 @@ pcall(function()
         'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
     }
 
-    if is_termux then
-        -- In Termux, LSPs are expected to be in the path.
-        -- We just need to set them up with lspconfig.
-        for _, server_name in ipairs(servers) do
+if is_termux then
+    -- In Termux, LSPs are expected to be in the path.
+    -- We just need to set them up with lspconfig.
+    for _, server_name in ipairs(servers) do
+        lspconfig[server_name].setup {
+            capabilities = capabilities,
+        }
+    end
+else
+    -- On other systems, use Mason to manage and set up LSPs.
+    require("mason").setup({
+        ui = {
+            border = "rounded",
+        },
+    })
+    require("mason-lspconfig").setup({
+        ensure_installed = servers,
+    })
+    require("mason-lspconfig").setup_handlers {
+        function(server_name)
             lspconfig[server_name].setup {
                 capabilities = capabilities,
             }
-        end
-    else
-        -- On other systems, use Mason to manage and set up LSPs.
-        require("mason").setup({
-            ui = {
-                border = "rounded",
-            },
-        })
-        require("mason-lspconfig").setup({
-            ensure_installed = servers,
-        })
-        require("mason-lspconfig").setup_handlers {
-            function(server_name)
-                lspconfig[server_name].setup {
-                    capabilities = capabilities,
-                }
-            end,
-        }
-    end
-end)
+        end,
+    }
+end
 
 -- Formatter
 pcall(function()
