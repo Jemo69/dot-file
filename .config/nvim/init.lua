@@ -48,7 +48,7 @@ require("lazy").setup({
     { 'nvim-lualine/lualine.nvim',                   dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
-        dependencies = { "nvim-tree/nvim-web-devicons" },
+        dependencies = { "nvim-tree/nvim-web-devicons", "neovim/nvim-lspconfig" },
         opts = {},
         cmd = "Trouble",
         keys = {
