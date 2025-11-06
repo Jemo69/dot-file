@@ -149,7 +149,8 @@ require("lazy").setup({
         dependencies = { "saadparwaiz1/cmp_luasnip", "rafamadriz/friendly-snippets" },
         config = function()
             require("luasnip.loaders.from_vscode").lazy_load()
-            require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/custom_snippets.lua" })
+            -- Use a more robust path for custom snippets
+            require("luasnip.loaders.from_lua").load({ paths = vim.fn.stdpath('config') .. "/lua/custom_snippets.lua" })
         end,
     },
 
