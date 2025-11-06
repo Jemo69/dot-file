@@ -1,10 +1,10 @@
--- custom_snippets.lua
+-- snippets/python.lua
 local ls = require("luasnip")
 local s = ls.snippet
 local t = ls.text_node
 local i = ls.insert_node
 
-ls.add_snippets("python", {
+return {
   s("dmodel", {
     t("class "),
     i(1, "ModelName"),
@@ -13,12 +13,12 @@ ls.add_snippets("python", {
     i(2, "pass"),
     t({"", ""})
   }),
-    s("python_func" , {
-        t("def "),
-        i(1,"function_name"),
-        t("()"),
-        t({"", "\t"}),
-        i(2 , "pass"),
-        t({"",""})
-    })
-})
+  s("python_func" , {
+      t("def "),
+      i(1,"function_name"),
+      t("()"),
+      t({"", "\t"}),
+      i(2 , "pass"),
+      t({"",""})
+  })
+}
