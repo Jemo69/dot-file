@@ -150,7 +150,7 @@ require("lazy").setup({
         config = function()
             require("luasnip.loaders.from_vscode").lazy_load()
             -- Use a more robust path for custom snippets
-            require("luasnip.loaders.from_lua").load({ paths = vim.fn.stdpath('config') .. "/lua/custom_snippets.lua" })
+            require("luasnip.loaders.from_lua").load({ paths = vim.fn.stdpath('config') .. "/lua" })
         end,
     },
 
@@ -527,4 +527,3 @@ require("catppuccin").setup({
 
 -- Set colorscheme
 vim.cmd.colorscheme "catppuccin"
-
