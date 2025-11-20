@@ -71,6 +71,12 @@ export ANDROID_SDK_ROOT=$HOME/android/sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin
 export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+# --- Android SDK Configuration ---
+export ANDROID_HOME=$HOME/Android/Sdk
+# Add command-line tools, platform-tools (for adb), and build tools to PATH
+export PATH=$PATH:$ANDROID_HOME/latest/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+# --- End Android SDK Configuration ---
 
 eval "$(zoxide init --cmd cd zsh)"
 

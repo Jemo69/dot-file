@@ -12,6 +12,19 @@ ls.add_snippets("python", {
         t({ "", "\t" }),
         i(2, "pass"),
         t({ "", "" })
+    }),
+})
+ls.add_snippets("python", {
+
+    s("py_func", {
+        t("def "),
+        i(1, "func_name"),
+        t("("),
+        i(2, ""),
+        t("):"),
+        t({ "", "\t" }),
+        i(3, "pass"),
+        t({ "", "" })
     })
 })
 ls.add_snippets("typescriptreact", {

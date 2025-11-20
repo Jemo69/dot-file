@@ -37,14 +37,14 @@ require("lazy").setup({
     { 'rcarriga/nvim-dap-ui' },
     { 'stevearc/conform.nvim' },
     { 'mfussenegger/nvim-lint' },
-    { 'williamboman/mason.nvim',         cond = not is_termux },
-    { 'jay-babu/mason-lspconfig.nvim',   cond = not is_termux },
+    { 'williamboman/mason.nvim',                     cond = not is_termux },
+    { 'jay-babu/mason-lspconfig.nvim',               cond = not is_termux },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
     { "mattn/emmet-vim" },
 
     -- UI & Theme
-    { "catppuccin/nvim",                             name = "catppuccin",                                  priority = 1000 },
+    { "Jemo69/celestial-echoes-nvim",                name = "celestial-echoes",                            priority = 1000 },
     { 'nvim-lualine/lualine.nvim',                   dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
@@ -411,7 +411,7 @@ pcall(function()
     require('lualine').setup {
         options = {
             icons_enabled = true,
-            theme = 'catppuccin',
+            theme = 'auto',
             component_separators = { left = '', right = '' },
             section_separators = { left = '', right = '' },
             disabled_filetypes = { statusline = { "NvimTree", "dashboard", "noice" }, winbar = {} },
@@ -468,44 +468,5 @@ pcall(function()
     pcall(require('telescope').load_extension, 'live_grep_args')
 end)
 
--- Catppuccin
-require("catppuccin").setup({
-    flavour = "mocha",
-    background = { light = "latte", dark = "mocha" },
-    transparent_background = false,
-    show_end_of_buffer = false,
-    term_colors = false,
-    dim_inactive = { enabled = false },
-    no_italic = false,
-    no_bold = false,
-    no_underline = false,
-    styles = {
-        comments = { "italic" },
-        conditionals = { "italic" },
-        loops = {},
-        functions = {},
-        keywords = {},
-        strings = {},
-        variables = {},
-        numbers = {},
-        booleans = {},
-        properties = {},
-        types = {},
-        operators = {},
-    },
-    color_overrides = {},
-    custom_highlights = {},
-    integrations = {
-        cmp = true,
-        gitsigns = true,
-        nvimtree = true,
-        telescope = true,
-        notify = true,
-        mini = { enabled = true },
-        dap = { enabled = true },
-    },
-})
-
 -- Set colorscheme
-vim.cmd.colorscheme "catppuccin"
-
+vim.cmd.colorscheme "celestial-echoes"
