@@ -79,3 +79,4 @@ eval "$(zoxide init --cmd cd zsh)"
 eval "$(atuin init zsh)"
 eval "$(atuin init zsh)"
 eval "$(~/.local/bin/oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/jandedobbeleer.omp.json)"
+export PATH=$HOME/.npm-global/bin:$PATH
