@@ -12,6 +12,9 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
+-- Ensure NVM/Node.js path is in Neovim's environment
+vim.env.PATH = "/home/jemo/.nvm/versions/node/v24.11.1/bin:" .. vim.env.PATH
+
 -- Check for Termux environment to conditionally load plugins
 local is_termux = vim.fn.isdirectory("/data/data/com.termux") == 1
 
@@ -236,6 +239,8 @@ vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } 
 vim.keymap.set("n", "<leader>xt", "<cmd>TodoTrouble<cr>", { desc = "Todo (Trouble)" })
 vim.keymap.set('v', '<leader>cs', '<cmd>CodeSnap<cr>', { desc = 'Code snap' })
 vim.keymap.set('n', '<leader>m', ':MarkdownPreviewToggle<CR>', { desc = 'Toggle markdown preview' })
+vim.keymap.set('n', '<leader>t', ':TodoTrouble<CR>', { desc = 'Todo (Trouble)' })
+vim.keymap.set('n', '<leader>nl', ':nohl<CR>')
 
 -- VSCode-like keybindings
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save file' })
@@ -304,7 +309,7 @@ pcall(function()
     local servers = {
         'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
         'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
-        'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp'
+        'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp', 'dartls'
     }
 
     if is_termux then
@@ -327,9 +332,16 @@ pcall(function()
         })
         require("mason-lspconfig").setup_handlers {
             function(server_name)
-                lspconfig[server_name].setup {
-                    capabilities = capabilities,
-                }
+                if server_name == "dartls" then
+                    lspconfig[server_name].setup {
+                        capabilities = capabilities,
+                        cmd = { "/home/jemo/flutter/bin/cache/dart-sdk/bin/dart", "language-server" }
+                    }
+                else
+                    lspconfig[server_name].setup {
+                        capabilities = capabilities,
+                    }
+                end
             end,
         }
     end
@@ -468,5 +480,20 @@ pcall(function()
     pcall(require('telescope').load_extension, 'live_grep_args')
 end)
 
--- Set colorscheme
-vim.cmd.colorscheme "celestial-echoes"
+-- Set colorscheme after plugins are loaded
+vim.api.nvim_create_autocmd("ColorScheme", {
+    pattern = "*",
+    callback = function()
+        if vim.o.background == "dark" and vim.g.colors_name ~= "catppuccin" then
+            vim.cmd.colorscheme "catppuccin"
+        end
+    end,
+})
+
+-- Ensure the colorscheme is set on startup if LazyVim is ready.
+-- This might be redundant with the above, but good for initial load.
+vim.api.nvim_create_autocmd("VimEnter", {
+    callback = function()
+        pcall(vim.cmd.colorscheme, "catppuccin")
+    end,
+})
