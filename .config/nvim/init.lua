@@ -97,7 +97,7 @@ require("lazy").setup({
     build = ':TSUpdate',
     config = function()
       require('nvim-treesitter.configs').setup({
-        ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "javascript", "typescript", "python", "html", "css", "json", "dart" },
+        ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "javascript", "typescript", "python", "html", "css", "json" },
         sync_install = false,
         auto_install = true,
         highlight = { enable = true },
@@ -332,7 +332,6 @@ vim.keymap.set('n', '<leader>dc', function() require('dap').continue() end, { de
 vim.keymap.set('n', '<leader>do', function() require('dap').step_over() end, { desc = 'DAP Step Over' })
 vim.keymap.set('n', '<leader>di', function() require('dap').step_into() end, { desc = 'DAP Step Into' })
 vim.keymap.set('n', '<leader>du', function() require('dap').step_out() end, { desc = 'DAP Step Out' })
-vim.keymap.set('n', '<leader>db', function() require('dap').toggle_breakpoint() end, { desc = 'DAP Toggle Breakpoint' })
 vim.keymap.set('n', '<leader>dr', function() require('dap').repl.toggle() end, { desc = 'DAP Toggle REPL' })
 
 -- Other

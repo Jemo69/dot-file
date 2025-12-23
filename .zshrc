@@ -18,6 +18,7 @@ export PATH="$PATH:$HOME/flutter/bin"
 
 
 alias c="cursor"
+alias jj="/data/data/com.termux/files/home/.cargo/bin/jj"
 alias t='trae'
 alias cls="clear"
 alias n="nvim"
