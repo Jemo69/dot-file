@@ -47,7 +47,7 @@ require("lazy").setup({
     { "mattn/emmet-vim" },
 
     -- UI & Theme
-    { "Jemo69/celestial-echoes-nvim",                name = "celestial-echoes",                            priority = 1000 },
+    { "catppuccin/nvim",                             name = "catppuccin",                                  priority = 1000 },
     { 'nvim-lualine/lualine.nvim',                   dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
