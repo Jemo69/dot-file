@@ -1,0 +1,52 @@
+{
+ "Week": "2025-06-18",
+ "LastWeek": "",
+ "X": 0.8310740150765157,
+ "Programs": [
+  {
+   "Program": "cmd/go",
+   "Version": "go1.24.1",
+   "GoVersion": "go1.24.1",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/env/flag:json": 7,
+    "go/goroot:other": 56,
+    "go/invocations": 56,
+    "go/mode:module": 56,
+    "go/platform/host/linux/major-version:6": 56,
+    "go/platform/host/linux/version:6-6": 56,
+    "go/platform/target/goamd64:v1": 56,
+    "go/platform/target/goarch:amd64": 56,
+    "go/platform/target/goos:linux": 56,
+    "go/subcommand:env": 7,
+    "go/subcommand:version": 49,
+    "go/version/flag:m": 21
+   },
+   "Stacks": {}
+  },
+  {
+   "Program": "cmd/go",
+   "Version": "go1.24.2",
+   "GoVersion": "go1.24.2",
+   "GOOS": "linux",
+   "GOARCH": "amd64",
+   "Counters": {
+    "go/env/flag:json": 12,
+    "go/goroot:other": 99,
+    "go/invocations": 99,
+    "go/mode:module": 99,
+    "go/platform/host/linux/major-version:6": 99,
+    "go/platform/host/linux/version:6-6": 99,
+    "go/platform/target/goamd64:v1": 99,
+    "go/platform/target/goarch:amd64": 99,
+    "go/platform/target/goos:linux": 99,
+    "go/subcommand:env": 12,
+    "go/subcommand:version": 87,
+    "go/version/flag:m": 36
+   },
+   "Stacks": {}
+  }
+ ],
+ "Config": "v0.0.0-0"
+}

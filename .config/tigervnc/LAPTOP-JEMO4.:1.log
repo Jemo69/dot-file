@@ -1,0 +1,2390 @@
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.12.0 - built 2023-01-06 16:01
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101006, X.Org
+
+
+Sat Oct 12 22:56:34 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.U2iQ9A/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x5597e68a3180 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x5597e68a3180 for event 3
+dbus[1368]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+/usr/bin/iceauth:  creating new authority file /mnt/wslg/runtime-dir/ICEauthority
+
+(xfsettingsd:1436): libupower-glib-WARNING **: 22:56:35.263: Couldn't connect to proxy: Could not connect: No such file or directory
+
+Sat Oct 12 22:56:35 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(xfsettingsd:1436): xfsettingsd-WARNING **: 22:56:35.267: Failed to apply the scale, maybe the CRTC does not support transforms
+libclock-Message: 22:56:35.607: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:1440): libclock-WARNING **: 22:56:35.607: could not instantiate a sleep monitor
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:56:35.754: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:56:35.773: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (xiccd:1498): CRITICAL **: 22:56:35.775: Failed to connect to colord: Could not connect: No such file or directory
+
+** (light-locker:1512): ERROR **: 22:56:35.814: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:56:35.833: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:56:35.872: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:1550): polkit-gnome-1-WARNING **: 22:56:35.884: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(polkit-mate-authentication-agent-1:1564): polkit-mate-1-WARNING **: 22:56:35.922: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Another notification daemon is running, exiting
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:56:35.984: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:56:35.989: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(nm-applet:1551): nm-applet-WARNING **: 22:56:35.989: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:1551): nm-applet-WARNING **: 22:56:35.990: Could not connect: No such file or directory
+Xlib:  extension "DPMS" missing on display ":1.0".
+
+(xfce4-power-manager:1555): xfce4-power-manager-WARNING **: 22:56:35.993: Monitor is not DPMS capable
+
+(xfce4-power-manager:1555): GLib-GIO-CRITICAL **: 22:56:35.993: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(nm-applet:1551): nm-CRITICAL **: 22:56:36.010: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:1551): nm-CRITICAL **: 22:56:36.010: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:1551): nm-CRITICAL **: 22:56:36.027: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+
+(xfce4-power-manager:1555): libupower-glib-WARNING **: 22:56:36.037: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:1555): xfce4-power-manager-CRITICAL **: 22:56:36.044: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:1555): xfce4-power-manager-CRITICAL **: 22:56:36.044: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:1555): xfce4-power-manager-CRITICAL **: 22:56:36.044: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:1555): xfce4-power-manager-WARNING **: 22:56:36.048: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:1555): xfce4-power-manager-WARNING **: 22:56:36.049: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:1555): WARNING **: 22:56:36.049: No outputs have backlight property
+
+** (xfpm-power-backlight-helper:1625): WARNING **: 22:56:36.052: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:1555): xfce4-power-manager-CRITICAL **: 22:56:36.052: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfdesktop:1451): GVFS-RemoteVolumeMonitor-WARNING **: 22:56:36.109: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+** (xfdesktop:1451): WARNING **: 22:56:36.284: Failed to get system bus: Could not connect: No such file or directory
+
+Sat Oct 12 22:56:37 2024
+ Connections: accepted: 127.0.0.1::45482
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+Sat Oct 12 22:56:38 2024
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+thread 'main' panicked at crates/gpui/src/platform/linux/wayland/client.rs:144:51:
+called `Result::unwrap()` on an `Err` value: UnsupportedVersion
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:57:12.285: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:57:12.289: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:57:12.292: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:57:56.277: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:57:56.280: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:1352): xfce4-session-WARNING **: 22:57:56.286: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+
+(xfce4-panel:1440): Gtk-CRITICAL **: 22:57:57.874: gtk_main_quit: assertion 'main_loops != NULL' failed
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+
+(xfce4-power-manager:1555): GLib-GObject-CRITICAL **: 22:57:57.895: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+The X session cleanly exited!
+Killing Xtigervnc process ID 1350...
+Sat Oct 12 22:57:58 2024
+ VNCSConnST:  closing 127.0.0.1::45482: Server shutdown
+ EncodeManager: Framebuffer updates: 915
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 1 rects, 6.834 kpixels
+ EncodeManager:             16 B (1:1709.25 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 840 rects, 14.2953 Mpixels
+ EncodeManager:            13.125 KiB (1:4255.32 ratio)
+ EncodeManager:     Bitmap RLE: 834 rects, 61.648 kpixels
+ EncodeManager:                 22.918 KiB (1:10.934 ratio)
+ EncodeManager:     Indexed RLE: 1.795 krects, 1.24659 Mpixels
+ EncodeManager:                  254.926 KiB (1:19.184 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.386 krects, 5.73217 Mpixels
+ EncodeManager:                  5.821 MiB (1:3.75921 ratio)
+ EncodeManager:   Total: 4.856 krects, 21.3426 Mpixels
+ EncodeManager:          6.10516 MiB (1:13.3446 ratio)
+ ComparingUpdateTracker: 101.876 Mpixels in / 17.9281 Mpixels out
+ ComparingUpdateTracker: (1:5.68248 ratio)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.12.0 - built 2023-01-06 16:01
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101006, X.Org
+
+
+Sun Oct 13 20:02:33 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.O5NMpQ/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x5619ee6a2180 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x5619ee6a2180 for event 3
+dbus[451]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+/usr/bin/iceauth:  creating new authority file /mnt/wslg/runtime-dir/ICEauthority
+
+(xfsettingsd:519): libupower-glib-WARNING **: 20:02:34.555: Couldn't connect to proxy: Could not connect: No such file or directory
+
+Sun Oct 13 20:02:34 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(xfsettingsd:519): xfsettingsd-WARNING **: 20:02:34.562: Failed to apply the scale, maybe the CRTC does not support transforms
+libclock-Message: 20:02:34.927: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:523): libclock-WARNING **: 20:02:34.927: could not instantiate a sleep monitor
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:570): xfce4-power-manager-WARNING **: 20:02:35.062: Monitor is not DPMS capable
+
+(xfce4-power-manager:570): GLib-GIO-CRITICAL **: 20:02:35.062: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:02:35.082: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:02:35.086: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:02:35.091: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+
+(xfce4-power-manager:570): libupower-glib-WARNING **: 20:02:35.192: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:570): xfce4-power-manager-CRITICAL **: 20:02:35.200: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:570): xfce4-power-manager-CRITICAL **: 20:02:35.200: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:570): xfce4-power-manager-CRITICAL **: 20:02:35.200: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:570): xfce4-power-manager-WARNING **: 20:02:35.203: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:570): xfce4-power-manager-WARNING **: 20:02:35.204: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:570): WARNING **: 20:02:35.204: No outputs have backlight property
+
+** (xfpm-power-backlight-helper:629): WARNING **: 20:02:35.206: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:570): xfce4-power-manager-CRITICAL **: 20:02:35.206: Unable to get system bus connection : Could not connect: No such file or directory
+
+** (xiccd:637): CRITICAL **: 20:02:35.246: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:02:35.251: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:653): ERROR **: 20:02:35.295: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:02:35.357: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfdesktop:534): GVFS-RemoteVolumeMonitor-WARNING **: 20:02:35.412: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:02:35.413: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:712): polkit-gnome-1-WARNING **: 20:02:35.426: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Xfce Power Manager: Another power manager is already running
+
+(polkit-mate-authentication-agent-1:726): polkit-mate-1-WARNING **: 20:02:35.478: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Another notification daemon is running, exiting
+
+(nm-applet:713): nm-applet-WARNING **: 20:02:35.612: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:713): nm-applet-WARNING **: 20:02:35.613: Could not connect: No such file or directory
+
+(nm-applet:713): nm-CRITICAL **: 20:02:35.629: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:713): nm-CRITICAL **: 20:02:35.629: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:713): nm-CRITICAL **: 20:02:35.648: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+
+** (xfdesktop:534): WARNING **: 20:02:35.775: Failed to get system bus: Could not connect: No such file or directory
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+Sun Oct 13 20:02:37 2024
+ Connections: accepted: 127.0.0.1::45210
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 6.8 kpixels in / 416 pixels out
+ ComparingUpdateTracker: (1:16.3462 ratio)
+
+(Thunar:528): GVFS-RemoteVolumeMonitor-WARNING **: 20:02:44.111: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(Thunar:528): GLib-GIO-CRITICAL **: 20:02:44.377: GFileInfo created without standard::size
+
+(Thunar:528): GLib-GIO-CRITICAL **: 20:02:44.377: file ../../../gio/gfileinfo.c: line 1845 (g_file_info_get_size): should not be reached
+
+(xfce4-panel:523): GVFS-RemoteVolumeMonitor-WARNING **: 20:11:40.032: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:14:59.518: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:14:59.521: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:435): xfce4-session-WARNING **: 20:14:59.524: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+
+(xfce4-panel:523): Gtk-CRITICAL **: 20:15:00.994: gtk_main_quit: assertion 'main_loops != NULL' failed
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+
+(xfce4-power-manager:570): GLib-GObject-CRITICAL **: 20:15:01.029: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+The X session cleanly exited!
+Killing Xtigervnc process ID 433...
+Sun Oct 13 20:15:01 2024
+ VNCSConnST:  closing 127.0.0.1::45210: Server shutdown
+ EncodeManager: Framebuffer updates: 5096
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 11 rects, 75.242 kpixels
+ EncodeManager:             176 B (1:1710.8 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.911 krects, 24.2504 Mpixels
+ EncodeManager:            45.4844 KiB (1:2083.4 ratio)
+ EncodeManager:     Bitmap RLE: 8.43 krects, 513.983 kpixels
+ EncodeManager:                 220.097 KiB (1:9.57095 ratio)
+ EncodeManager:     Indexed RLE: 6.255 krects, 7.96347 Mpixels
+ EncodeManager:                  826.048 KiB (1:37.7467 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.859 krects, 7.76112 Mpixels
+ EncodeManager:                  6.7123 MiB (1:4.41393 ratio)
+ EncodeManager:   Total: 19.466 krects, 40.5642 Mpixels
+ EncodeManager:          7.77852 MiB (1:19.9219 ratio)
+ ComparingUpdateTracker: 669.852 Mpixels in / 37.8194 Mpixels out
+ ComparingUpdateTracker: (1:17.7118 ratio)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.12.0 - built 2023-01-06 16:01
+Copyright (C) 1999-2021 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101006, X.Org
+
+
+Wed Oct 16 01:01:45 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.lPBNBp/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x5640920c5180 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x5640920c5180 for event 3
+dbus[16407]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+/usr/bin/iceauth:  creating new authority file /mnt/wslg/runtime-dir/ICEauthority
+
+(xfsettingsd:16475): libupower-glib-WARNING **: 01:01:46.764: Couldn't connect to proxy: Could not connect: No such file or directory
+
+Wed Oct 16 01:01:46 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(xfsettingsd:16475): xfsettingsd-WARNING **: 01:01:46.770: Failed to apply the scale, maybe the CRTC does not support transforms
+
+(Thunar:16484): GVFS-RemoteVolumeMonitor-WARNING **: 01:01:46.987: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:16551): xfce4-power-manager-WARNING **: 01:01:47.261: Monitor is not DPMS capable
+
+(xfce4-power-manager:16551): GLib-GIO-CRITICAL **: 01:01:47.261: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+
+(xfce4-power-manager:16551): libupower-glib-WARNING **: 01:01:47.366: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:16551): xfce4-power-manager-CRITICAL **: 01:01:47.374: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:16551): xfce4-power-manager-CRITICAL **: 01:01:47.374: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:16551): xfce4-power-manager-CRITICAL **: 01:01:47.374: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:16551): xfce4-power-manager-WARNING **: 01:01:47.377: could not map keysym 1008ffa8 to keycode
+
+
+(xfce4-power-manager:16551): xfce4-power-manager-WARNING **: 01:01:47.378: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfce4-power-manager:16551): WARNING **: 01:01:47.378: No outputs have backlight property
+
+** (xfpm-power-backlight-helper:16579): WARNING **: 01:01:47.381: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:16551): xfce4-power-manager-CRITICAL **: 01:01:47.381: Unable to get system bus connection : Could not connect: No such file or directory
+
+** (xiccd:16583): CRITICAL **: 01:01:47.427: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:01:47.430: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:16606): ERROR **: 01:01:47.468: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfdesktop:16489): GVFS-RemoteVolumeMonitor-WARNING **: 01:01:47.471: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:01:47.512: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+libclock-Message: 01:01:47.523: could not get proxy for org.freedesktop.login1
+
+(xfce4-panel:16479): libclock-WARNING **: 01:01:47.523: could not instantiate a sleep monitor
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:01:47.540: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:16648): polkit-gnome-1-WARNING **: 01:01:47.567: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Xfce Power Manager: Another power manager is already running
+
+(polkit-mate-authentication-agent-1:16659): polkit-mate-1-WARNING **: 01:01:47.589: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Another notification daemon is running, exiting
+
+(nm-applet:16650): nm-applet-WARNING **: 01:01:47.673: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:16650): nm-applet-WARNING **: 01:01:47.673: Could not connect: No such file or directory
+
+** (xfdesktop:16489): WARNING **: 01:01:47.678: Failed to get system bus: Could not connect: No such file or directory
+
+(nm-applet:16650): nm-CRITICAL **: 01:01:47.949: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:16650): nm-CRITICAL **: 01:01:47.949: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:16650): nm-CRITICAL **: 01:01:47.969: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:01:47.989: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:01:47.993: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:01:47.995: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+Wed Oct 16 01:01:48 2024
+ Connections: accepted: 127.0.0.1::40230
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+Wed Oct 16 01:01:49 2024
+ ComparingUpdateTracker: 6.834 kpixels in / 256 pixels out
+ ComparingUpdateTracker: (1:26.6953 ratio)
+
+(xfce4-panel:16479): GVFS-RemoteVolumeMonitor-WARNING **: 01:01:56.339: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(Thunar:16484): GLib-GIO-CRITICAL **: 01:02:08.293: GFileInfo created without standard::size
+
+(Thunar:16484): GLib-GIO-CRITICAL **: 01:02:08.293: file ../../../gio/gfileinfo.c: line 1845 (g_file_info_get_size): should not be reached
+Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:02:56.821: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:02:56.824: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:16385): xfce4-session-WARNING **: 01:02:56.828: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-power-manager:16551): GLib-GObject-CRITICAL **: 01:02:58.085: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wrapper-2.0:16644): GLib-GObject-CRITICAL **: 01:02:58.154: ../../../gobject/gsignal.c:2684: instance '0x55ba2475da70' has no handler with id '62'
+
+(wrapper-2.0:16649): GLib-GObject-CRITICAL **: 01:02:58.154: ../../../gobject/gsignal.c:2684: instance '0x561b2c004300' has no handler with id '61'
+
+(wrapper-2.0:16646): GLib-GObject-CRITICAL **: 01:02:58.155: ../../../gobject/gsignal.c:2684: instance '0x55792dcf37a0' has no handler with id '60'
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+
+(wrapper-2.0:16520): GLib-GObject-CRITICAL **: 01:02:58.166: ../../../gobject/gsignal.c:2684: instance '0x556cb7515830' has no handler with id '62'
+**
+GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+Bail out! GLib-GObject:ERROR:../../../gobject/gtypemodule.c:119:g_type_module_finalize: assertion failed: (module->type_infos == NULL)
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+The X session cleanly exited!
+Killing Xtigervnc process ID 16383...
+Wed Oct 16 01:02:58 2024
+ VNCSConnST:  closing 127.0.0.1::40230: Server shutdown
+ EncodeManager: Framebuffer updates: 1313
+ EncodeManager:   CopyRect:
+ EncodeManager:     Copies: 1 rects, 6.868 kpixels
+ EncodeManager:             16 B (1:1717.75 ratio)
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.299 krects, 21.7229 Mpixels
+ EncodeManager:            35.9219 KiB (1:2362.96 ratio)
+ EncodeManager:     Bitmap RLE: 990 rects, 248.931 kpixels
+ EncodeManager:                 29.1758 KiB (1:33.7262 ratio)
+ EncodeManager:     Indexed RLE: 4.854 krects, 5.92912 Mpixels
+ EncodeManager:                  715.913 KiB (1:32.4306 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 2.254 krects, 9.32829 Mpixels
+ EncodeManager:                  9.0758 MiB (1:3.92367 ratio)
+ EncodeManager:   Total: 10.398 krects, 37.2361 Mpixels
+ EncodeManager:          9.83852 MiB (1:14.4497 ratio)
+ ComparingUpdateTracker: 367.947 Mpixels in / 34.5165 Mpixels out
+ ComparingUpdateTracker: (1:10.66 ratio)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Fri Dec 20 11:51:20 2024
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.m2XF9B/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x55b4e5351e50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x55b4e5351e50 for event 3
+dbus[11798]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+/usr/bin/iceauth:  creating new authority file /mnt/wslg/runtime-dir/ICEauthority
+
+Fri Dec 20 11:51:21 2024
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(xfsettingsd:11873): xfsettingsd-WARNING **: 11:51:21.465: Failed to apply the scale, maybe the CRTC does not support transforms
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:11897): xfce4-power-manager-WARNING **: 11:51:22.037: Monitor is not DPMS capable
+
+(xfce4-power-manager:11897): GLib-GIO-CRITICAL **: 11:51:22.037: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+
+(xfce4-power-manager:11897): libupower-glib-WARNING **: 11:51:22.177: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:11897): xfce4-power-manager-CRITICAL **: 11:51:22.185: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:11897): xfce4-power-manager-CRITICAL **: 11:51:22.186: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:11897): xfce4-power-manager-CRITICAL **: 11:51:22.186: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:11897): xfce4-power-manager-WARNING **: 11:51:22.192: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfpm-power-backlight-helper:11940): WARNING **: 11:51:22.198: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:11897): xfce4-power-manager-CRITICAL **: 11:51:22.198: Unable to get system bus connection : Could not connect: No such file or directory
+
+** (xiccd:11938): CRITICAL **: 11:51:22.206: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:11782): xfce4-session-WARNING **: 11:51:22.208: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:11948): ERROR **: 11:51:22.267: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:11782): xfce4-session-WARNING **: 11:51:22.337: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfce4-session:11782): xfce4-session-WARNING **: 11:51:22.377: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:11965): polkit-gnome-1-WARNING **: 11:51:22.402: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Xfce Power Manager: Another power manager is already running
+
+(polkit-mate-authentication-agent-1:11977): polkit-mate-1-WARNING **: 11:51:22.448: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Another notification daemon is running, exiting
+Added OpenSC smartcard framework (0.25) to /home/jemo/.pki/nssdb/pkcs11.txt
+
+(nm-applet:11966): nm-applet-WARNING **: 11:51:22.650: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:11966): nm-applet-WARNING **: 11:51:22.651: Could not connect: No such file or directory
+
+(nm-applet:11966): nm-CRITICAL **: 11:51:23.092: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:11966): nm-CRITICAL **: 11:51:23.092: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:11966): nm-CRITICAL **: 11:51:23.117: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+
+(xfce4-session:11782): xfce4-session-WARNING **: 11:51:23.126: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:11782): xfce4-session-WARNING **: 11:51:23.133: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:11782): xfce4-session-WARNING **: 11:51:23.142: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+(xfdesktop:11888): GVFS-RemoteVolumeMonitor-WARNING **: 11:51:23.456: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:11888): WARNING **: 11:51:23.668: Failed to get system bus: Could not connect: No such file or directory
+
+Fri Dec 20 11:51:24 2024
+ Connections: accepted: 127.0.0.1::55432
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 921.6 kpixels in / 1.68 kpixels out
+ ComparingUpdateTracker: (1:548.571 ratio)
+[12648:12672:1220/115141.235633:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:12680:1220/115141.331226:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:12680:1220/115141.331411:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:12648:1220/115210.098111:ERROR:vivaldi_keystore_checker.cc(150)] KeystoreChecker: Profile Default: Unencryted keystore was previously used but encryption is used now. Upgrading status to secured keystore.
+[12648:13098:1220/115210.288061:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:13098:1220/115210.288109:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:13098:1220/115210.288162:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:13098:1220/115210.288210:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:13098:1220/115210.288220:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[12648:12648:1220/115210.293958:ERROR:network_service_instance_impl.cc(613)] Network service crashed, restarting service.
+[12648:12648:1220/115210.612764:ERROR:service_worker_task_queue.cc(198)] DidStartWorkerFail mpognobbkildjkofajifpdfhcoklimli: 3
+thread 'main' panicked at crates/gpui/src/platform/linux/wayland/client.rs:144:51:
+called `Result::unwrap()` on an `Err` value: UnsupportedVersion
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+(Thunar:11882): GVFS-RemoteVolumeMonitor-WARNING **: 11:52:42.049: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:11888): WARNING **: 11:53:36.619: Failed to get system bus: Could not connect: No such file or directory
+
+** (xfdesktop:11888): WARNING **: 11:56:13.622: Failed to get system bus: Could not connect: No such file or directory
+
+(ristretto:16566): GVFS-RemoteVolumeMonitor-WARNING **: 11:57:21.775: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thread 'main' panicked at crates/gpui/src/platform/linux/wayland/client.rs:144:51:
+called `Result::unwrap()` on an `Err` value: UnsupportedVersion
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+Fri Dec 20 11:57:56 2024
+ VNCSConnST:  closing 127.0.0.1::55432: Clean disconnection
+ EncodeManager: Framebuffer updates: 5081
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.291 krects, 11.0182 Mpixels
+ EncodeManager:            35.7969 KiB (1:1203.08 ratio)
+ EncodeManager:     Bitmap RLE: 2.74 krects, 1.86317 Mpixels
+ EncodeManager:                 84.7266 KiB (1:86.2788 ratio)
+ EncodeManager:     Indexed RLE: 10.835 krects, 20.5458 Mpixels
+ EncodeManager:                  1.34015 MiB (1:58.5755 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 4.212 krects, 48.7001 Mpixels
+ EncodeManager:                  24.2815 MiB (1:7.65291 ratio)
+ EncodeManager:   Total: 20.078 krects, 82.1273 Mpixels
+ EncodeManager:          25.7394 MiB (1:12.1806 ratio)
+ Connections: closed: 127.0.0.1::55432
+ ComparingUpdateTracker: 611.378 Mpixels in / 58.295 Mpixels out
+ ComparingUpdateTracker: (1:10.4877 ratio)
+
+(thunar-volman:15386): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:00.401: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15393): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:00.483: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:15398): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:00.554: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:15404): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:00.675: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:15410): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:01.632: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:15415): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:01.814: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15429): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:01.959: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15434): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.071: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15439): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.193: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15444): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.286: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15449): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.369: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15454): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.463: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15459): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.555: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15464): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.636: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15472): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.774: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15478): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.848: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15493): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.914: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15498): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:02.995: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15503): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.064: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15508): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.131: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15513): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.206: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15518): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.355: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15523): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.478: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15528): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.564: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15533): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.652: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15538): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.725: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15543): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.795: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15556): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:03.898: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15561): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:04.009: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15566): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:04.140: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15571): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:04.251: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15576): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:04.376: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:15581): GVFS-RemoteVolumeMonitor-WARNING **: 12:48:04.504: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282075): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:29.778: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282098): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:29.909: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282116): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.033: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282121): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.140: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282126): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.246: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282131): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.403: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282136): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.499: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:282141): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.576: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:282146): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.654: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:282156): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.758: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:282164): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:30.906: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282169): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.112: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282177): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.197: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282182): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.290: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282190): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.409: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282195): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.512: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282200): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.608: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282205): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.715: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282218): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.832: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282223): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:31.958: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282228): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:32.441: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282233): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:32.629: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282239): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:32.723: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282252): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:32.804: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282259): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:32.910: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282264): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:33.012: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282269): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:33.136: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282274): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:33.317: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282279): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:33.451: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282284): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:33.619: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282293): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:33.778: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282316): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:33.862: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:282321): GVFS-RemoteVolumeMonitor-WARNING **: 20:36:34.183: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308857): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.155: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308880): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.257: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308885): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.320: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308890): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.390: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308895): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.485: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308900): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.624: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308905): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.710: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:308910): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.795: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:308915): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.859: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:308920): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.922: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:308925): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:13.972: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308930): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.025: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308935): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.111: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308940): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.199: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308953): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.255: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308958): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.305: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308963): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.354: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308968): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.405: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308973): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.452: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308978): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.501: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308983): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.547: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308988): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.603: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308993): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.661: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:308998): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.721: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309003): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.770: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309008): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.821: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309013): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.892: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309018): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:14.974: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309023): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:15.098: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309028): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:15.186: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309041): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:15.262: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309046): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:15.338: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:309051): GVFS-RemoteVolumeMonitor-WARNING **: 23:22:15.391: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539279): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:27.324: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539293): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:27.423: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539299): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:27.489: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:539312): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:27.576: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:539317): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:27.700: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:539322): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:27.790: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:539327): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:27.950: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539332): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.066: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539337): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.157: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539342): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.250: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539347): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.331: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539352): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.402: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539357): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.474: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539370): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.546: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539375): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.627: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539380): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.698: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539385): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.766: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539390): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.833: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539395): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.913: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539400): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:28.964: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539405): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.015: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539410): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.063: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539415): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.130: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539420): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.196: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539425): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.302: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539430): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.353: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539435): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.414: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539440): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.478: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539453): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.535: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539458): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.624: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539463): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.721: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539468): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.791: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539473): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.877: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:539478): GVFS-RemoteVolumeMonitor-WARNING **: 20:23:29.970: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Thu Jan  9 12:08:49 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.OL56wC/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x563f2a3d9e50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x563f2a3d9e50 for event 3
+dbus[15160]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+
+Thu Jan  9 12:08:52 2025
+ Connections: accepted: 127.0.0.1::40710
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+
+Thu Jan  9 12:08:53 2025
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+/usr/bin/iceauth:  creating new authority file /mnt/wslg/runtime-dir/ICEauthority
+
+Thu Jan  9 12:08:54 2025
+ ComparingUpdateTracker: 1.52 kpixels in / 1.52 kpixels out
+ ComparingUpdateTracker: (1:1 ratio)
+
+(xfsettingsd:15505): xfsettingsd-WARNING **: 12:08:54.989: Failed to apply the scale, maybe the CRTC does not support transforms
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:15532): xfce4-power-manager-WARNING **: 12:08:55.496: Monitor is not DPMS capable
+
+(xfce4-power-manager:15532): GLib-GIO-CRITICAL **: 12:08:55.497: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+
+(xfce4-power-manager:15532): libupower-glib-WARNING **: 12:08:55.617: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:15532): xfce4-power-manager-CRITICAL **: 12:08:55.624: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:15532): xfce4-power-manager-CRITICAL **: 12:08:55.624: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:15532): xfce4-power-manager-CRITICAL **: 12:08:55.624: Unable to connect to the system bus : Could not connect: No such file or directory
+
+(xfce4-power-manager:15532): xfce4-power-manager-WARNING **: 12:08:55.627: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xfpm-power-backlight-helper:15551): WARNING **: 12:08:55.630: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:15532): xfce4-power-manager-CRITICAL **: 12:08:55.631: Unable to get system bus connection : Could not connect: No such file or directory
+
+** (xiccd:15550): CRITICAL **: 12:08:55.635: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:15142): xfce4-session-WARNING **: 12:08:55.647: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:15561): ERROR **: 12:08:55.691: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:15142): xfce4-session-WARNING **: 12:08:55.783: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfce4-session:15142): xfce4-session-WARNING **: 12:08:55.825: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:15611): polkit-gnome-1-WARNING **: 12:08:55.828: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(xfdesktop:15523): GVFS-RemoteVolumeMonitor-WARNING **: 12:08:55.848: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(polkit-mate-authentication-agent-1:15646): polkit-mate-1-WARNING **: 12:08:55.888: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Xfce Power Manager: Another power manager is already running
+Another notification daemon is running, exiting
+
+(nm-applet:15636): nm-applet-WARNING **: 12:08:56.045: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:15636): nm-applet-WARNING **: 12:08:56.046: Could not connect: No such file or directory
+
+** (xfdesktop:15523): WARNING **: 12:08:56.109: Failed to get system bus: Could not connect: No such file or directory
+
+(nm-applet:15636): nm-CRITICAL **: 12:08:56.301: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:15636): nm-CRITICAL **: 12:08:56.301: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:15636): nm-CRITICAL **: 12:08:56.332: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+
+(xfce4-session:15142): xfce4-session-WARNING **: 12:08:56.365: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:15142): xfce4-session-WARNING **: 12:08:56.371: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:15142): xfce4-session-WARNING **: 12:08:56.374: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+Thu Jan  9 12:09:37 2025
+ ComparingUpdateTracker: 94.1255 Mpixels in / 16.3316 Mpixels out
+ ComparingUpdateTracker: (1:5.76338 ratio)
+
+(xfsettingsd:15505): xfsettingsd-WARNING **: 12:09:37.962: Failed to apply the scale, maybe the CRTC does not support transforms
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+Error getting authority: Error initializing authority: Could not connect: No such file or directory
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+
+(thunar-volman:18371): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:11.676: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18376): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:11.734: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18381): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:11.799: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:18386): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:11.868: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "hub".
+
+(thunar-volman:18391): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:11.943: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18396): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:12.065: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:18401): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:12.192: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unsupported USB device type "usb".
+
+(thunar-volman:18409): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:12.331: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18425): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:12.498: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18430): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:12.701: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18435): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:12.881: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18440): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.016: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18445): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.154: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18450): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.257: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18455): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.395: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18468): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.526: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18473): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.643: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18478): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.774: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18483): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.867: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18488): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:13.979: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18493): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.058: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18498): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.141: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18503): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.222: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18508): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.310: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18521): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.393: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18529): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.468: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18537): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.543: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18542): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.621: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18547): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.695: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18552): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.767: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18557): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.843: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+(thunar-volman:18562): GVFS-RemoteVolumeMonitor-WARNING **: 12:11:14.921: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+thunar-volman: Unknown block device type "disk".
+
+Thu Jan  9 12:22:18 2025
+ VNCSConnST:  closing 127.0.0.1::40710: Clean disconnection
+ EncodeManager: Framebuffer updates: 5387
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 2.336 krects, 6.3586 Mpixels
+ EncodeManager:            36.5 KiB (1:681.251 ratio)
+ EncodeManager:     Bitmap RLE: 6.06 krects, 1.23229 Mpixels
+ EncodeManager:                 181.938 KiB (1:26.848 ratio)
+ EncodeManager:     Indexed RLE: 16.122 krects, 12.6782 Mpixels
+ EncodeManager:                  1.51211 MiB (1:32.1061 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 4.352 krects, 36.0791 Mpixels
+ EncodeManager:                  20.61 MiB (1:6.6803 ratio)
+ EncodeManager:   Total: 28.87 krects, 56.3482 Mpixels
+ EncodeManager:          22.3354 MiB (1:9.6386 ratio)
+ Connections: closed: 127.0.0.1::40710
+ ComparingUpdateTracker: 181.163 Mpixels in / 23.2189 Mpixels out
+ ComparingUpdateTracker: (1:7.8024 ratio)
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Sun Mar 16 14:35:48 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.4kmMno/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0x55d807cc2e50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x55d807cc2e50 for event 3
+/usr/bin/startxfce4: X server already running on display :1
+dbus[22360]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+
+(xfce4-session:22344): libxfce4util-WARNING **: 14:35:51.344: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+** Message: 14:35:51.396: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 14:35:51.396: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 14:35:51.396: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 14:35:51.396: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+/usr/bin/iceauth:  creating new authority file /mnt/wslg/runtime-dir/ICEauthority
+** Message: 14:35:51.815: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+Sun Mar 16 14:35:52 2025
+ Connections: accepted: 127.0.0.1::40558
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+(xfsettingsd:22504): xfsettingsd-WARNING **: 14:35:52.446: Unknown mode '1600x900 @ 60.0' for output VNC-0, aborting.
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 100 pixels in / 100 pixels out
+ ComparingUpdateTracker: (1:1 ratio)
+** Message: 14:35:53.001: Unable to migrate old setting /backdrop/screen0/monitor3/image-style; monitor 3 is not currently attached
+** Message: 14:35:53.002: Unable to migrate old setting /backdrop/screen0/monitor1/color-style; monitor 1 is not currently attached
+** Message: 14:35:53.004: Unable to migrate old setting /backdrop/screen0/monitor1/image-show; monitor 1 is not currently attached
+** Message: 14:35:53.005: Unable to migrate old setting /backdrop/screen0/monitor2/image-show; monitor 2 is not currently attached
+** Message: 14:35:53.006: Unable to migrate old setting /backdrop/screen0/monitor3/image-show; monitor 3 is not currently attached
+** Message: 14:35:53.007: Unable to migrate old setting /backdrop/screen0/monitor4/image-show; monitor 4 is not currently attached
+** Message: 14:35:53.010: Unable to migrate old setting /backdrop/screen0/monitor1/image-path; monitor 1 is not currently attached
+** Message: 14:35:53.010: Unable to migrate old setting /backdrop/screen0/monitor2/image-style; monitor 2 is not currently attached
+** Message: 14:35:53.012: Unable to migrate old setting /backdrop/screen0/monitor4/image-path; monitor 4 is not currently attached
+** Message: 14:35:53.013: Unable to migrate old setting /backdrop/screen0/monitor2/image-path; monitor 2 is not currently attached
+** Message: 14:35:53.014: Unable to migrate old setting /backdrop/screen0/monitor3/image-path; monitor 3 is not currently attached
+** Message: 14:35:53.015: Unable to migrate /backdrop/screen0/monitor0/color1 to RGBA as it contains invalid data
+** Message: 14:35:53.016: Unable to migrate /backdrop/screen0/monitor0/color2 to RGBA as it contains invalid data
+** Message: 14:35:53.018: Unable to migrate old setting /backdrop/screen0/monitor1/last-single-image; monitor 1 is not currently attached
+** Message: 14:35:53.021: Unable to migrate old setting /backdrop/screen0/monitor1/color2; monitor 1 is not currently attached
+** Message: 14:35:53.022: Unable to migrate old setting /backdrop/screen0/monitor1/image-style; monitor 1 is not currently attached
+** Message: 14:35:53.024: Unable to migrate old setting /backdrop/screen0/monitor1/color1; monitor 1 is not currently attached
+** Message: 14:35:53.026: Unable to migrate old setting /backdrop/screen0/monitor1/last-image; monitor 1 is not currently attached
+** Message: 14:35:53.029: Unable to migrate old setting /backdrop/screen0/monitor4/image-style; monitor 4 is not currently attached
+** Message: 14:35:53.033: Unable to migrate old setting /backdrop/screen0/monitor1/brightness; monitor 1 is not currently attached
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:22689): xfce4-power-manager-WARNING **: 14:35:53.067: Display is not DPMS capable
+
+(xfce4-power-manager:22689): GLib-GIO-CRITICAL **: 14:35:53.067: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+
+(xfce4-power-manager:22689): libupower-glib-WARNING **: 14:35:53.218: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:22689): libxfce4util-WARNING **: 14:35:53.225: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:22689): xfce4-power-manager-CRITICAL **: 14:35:53.226: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:22689): xfce4-power-manager-CRITICAL **: 14:35:53.226: Unable to connect to the system bus : Could not connect: No such file or directory
+
+** (xfce4-power-manager:22689): WARNING **: 14:35:53.228: Unable to get the interface, net.hadess.PowerProfiles : Could not connect: No such file or directory
+
+** (xfpm-power-backlight-helper:22711): WARNING **: 14:35:53.236: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:22689): xfce4-power-manager-CRITICAL **: 14:35:53.237: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:22689): xfce4-power-manager-WARNING **: 14:35:53.237: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xiccd:22717): CRITICAL **: 14:35:53.275: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:22344): xfce4-session-WARNING **: 14:35:53.282: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:22730): ERROR **: 14:35:53.332: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:22344): xfce4-session-WARNING **: 14:35:53.527: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:22761): polkit-gnome-1-WARNING **: 14:35:53.603: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(xfce4-session:22344): xfce4-session-WARNING **: 14:35:53.606: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+Xfce Power Manager: Another power manager is already running
+
+(polkit-mate-authentication-agent-1:22779): polkit-mate-1-WARNING **: 14:35:53.723: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(nm-applet:22762): nm-applet-WARNING **: 14:35:54.023: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:22762): nm-applet-WARNING **: 14:35:54.025: Could not connect: No such file or directory
+/usr/bin/pkcs11-register: option '--skip-chrome' doesn't allow an argument
+
+(nm-applet:22762): nm-CRITICAL **: 14:35:54.141: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:22762): nm-CRITICAL **: 14:35:54.141: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(xfce4-session:22344): xfce4-session-WARNING **: 14:35:54.156: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:22344): xfce4-session-WARNING **: 14:35:54.161: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(nm-applet:22762): nm-CRITICAL **: 14:35:54.164: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+
+(xfce4-session:22344): xfce4-session-WARNING **: 14:35:54.165: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+(xfdesktop:22658): GVFS-RemoteVolumeMonitor-WARNING **: 14:35:54.666: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfdesktop:22658): WARNING **: 14:35:55.819: Failed to get system bus: Could not connect: No such file or directory
+[23047:23088:0316/143611.453243:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:23094:0316/143611.565614:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:23094:0316/143611.566085:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:24689:0316/143909.897420:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:24689:0316/143909.897458:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:24689:0316/143909.897481:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:24689:0316/143909.897510:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:24689:0316/143909.897520:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[23047:23047:0316/143909.904015:ERROR:network_service_instance_impl.cc(613)] Network service crashed, restarting service.
+[23047:23047:0316/143910.272950:ERROR:service_worker_task_queue.cc(198)] DidStartWorkerFail mpognobbkildjkofajifpdfhcoklimli: 3
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':1.0'
+[Parent 24819, Main Thread] WARNING: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported: 'glib warning', file ./toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox-esr:24819): GVFS-RemoteVolumeMonitor-WARNING **: 14:40:01.641: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(Thunar:22639): GVFS-RemoteVolumeMonitor-WARNING **: 14:40:13.014: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+Sun Mar 16 15:06:00 2025
+ VNCSConnST:  Client pixel format depth 8 (8bpp) rgb332
+
+Sun Mar 16 15:07:33 2025
+ VNCSConnST:  Client pixel format depth 24 (32bpp) little-endian rgb888
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+
+(xfce4-session:22344): xfce4-session-WARNING **: 15:10:32.628: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:22344): xfce4-session-WARNING **: 15:10:32.635: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:22344): xfce4-session-WARNING **: 15:10:32.642: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+
+(xfce4-power-manager:22689): GLib-GObject-CRITICAL **: 15:10:34.144: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[GFX1-]: Detect DeviceReset DeviceResetReason::FORCED_RESET DeviceResetDetectPlace::WR_SIMULATE in Parent process
+The X session cleanly exited!
+Killing Xtigervnc process ID 22340...
+Sun Mar 16 15:10:34 2025
+ VNCSConnST:  closing 127.0.0.1::40558: Server shutdown
+ EncodeManager: Framebuffer updates: 17677
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 7.885 krects, 27.5306 Mpixels
+ EncodeManager:            122.723 KiB (1:855.145 ratio)
+ EncodeManager:     Bitmap RLE: 27.229 krects, 7.20419 Mpixels
+ EncodeManager:                 766.544 KiB (1:34.8309 ratio)
+ EncodeManager:     Indexed RLE: 22.729 krects, 59.5029 Mpixels
+ EncodeManager:                  2.46089 MiB (1:90.0084 ratio)
+ EncodeManager:     Full Colour: 53 rects, 4.336 kpixels
+ EncodeManager:                  1.5332 KiB (1:3.16688 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 5.948 krects, 100.764 Mpixels
+ EncodeManager:                  33.2184 MiB (1:11.5735 ratio)
+ EncodeManager:   Total: 63.844 krects, 195.006 Mpixels
+ EncodeManager:          36.5492 MiB (1:20.0967 ratio)
+ ComparingUpdateTracker: 7.05707 Gpixels in / 156.191 Mpixels out
+ ComparingUpdateTracker: (1:45.1823 ratio)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Sun Mar 16 16:13:09 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.UmYBvQ/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x5576b9ecde50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x5576b9ecde50 for event 3
+dbus[13601]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+
+(xfce4-session:13585): libxfce4util-WARNING **: 16:13:10.879: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+** Message: 16:13:10.909: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 16:13:10.909: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 16:13:10.909: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 16:13:10.909: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+** Message: 16:13:11.331: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+(xfsettingsd:13665): xfsettingsd-WARNING **: 16:13:12.083: Unknown mode '1600x900 @ 60.0' for output VNC-0, aborting.
+
+Sun Mar 16 16:13:12 2025
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(Thunar:13680): GVFS-RemoteVolumeMonitor-WARNING **: 16:13:12.267: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfdesktop:13688): GVFS-RemoteVolumeMonitor-WARNING **: 16:13:12.883: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':1'
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:13840): xfce4-power-manager-WARNING **: 16:13:12.987: Display is not DPMS capable
+
+(xfce4-power-manager:13840): GLib-GIO-CRITICAL **: 16:13:12.987: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(xfce4-power-manager:13840): libupower-glib-WARNING **: 16:13:13.151: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:13840): libxfce4util-WARNING **: 16:13:13.173: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:13840): xfce4-power-manager-CRITICAL **: 16:13:13.173: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:13840): xfce4-power-manager-CRITICAL **: 16:13:13.174: Unable to connect to the system bus : Could not connect: No such file or directory
+
+** (xfce4-power-manager:13840): WARNING **: 16:13:13.176: Unable to get the interface, net.hadess.PowerProfiles : Could not connect: No such file or directory
+
+** (xfpm-power-backlight-helper:13978): WARNING **: 16:13:13.187: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:13840): xfce4-power-manager-CRITICAL **: 16:13:13.188: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:13840): xfce4-power-manager-WARNING **: 16:13:13.188: Unable connect to system bus: Could not connect: No such file or directory
+
+Sun Mar 16 16:13:13 2025
+ Connections: accepted: 127.0.0.1::35986
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+
+** (xiccd:13986): CRITICAL **: 16:13:13.226: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:13:13.243: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+** (light-locker:14002): ERROR **: 16:13:13.333: session_id is not set, is /proc mounted with hidepid>0?
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:13:13.561: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:13:13.655: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:14097): polkit-gnome-1-WARNING **: 16:13:13.722: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+ ComparingUpdateTracker: 2.304 Mpixels in / 2.304 Mpixels out
+ ComparingUpdateTracker: (1:1 ratio)
+
+(polkit-mate-authentication-agent-1:14105): polkit-mate-1-WARNING **: 16:13:13.962: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Xfce Power Manager: Another power manager is already running
+Another notification daemon is running, exiting
+/usr/bin/pkcs11-register: option '--skip-chrome' doesn't allow an argument
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:13:14.110: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:13:14.118: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:13:14.125: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(nm-applet:14098): nm-applet-WARNING **: 16:13:14.298: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:14098): nm-applet-WARNING **: 16:13:14.299: Could not connect: No such file or directory
+
+(nm-applet:14098): nm-CRITICAL **: 16:13:14.315: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:14098): nm-CRITICAL **: 16:13:14.315: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:14098): nm-CRITICAL **: 16:13:14.371: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+** (xfdesktop:13688): WARNING **: 16:13:15.386: Failed to get system bus: Could not connect: No such file or directory
+[14576:14603:0316/161326.301480:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14617:0316/161326.476151:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14617:0316/161326.476821:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14828:0316/161341.527961:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14828:0316/161341.527998:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14828:0316/161341.528024:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14828:0316/161341.528035:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14828:0316/161341.528045:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[14576:14576:0316/161342.507807:ERROR:CONSOLE(242)] "<webview>: Script cannot be injected into content until the page has loaded.", source: extensions::webView (242)
+[14576:14576:0316/161515.318797:ERROR:data_type_manager_impl.cc(48)] Passwords cryptographer error was encountered: 
+[14576:14576:0316/161515.318861:ERROR:data_type_manager_impl.cc(48)] Autofill Wallet cryptographer error was encountered: 
+[14576:14576:0316/161515.318868:ERROR:data_type_manager_impl.cc(48)] Managed User Settings cryptographer error was encountered: 
+[14576:14576:0316/161515.318872:ERROR:data_type_manager_impl.cc(48)] User Consents cryptographer error was encountered: 
+[14576:14576:0316/161515.318876:ERROR:data_type_manager_impl.cc(48)] Send Tab To Self cryptographer error was encountered: 
+[14576:14576:0316/161515.318879:ERROR:data_type_manager_impl.cc(48)] Security Events cryptographer error was encountered: 
+[14576:14576:0316/161515.318883:ERROR:data_type_manager_impl.cc(48)] Sharing Message cryptographer error was encountered: 
+[14576:14576:0316/161515.318887:ERROR:data_type_manager_impl.cc(48)] Contact Info cryptographer error was encountered: 
+[14576:14576:0316/161515.318891:ERROR:data_type_manager_impl.cc(48)] Saved Tab Group cryptographer error was encountered: 
+[14576:14576:0316/161515.318895:ERROR:data_type_manager_impl.cc(48)] WebAuthn Credentials cryptographer error was encountered: 
+[14576:14576:0316/161515.318898:ERROR:data_type_manager_impl.cc(48)] Incoming Password Sharing Invitations cryptographer error was encountered: 
+[14576:14576:0316/161515.318903:ERROR:data_type_manager_impl.cc(48)] Outgoing Password Sharing Invitations cryptographer error was encountered: 
+[14576:14576:0316/161515.318906:ERROR:data_type_manager_impl.cc(48)] Plus Address cryptographer error was encountered: 
+[14576:14576:0316/161529.548750:ERROR:CONSOLE(242)] "<webview>: Script cannot be injected into content until the page has loaded.", source: extensions::webView (242)
+[14576:14576:0316/161529.843130:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[14576:14576:0316/161529.909561:ERROR:CONSOLE(242)] "<webview>: Script cannot be injected into content until the page has loaded.", source: extensions::webView (242)
+[14576:14576:0316/161529.969279:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[14576:14576:0316/161530.039511:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[14576:14576:0316/161530.046694:ERROR:extension_host.cc(458)] Received EventAck for extension jffbochibkahlbbmanpmndnhmeliecah for an unknown event.
+[14576:14576:0316/161530.057987:ERROR:extension_host.cc(458)] Received EventAck for extension jffbochibkahlbbmanpmndnhmeliecah for an unknown event.
+[14576:14576:0316/161530.058425:ERROR:extension_host.cc(458)] Received EventAck for extension jffbochibkahlbbmanpmndnhmeliecah for an unknown event.
+[14576:14576:0316/161530.058492:ERROR:extension_host.cc(458)] Received EventAck for extension jffbochibkahlbbmanpmndnhmeliecah for an unknown event.
+[14576:14576:0316/161530.059009:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[14576:14576:0316/161532.926527:ERROR:CONSOLE(242)] "<webview>: Script cannot be injected into content until the page has loaded.", source: extensions::webView (242)
+[14576:14576:0316/161537.707850:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[14576:14576:0316/161538.471141:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+[14576:14576:0316/161540.750143:ERROR:CONSOLE(1)] "Could not find home folder.", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/bundle.js (1)
+[14576:14576:0316/161540.877282:ERROR:CONSOLE(1)] "Could not find home folder.", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/bundle.js (1)
+[14576:14576:0316/161541.819578:ERROR:CONSOLE(1)] "Could not find home folder.", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/bundle.js (1)
+[14576:14576:0316/161628.829977:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[14576:14576:0316/161636.761757:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[14576:14576:0316/161636.823014:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+[14576:14576:0316/161746.597194:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[14576:14576:0316/161746.597573:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[14576:14576:0316/161750.269902:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[14576:14576:0316/161750.330293:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[14576:14576:0316/161901.977580:ERROR:atom_cache.cc(229)] Add WM_CHANGE_STATE to kAtomsToCache
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:19:09.099: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:19:09.104: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:13585): xfce4-session-WARNING **: 16:19:09.107: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+
+(xfce4-power-manager:13840): GLib-GObject-CRITICAL **: 16:19:10.679: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[GFX1-]: Detect DeviceReset DeviceResetReason::FORCED_RESET DeviceResetDetectPlace::WR_SIMULATE in Parent process
+The X session cleanly exited!
+Killing Xtigervnc process ID 13581...[14628:14628:0316/161911.695849:ERROR:connection.cc(63)] X connection error received.
+
+Sun Mar 16 16:19:11 2025
+ VNCSConnST:  closing 127.0.0.1::35986: Server shutdown
+ EncodeManager: Framebuffer updates: 7009
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 4.85 krects, 13.1631 Mpixels
+ EncodeManager:            75.7812 KiB (1:679.263 ratio)
+ EncodeManager:     Bitmap RLE: 4.034 krects, 9.52622 Mpixels
+ EncodeManager:                 134.57 KiB (1:276.874 ratio)
+ EncodeManager:     Indexed RLE: 17.853 krects, 53.9626 Mpixels
+ EncodeManager:                  2.77066 MiB (1:74.3705 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 6.784 krects, 104.809 Mpixels
+ EncodeManager:                  33.5371 MiB (1:11.9238 ratio)
+ EncodeManager:   Total: 33.521 krects, 181.461 Mpixels
+ EncodeManager:          36.5132 MiB (1:18.9685 ratio)
+ ComparingUpdateTracker: 3.59886 Gpixels in / 141.322 Mpixels out
+ ComparingUpdateTracker: (1:25.4656 ratio)
+[14576:14603:0316/161911.754565:FATAL:bus.cc(1246)] D-Bus connection was disconnected. Aborting.
+[14576:14599:0316/161911.755799:FATAL:bus.cc(1246)] D-Bus connection was disconnected. Aborting.
+[0316/161911.769040:ERROR:scoped_ptrace_attach.cc(27)] ptrace: Operation not permitted (1)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Sun Mar 16 16:20:41 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.gXRMC9/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+[mi] mieq: warning: overriding existing handler (nil) with 0x55ea1ace1e50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x55ea1ace1e50 for event 3
+/usr/bin/startxfce4: X server already running on display :1
+dbus[18491]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+
+(xfce4-session:18475): libxfce4util-WARNING **: 16:20:42.576: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+** Message: 16:20:42.590: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 16:20:42.590: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 16:20:42.591: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 16:20:42.591: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+** Message: 16:20:42.817: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+(xfsettingsd:18555): xfsettingsd-WARNING **: 16:20:43.305: Unknown mode '1600x900 @ 60.0' for output VNC-0, aborting.
+
+Sun Mar 16 16:20:43 2025
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(Thunar:18570): GVFS-RemoteVolumeMonitor-WARNING **: 16:20:43.465: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':1'
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:18629): xfce4-power-manager-WARNING **: 16:20:43.995: Display is not DPMS capable
+
+(xfce4-power-manager:18629): GLib-GIO-CRITICAL **: 16:20:43.999: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+
+(xfdesktop:18576): GVFS-RemoteVolumeMonitor-WARNING **: 16:20:44.050: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-power-manager:18629): libupower-glib-WARNING **: 16:20:44.193: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:18629): libxfce4util-WARNING **: 16:20:44.200: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:18629): xfce4-power-manager-CRITICAL **: 16:20:44.200: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:18629): xfce4-power-manager-CRITICAL **: 16:20:44.200: Unable to connect to the system bus : Could not connect: No such file or directory
+
+** (xfce4-power-manager:18629): WARNING **: 16:20:44.203: Unable to get the interface, net.hadess.PowerProfiles : Could not connect: No such file or directory
+
+** (xfpm-power-backlight-helper:18699): WARNING **: 16:20:44.207: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:18629): xfce4-power-manager-CRITICAL **: 16:20:44.208: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:18629): xfce4-power-manager-WARNING **: 16:20:44.208: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xiccd:18700): CRITICAL **: 16:20:44.226: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:20:44.227: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:18709): ERROR **: 16:20:44.390: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:20:44.555: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:20:44.626: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:18762): polkit-gnome-1-WARNING **: 16:20:44.633: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(polkit-mate-authentication-agent-1:18773): polkit-mate-1-WARNING **: 16:20:44.682: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Xfce Power Manager: Another power manager is already running
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+
+(nm-applet:18763): nm-applet-WARNING **: 16:20:44.882: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:18763): nm-applet-WARNING **: 16:20:44.883: Could not connect: No such file or directory
+
+(nm-applet:18763): nm-CRITICAL **: 16:20:44.921: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:18763): nm-CRITICAL **: 16:20:44.921: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:18763): nm-CRITICAL **: 16:20:44.939: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+/usr/bin/pkcs11-register: option '--skip-chrome' doesn't allow an argument
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:20:45.085: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:20:45.094: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:20:45.103: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+** (xfdesktop:18576): WARNING **: 16:20:45.784: Failed to get system bus: Could not connect: No such file or directory
+
+Sun Mar 16 16:20:46 2025
+ Connections: accepted: 127.0.0.1::42084
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+** (xfdesktop:18576): WARNING **: 16:20:46.796: Failed to get system bus: Could not connect: No such file or directory
+
+** (xfdesktop:18576): WARNING **: 16:20:47.601: Failed to get system bus: Could not connect: No such file or directory
+[Parent 18630, Main Thread] WARNING: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported: 'glib warning', file ./toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox-esr:18630): GVFS-RemoteVolumeMonitor-WARNING **: 16:20:59.106: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:21:45.450: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:21:45.460: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:18475): xfce4-session-WARNING **: 16:21:45.465: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-power-manager:18629): GLib-GObject-CRITICAL **: 16:21:46.879: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+[GFX1-]: Detect DeviceReset DeviceResetReason::FORCED_RESET DeviceResetDetectPlace::WR_SIMULATE in Parent process
+The X session cleanly exited!
+Killing Xtigervnc process ID 18471...
+Sun Mar 16 16:21:47 2025
+ VNCSConnST:  closing 127.0.0.1::42084: Server shutdown
+ EncodeManager: Framebuffer updates: 1402
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 1.697 krects, 7.4069 Mpixels
+ EncodeManager:            26.5156 KiB (1:1091.93 ratio)
+ EncodeManager:     Bitmap RLE: 809 rects, 1.46832 Mpixels
+ EncodeManager:                 26.8584 KiB (1:213.903 ratio)
+ EncodeManager:     Indexed RLE: 5.574 krects, 19.8609 Mpixels
+ EncodeManager:                  976.066 KiB (1:79.551 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 1.839 krects, 34.8225 Mpixels
+ EncodeManager:                  9.72477 MiB (1:13.6618 ratio)
+ EncodeManager:   Total: 9.919 krects, 63.5586 Mpixels
+ EncodeManager:          10.7301 MiB (1:22.6066 ratio)
+ ComparingUpdateTracker: 710.887 Mpixels in / 59.1773 Mpixels out
+ ComparingUpdateTracker: (1:12.0128 ratio)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Sun Mar 16 17:14:17 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.6S4EVR/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x55dccea32e50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x55dccea32e50 for event 3
+dbus[21406]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+
+(xfce4-session:21388): libxfce4util-WARNING **: 17:14:19.106: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+** Message: 17:14:19.125: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 17:14:19.126: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 17:14:19.126: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 17:14:19.126: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+** Message: 17:14:19.530: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+(xfsettingsd:21481): xfsettingsd-WARNING **: 17:14:20.165: Unknown mode '1600x900 @ 60.0' for output VNC-0, aborting.
+
+Sun Mar 16 17:14:20 2025
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(Thunar:21496): GVFS-RemoteVolumeMonitor-WARNING **: 17:14:20.396: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:21606): xfce4-power-manager-WARNING **: 17:14:21.045: Display is not DPMS capable
+
+(xfce4-power-manager:21606): GLib-GIO-CRITICAL **: 17:14:21.045: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':1'
+
+(xfdesktop:21504): GVFS-RemoteVolumeMonitor-WARNING **: 17:14:21.179: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-power-manager:21606): libupower-glib-WARNING **: 17:14:21.275: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:21606): libxfce4util-WARNING **: 17:14:21.296: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:21606): xfce4-power-manager-CRITICAL **: 17:14:21.296: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:21606): xfce4-power-manager-CRITICAL **: 17:14:21.296: Unable to connect to the system bus : Could not connect: No such file or directory
+
+** (xfce4-power-manager:21606): WARNING **: 17:14:21.301: Unable to get the interface, net.hadess.PowerProfiles : Could not connect: No such file or directory
+
+** (xfpm-power-backlight-helper:21732): WARNING **: 17:14:21.310: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:21606): xfce4-power-manager-CRITICAL **: 17:14:21.310: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:21606): xfce4-power-manager-WARNING **: 17:14:21.310: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xiccd:21740): CRITICAL **: 17:14:21.341: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:14:21.349: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:21773): ERROR **: 17:14:21.415: session_id is not set, is /proc mounted with hidepid>0?
+
+Sun Mar 16 17:14:21 2025
+ Connections: accepted: 127.0.0.1::35846
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:14:21.606: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:14:21.731: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:21897): polkit-gnome-1-WARNING **: 17:14:21.744: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+Xfce Power Manager: Another power manager is already running
+
+Sun Mar 16 17:14:22 2025
+ ComparingUpdateTracker: 2.304 Mpixels in / 2.304 Mpixels out
+ ComparingUpdateTracker: (1:1 ratio)
+/usr/bin/pkcs11-register: option '--skip-chrome' doesn't allow an argument
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:14:22.288: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:14:22.294: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:14:22.300: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(polkit-mate-authentication-agent-1:21943): polkit-mate-1-WARNING **: 17:14:22.681: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Another notification daemon is running, exiting
+
+(nm-applet:21905): nm-applet-WARNING **: 17:14:22.811: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:21905): nm-applet-WARNING **: 17:14:22.812: Could not connect: No such file or directory
+
+(nm-applet:21905): nm-CRITICAL **: 17:14:22.831: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:21905): nm-CRITICAL **: 17:14:22.831: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:21905): nm-CRITICAL **: 17:14:22.857: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+** (xfdesktop:21504): WARNING **: 17:14:23.862: Failed to get system bus: Could not connect: No such file or directory
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:15:09.017: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:15:09.026: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:21388): xfce4-session-WARNING **: 17:15:09.036: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+
+(xfce4-power-manager:21606): GLib-GObject-CRITICAL **: 17:15:12.694: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+[GFX1-]: Detect DeviceReset DeviceResetReason::FORCED_RESET DeviceResetDetectPlace::WR_SIMULATE in Parent process
+The X session cleanly exited!
+Killing Xtigervnc process ID 21373...
+Sun Mar 16 17:15:13 2025
+ VNCSConnST:  closing 127.0.0.1::35846: Server shutdown
+ EncodeManager: Framebuffer updates: 959
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 482 rects, 7.53245 Mpixels
+ EncodeManager:            7.53125 KiB (1:3907.62 ratio)
+ EncodeManager:     Bitmap RLE: 539 rects, 2.05041 Mpixels
+ EncodeManager:                 19.2041 KiB (1:417.397 ratio)
+ EncodeManager:     Indexed RLE: 1.954 krects, 4.17747 Mpixels
+ EncodeManager:                  250.769 KiB (1:65.1642 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 578 rects, 12.5589 Mpixels
+ EncodeManager:                  3.20439 MiB (1:14.953 ratio)
+ EncodeManager:   Total: 3.553 krects, 26.3193 Mpixels
+ EncodeManager:          3.47539 MiB (1:28.9006 ratio)
+ ComparingUpdateTracker: 372.13 Mpixels in / 19.0637 Mpixels out
+ ComparingUpdateTracker: (1:19.5204 ratio)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Mon Mar 17 18:53:54 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+[mi] mieq: warning: overriding existing handler (nil) with 0x555e99319e50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x555e99319e50 for event 3
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.KaPHFt/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+dbus[26516]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+
+(xfce4-session:26500): libxfce4util-WARNING **: 18:53:55.589: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+** Message: 18:53:55.599: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 18:53:55.599: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 18:53:55.599: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 18:53:55.599: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+** Message: 18:53:55.923: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+(xfsettingsd:26588): xfsettingsd-WARNING **: 18:53:56.395: Unknown mode '1600x900 @ 60.0' for output VNC-0, aborting.
+
+Mon Mar 17 18:53:56 2025
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(Thunar:26605): GVFS-RemoteVolumeMonitor-WARNING **: 18:53:56.590: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:26664): xfce4-power-manager-WARNING **: 18:53:56.937: Display is not DPMS capable
+
+(xfce4-power-manager:26664): GLib-GIO-CRITICAL **: 18:53:56.938: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':1'
+
+(xfce4-power-manager:26664): libupower-glib-WARNING **: 18:53:57.221: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:26664): libxfce4util-WARNING **: 18:53:57.231: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:26664): xfce4-power-manager-CRITICAL **: 18:53:57.231: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:26664): xfce4-power-manager-CRITICAL **: 18:53:57.231: Unable to connect to the system bus : Could not connect: No such file or directory
+
+** (xfce4-power-manager:26664): WARNING **: 18:53:57.260: Unable to get the interface, net.hadess.PowerProfiles : Could not connect: No such file or directory
+
+(xfdesktop:26611): GVFS-RemoteVolumeMonitor-WARNING **: 18:53:57.318: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+** (xfpm-power-backlight-helper:26741): WARNING **: 18:53:57.343: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:26664): xfce4-power-manager-CRITICAL **: 18:53:57.344: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:26664): xfce4-power-manager-WARNING **: 18:53:57.344: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xiccd:26757): CRITICAL **: 18:53:57.535: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:53:57.580: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:26776): ERROR **: 18:53:57.762: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:53:58.121: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:26844): polkit-gnome-1-WARNING **: 18:53:58.237: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:53:58.265: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+/usr/bin/pkcs11-register: option '--skip-chrome' doesn't allow an argument
+Xfce Power Manager: Another power manager is already running
+
+(polkit-mate-authentication-agent-1:26877): polkit-mate-1-WARNING **: 18:53:58.920: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Another notification daemon is running, exiting
+
+(nm-applet:26849): nm-applet-WARNING **: 18:53:59.209: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:26849): nm-applet-WARNING **: 18:53:59.210: Could not connect: No such file or directory
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:53:59.222: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:53:59.237: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:53:59.247: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(nm-applet:26849): nm-CRITICAL **: 18:53:59.255: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:26849): nm-CRITICAL **: 18:53:59.255: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:26849): nm-CRITICAL **: 18:53:59.296: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+Mon Mar 17 18:54:00 2025
+ Connections: accepted: 127.0.0.1::57588
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+** (xfdesktop:26611): WARNING **: 18:54:01.169: Failed to get system bus: Could not connect: No such file or directory
+
+** (xfdesktop:26611): WARNING **: 18:54:01.283: Failed to get system bus: Could not connect: No such file or directory
+
+** (xfdesktop:26611): WARNING **: 18:54:02.498: Failed to get system bus: Could not connect: No such file or directory
+[28044:28069:0317/185433.979695:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28083:0317/185434.085647:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28083:0317/185434.086733:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28320:0317/185444.547248:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28320:0317/185444.547350:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28320:0317/185444.547441:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28320:0317/185444.547481:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28320:0317/185444.547538:ERROR:bus.cc(407)] Failed to connect to the bus: Failed to connect to socket /run/dbus/system_bus_socket: No such file or directory
+[28044:28044:0317/185444.842223:ERROR:atom_cache.cc(229)] Add WM_CHANGE_STATE to kAtomsToCache
+[28044:28044:0317/185445.915347:ERROR:CONSOLE(242)] "<webview>: Script cannot be injected into content until the page has loaded.", source: extensions::webView (242)
+[28044:28044:0317/185446.549898:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[28044:28044:0317/185446.549980:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[28044:28044:0317/185446.790145:ERROR:sharing_service.cc(296)] Device registration failed with fatal error
+[28044:28044:0317/185449.086975:ERROR:CONSOLE(242)] "<webview>: Script cannot be injected into content until the page has loaded.", source: extensions::webView (242)
+[28044:28044:0317/185449.202139:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[28044:28044:0317/185449.528054:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[28044:28044:0317/185449.539467:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[28044:28044:0317/185450.336070:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[28044:28044:0317/185450.498067:ERROR:CONSOLE(0)] "Uncaught (in promise) Error: Could not find guest", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/window.html (0)
+[28044:28044:0317/185519.025247:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[28044:28044:0317/185519.025436:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[28044:28044:0317/185519.025472:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[28044:28044:0317/185523.971507:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[28044:28044:0317/185523.971752:ERROR:CONSOLE(0)] "Unchecked runtime.lastError: Icon not found", source: chrome-extension://mpognobbkildjkofajifpdfhcoklimli/main.html (0)
+[28044:28044:0317/185557.784983:ERROR:CONSOLE(242)] "<webview>: Script cannot be injected into content until the page has loaded.", source: extensions::webView (242)
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:59:06.000: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:59:06.004: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:26500): xfce4-session-WARNING **: 18:59:06.009: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+
+(xfce4-power-manager:26664): GLib-GObject-CRITICAL **: 18:59:07.412: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+[GFX1-]: Detect DeviceReset DeviceResetReason::FORCED_RESET DeviceResetDetectPlace::WR_SIMULATE in Parent process
+The X session cleanly exited!
+Killing Xtigervnc process ID 26496...
+Mon Mar 17 18:59:08 2025
+ VNCSConnST:  closing 127.0.0.1::57588: Server shutdown
+ EncodeManager: Framebuffer updates: 5645
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 9.536 krects, 13.0889 Mpixels
+ EncodeManager:            149 KiB (1:343.895 ratio)
+ EncodeManager:     Bitmap RLE: 4.757 krects, 9.92695 Mpixels
+ EncodeManager:                 156.55 KiB (1:248.054 ratio)
+ EncodeManager:     Indexed RLE: 18.038 krects, 38.4606 Mpixels
+ EncodeManager:                  2.74529 MiB (1:53.5179 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 9.382 krects, 113.561 Mpixels
+ EncodeManager:                  45.6635 MiB (1:9.48915 ratio)
+ EncodeManager:   Total: 41.713 krects, 175.037 Mpixels
+ EncodeManager:          48.7072 MiB (1:13.7186 ratio)
+ ComparingUpdateTracker: 2.50658 Gpixels in / 160.221 Mpixels out
+ ComparingUpdateTracker: (1:15.6445 ratio)
+[28093:28137:0317/185908.277882:ERROR:connection.cc(63)] X connection error received.
+[28093:28093:0317/185908.277975:ERROR:connection.cc(63)] X connection error received.
+[28044:28069:0317/185908.287205:FATAL:bus.cc(1246)] D-Bus connection was disconnected. Aborting.
+[28044:28067:0317/185908.287426:FATAL:bus.cc(1246)] D-Bus connection was disconnected. Aborting.
+[0317/185908.298155:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[0317/185908.298587:ERROR:elf_dynamic_array_reader.h(64)] tag not found
+[0317/185908.312825:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq: No such file or directory (2)
+[0317/185908.312898:ERROR:file_io_posix.cc(145)] open /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq: No such file or directory (2)
+ success!
+_XSERVTransmkdir: Mode of /tmp/.X11-unix should be set to 1777
+
+Xvnc TigerVNC 1.14.1 - built 2024-11-10 17:57
+Copyright (C) 1999-2024 TigerVNC Team and many others (see README.rst)
+See https://www.tigervnc.org for information on TigerVNC.
+Underlying X server release 12101014
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+libEGL warning: failed to open /dev/dri/card0: Permission denied
+
+
+Mon Mar 17 19:01:37 2025
+ vncext:      VNC extension running!
+ vncext:      Listening for VNC connections on all interface(s), port 5901
+ vncext:      created VNC server for screen 0
+3NI3X0 New Xtigervnc server 'LAPTOP-JEMO4.:1 (jemo)' on port 5901 for display :1.
+3NI3X0 Use xtigervncviewer -SecurityTypes VeNCrypt,TLSVnc -passwd /tmp/tigervnc.9jRFpo/passwd LAPTOP-JEMO4.:1 to connect to the VNC server.
+/usr/bin/startxfce4: X server already running on display :1
+[mi] mieq: warning: overriding existing handler (nil) with 0x56098639ce50 for event 2
+[mi] mieq: warning: overriding existing handler (nil) with 0x56098639ce50 for event 3
+dbus[340]: Unable to set up transient service directory: XDG_RUNTIME_DIR "/mnt/wslg/runtime-dir" can be written by others (mode 040777)
+
+(xfce4-session:32752): libxfce4util-WARNING **: 19:01:38.249: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+** Message: 19:01:38.261: Failed to fetch _NET_NUMBER_OF_DESKTOPS; assuming 1
+** Message: 19:01:38.261: Failed to get _NET_WORKAREA; using full screen dimensions
+** Message: 19:01:38.261: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+** Message: 19:01:38.262: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+_IceTransmkdir: Owner of /tmp/.ICE-unix should be set to root
+** Message: 19:01:38.485: Failed to fetch _NET_CURRENT_DESKTOP; assuming 0
+
+(xfsettingsd:541): xfsettingsd-WARNING **: 19:01:38.881: Unknown mode '1600x900 @ 60.0' for output VNC-0, aborting.
+
+Mon Mar 17 19:01:38 2025
+ ComparingUpdateTracker: 0 pixels in / 0 pixels out
+ ComparingUpdateTracker: (1:-nan ratio)
+
+(Thunar:590): GVFS-RemoteVolumeMonitor-WARNING **: 19:01:39.061: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+QStandardPaths: wrong permissions on runtime directory /mnt/wslg/runtime-dir, 0777 instead of 0700
+Xfce power manager is not running
+Xlib:  extension "DPMS" missing on display ":1".
+
+(xfce4-power-manager:661): xfce4-power-manager-WARNING **: 19:01:39.512: Display is not DPMS capable
+
+(xfce4-power-manager:661): GLib-GIO-CRITICAL **: 19:01:39.513: g_dbus_connection_signal_subscribe: assertion 'G_IS_DBUS_CONNECTION (connection)' failed
+Error: Failed to open Wayland display, fallback to X11. WAYLAND_DISPLAY='wayland-0' DISPLAY=':1'
+
+(xfdesktop:605): GVFS-RemoteVolumeMonitor-WARNING **: 19:01:39.611: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-power-manager:661): libupower-glib-WARNING **: 19:01:39.664: Couldn't connect to proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:661): libxfce4util-WARNING **: 19:01:39.672: Failed to get a ConsoleKit proxy: Could not connect: No such file or directory
+
+(xfce4-power-manager:661): xfce4-power-manager-CRITICAL **: 19:01:39.672: Error getting system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:661): xfce4-power-manager-CRITICAL **: 19:01:39.672: Unable to connect to the system bus : Could not connect: No such file or directory
+
+** (xfce4-power-manager:661): WARNING **: 19:01:39.673: Unable to get the interface, net.hadess.PowerProfiles : Could not connect: No such file or directory
+
+** (xfpm-power-backlight-helper:738): WARNING **: 19:01:39.688: failed to find any devices: Error opening directory ?/sys/class/backlight?: No such file or directory
+
+(xfce4-power-manager:661): xfce4-power-manager-CRITICAL **: 19:01:39.689: Unable to get system bus connection : Could not connect: No such file or directory
+
+(xfce4-power-manager:661): xfce4-power-manager-WARNING **: 19:01:39.689: Unable connect to system bus: Could not connect: No such file or directory
+
+** (xiccd:740): CRITICAL **: 19:01:39.710: Failed to connect to colord: Could not connect: No such file or directory
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:01:39.711: Unable to launch "/usr/share/kali-defaults/setup-noautomount" (specified by autostart/kali-noautomount.desktop): Failed to execute child process “/usr/share/kali-defaults/setup-noautomount” (No such file or directory)
+
+** (light-locker:754): ERROR **: 19:01:39.769: session_id is not set, is /proc mounted with hidepid>0?
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:01:39.953: Unable to launch "start-pulseaudio-x11" (specified by autostart/pulseaudio.desktop): Failed to execute child process “start-pulseaudio-x11” (No such file or directory)
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:01:39.997: Unable to launch "/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh" (specified by autostart/pulseaudio-xrdp.desktop): Failed to execute child process “/usr/libexec/pulseaudio-module-xrdp/load_pa_modules.sh” (No such file or directory)
+
+(polkit-gnome-authentication-agent-1:799): polkit-gnome-1-WARNING **: 19:01:40.013: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Xfce Power Manager: Another power manager is already running
+
+(polkit-mate-authentication-agent-1:811): polkit-mate-1-WARNING **: 19:01:40.105: Error getting authority: Error initializing authority: Could not connect: No such file or directory
+Another notification daemon is running, exiting
+Another notification daemon is running, exiting
+/usr/bin/pkcs11-register: option '--skip-chrome' doesn't allow an argument
+
+(nm-applet:800): nm-applet-WARNING **: 19:01:40.373: Error connecting to system D-Bus: Could not connect: No such file or directory
+
+(nm-applet:800): nm-applet-WARNING **: 19:01:40.373: Could not connect: No such file or directory
+
+(nm-applet:800): Gdk-CRITICAL **: 19:01:40.511: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+(nm-applet:800): nm-CRITICAL **: 19:01:40.527: ((src/libnm-client-impl/nm-client.c:4114)): assertion '<dropped>' failed
+
+(nm-applet:800): nm-CRITICAL **: 19:01:40.527: ((src/libnm-client-impl/nm-client.c:4065)): assertion '<dropped>' failed
+
+(nm-applet:800): nm-CRITICAL **: 19:01:40.553: ((src/libnm-client-impl/nm-client.c:4945)): assertion '<dropped>' failed
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:01:40.650: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:01:40.654: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:01:40.658: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+Traceback (most recent call last):
+  File "/usr/bin/blueman-applet", line 39, in <module>
+    app = BluemanApplet()
+          ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/main/Applet.py", line 42, in __init__
+    self.Manager = Manager()
+                   ^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/gobject.py", line 11, in __call__
+    cls._instance = super().__call__(*args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/blueman/bluez/Manager.py", line 30, in __init__
+    self._object_manager = Gio.DBusObjectManagerClient.new_for_bus_sync(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+gi.repository.GLib.GError: g-io-error-quark: Could not connect: No such file or directory (1)
+
+** (xfdesktop:605): WARNING **: 19:01:41.417: Failed to get system bus: Could not connect: No such file or directory
+
+Mon Mar 17 19:01:42 2025
+ Connections: accepted: 127.0.0.1::42304
+ SConnection: Client needs protocol version 3.8
+ SConnection: Client requests security type VeNCrypt(19)
+ SVeNCrypt:   Client requests security type TLSVnc (258)
+ VNCSConnST:  Server default pixel format depth 24 (32bpp) little-endian rgb888
+ ComparingUpdateTracker: 6.8586 Mpixels in / 2.40563 Mpixels out
+ ComparingUpdateTracker: (1:2.85106 ratio)
+
+** (xfdesktop:605): WARNING **: 19:01:42.908: Failed to get system bus: Could not connect: No such file or directory
+
+** (xfdesktop:605): WARNING **: 19:01:44.028: Failed to get system bus: Could not connect: No such file or directory
+[Parent 662, Main Thread] WARNING: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported: 'glib warning', file ./toolkit/xre/nsSigHandlers.cpp:187
+
+(firefox-esr:662): GVFS-RemoteVolumeMonitor-WARNING **: 19:03:19.259: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:07:46.136: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:07:46.139: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+
+(xfce4-session:32752): xfce4-session-WARNING **: 19:07:46.141: failed to run script: Failed to execute child process “/usr/bin/pm-is-supported” (No such file or directory)
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+
+(xfce4-power-manager:661): GLib-GObject-CRITICAL **: 19:07:47.548: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+[GFX1-]: Detect DeviceReset DeviceResetReason::FORCED_RESET DeviceResetDetectPlace::WR_SIMULATE in Parent process
+virtual KPtyProcess::~KPtyProcess() the terminal process is still running, trying to stop it by SIGHUP
+The X session cleanly exited!
+Killing Xtigervnc process ID 32721...
+Mon Mar 17 19:07:48 2025
+ VNCSConnST:  closing 127.0.0.1::42304: Server shutdown
+ EncodeManager: Framebuffer updates: 6480
+ EncodeManager:   Tight:
+ EncodeManager:     Solid: 9.927 krects, 20.583 Mpixels
+ EncodeManager:            155.109 KiB (1:519.11 ratio)
+ EncodeManager:     Bitmap RLE: 6.569 krects, 10.5636 Mpixels
+ EncodeManager:                 214.343 KiB (1:192.873 ratio)
+ EncodeManager:     Indexed RLE: 20.011 krects, 52.5248 Mpixels
+ EncodeManager:                  3.09325 MiB (1:64.8493 ratio)
+ EncodeManager:   Tight (JPEG):
+ EncodeManager:     Full Colour: 10.199 krects, 167.517 Mpixels
+ EncodeManager:                  56.7756 MiB (1:11.2573 ratio)
+ EncodeManager:   Total: 46.706 krects, 251.188 Mpixels
+ EncodeManager:          60.2297 MiB (1:15.9181 ratio)
+ ComparingUpdateTracker: 2.51785 Gpixels in / 241.895 Mpixels out
+ ComparingUpdateTracker: (1:10.4088 ratio)
+ success!
