@@ -22,7 +22,7 @@ local is_termux = vim.fn.isdirectory("/data/data/com.termux") == 1
 require("lazy").setup({
     -- Core plugins
     { 'nvim-lua/plenary.nvim' },
-    { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',                                        dependencies = { 'nvim-lua/plenary.nvim' } },
+    { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',       dependencies = { 'nvim-lua/plenary.nvim' } },
     { 'nvim-treesitter/nvim-treesitter',             build = ':TSUpdate' },
     { 'neovim/nvim-lspconfig' },
     { 'hrsh7th/nvim-cmp' },
@@ -45,10 +45,27 @@ require("lazy").setup({
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
     { "mattn/emmet-vim" },
+    {
+        "neovim/nvim-lspconfig",
+        config = function()
+            local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
+            vim.lsp.config('*', {
+                capabilities = capabilities,
+            })
+            vim.lsp.config['dartls'] = {
+                cmd = { "dart", "language-server", "--protocol=lsp" },
+            }
+            vim.lsp.enable("dartls")
+            vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
+            vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
+            vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
+        end,
+    },
 
     -- UI & Theme
-    { "catppuccin/nvim",                             name = "catppuccin",                                  priority = 1000 },
-    { 'nvim-lualine/lualine.nvim',                   dependencies = { 'linux-cultist/venv-selector.nvim' } },
+    { "catppuccin/nvim",           name = "catppuccin",                                  priority = 1000 },
+    { 'nvim-lualine/lualine.nvim', dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
         dependencies = { "nvim-tree/nvim-web-devicons", "neovim/nvim-lspconfig" },
