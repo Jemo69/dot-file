@@ -1,2 +1,5 @@
 project-sledgehammer
 tpm
+.config/github-copilot/apps.json
+.config/gh/hosts.yml
+.config/stripe/config.toml
