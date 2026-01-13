@@ -1,0 +1,418 @@
+2025-09-04 18:07:50,285 DEBUG    root            Metrics collector initialized...
+2025-09-04 18:07:50,304 DEBUG    root            Loaded Command Group: ['gcloud', 'components']
+2025-09-04 18:07:50,317 DEBUG    root            Loaded Command Group: ['gcloud', 'components', 'update']
+2025-09-04 18:07:50,322 DEBUG    root            Running [gcloud.components.update] with arguments: [--compile-python: "True", --quiet: "True", COMPONENT-IDS:6: "['core', 'gcloud-deps', 'bq', 'gcloud', 'gcloud-crc32c', 'gsutil']"]
+2025-09-04 18:07:50,324 INFO     ___FILE_ONLY___ Beginning update. This process may take several minutes.
+
+2025-09-04 18:07:50,438 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-09-04 18:07:51,008 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components-2.json HTTP/11" 200 233150
+2025-09-04 18:07:53,461 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,463 INFO     ___FILE_ONLY___ 
+Your current Google Cloud CLI version is: 537.0.0
+
+2025-09-04 18:07:53,463 INFO     ___FILE_ONLY___ Installing components from version: 537.0.0
+
+2025-09-04 18:07:53,464 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,465 DEBUG    root            Chosen display Format:table[box,title="These components will be removed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2025-09-04 18:07:53,466 DEBUG    root            Chosen display Format:table[box,title="These components will be updated."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2025-09-04 18:07:53,467 DEBUG    root            Chosen display Format:table[box,title="These components will be installed."](details.display_name:label=Name:align=left,version.version_string:label=Version:align=right,data.size.size(zero="",min=1048576):label=Size:align=right)
+2025-09-04 18:07:53,566 INFO     ___FILE_ONLY___ ┌─────────────────────────────────────────────────────────────────────────────┐
+2025-09-04 18:07:53,567 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,567 INFO     ___FILE_ONLY___ │                     These components will be installed.                     │
+2025-09-04 18:07:53,567 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,568 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┬────────────┬──────────┤
+2025-09-04 18:07:53,568 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,568 INFO     ___FILE_ONLY___ │                         Name                        │  Version   │   Size   │
+2025-09-04 18:07:53,568 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,568 INFO     ___FILE_ONLY___ ├─────────────────────────────────────────────────────┼────────────┼──────────┤
+2025-09-04 18:07:53,569 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,569 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,569 INFO     ___FILE_ONLY___ BigQuery Command Line Tool                         
+2025-09-04 18:07:53,569 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,569 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,569 INFO     ___FILE_ONLY___     2.1.22
+2025-09-04 18:07:53,570 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,570 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,570 INFO     ___FILE_ONLY___  1.8 MiB
+2025-09-04 18:07:53,570 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,570 INFO     ___FILE_ONLY___ │
+2025-09-04 18:07:53,571 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,571 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,571 INFO     ___FILE_ONLY___ BigQuery Command Line Tool (Platform Specific)     
+2025-09-04 18:07:53,571 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,571 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,572 INFO     ___FILE_ONLY___     2.1.17
+2025-09-04 18:07:53,572 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,572 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,572 INFO     ___FILE_ONLY___  < 1 MiB
+2025-09-04 18:07:53,572 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,572 INFO     ___FILE_ONLY___ │
+2025-09-04 18:07:53,572 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,573 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,573 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool                    
+2025-09-04 18:07:53,573 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,573 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,573 INFO     ___FILE_ONLY___       5.35
+2025-09-04 18:07:53,573 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,574 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,574 INFO     ___FILE_ONLY___ 12.4 MiB
+2025-09-04 18:07:53,574 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,574 INFO     ___FILE_ONLY___ │
+2025-09-04 18:07:53,574 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,575 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,575 INFO     ___FILE_ONLY___ Cloud Storage Command Line Tool (Platform Specific)
+2025-09-04 18:07:53,575 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,575 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,575 INFO     ___FILE_ONLY___       5.34
+2025-09-04 18:07:53,575 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,576 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,576 INFO     ___FILE_ONLY___  < 1 MiB
+2025-09-04 18:07:53,576 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,576 INFO     ___FILE_ONLY___ │
+2025-09-04 18:07:53,576 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,576 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,576 INFO     ___FILE_ONLY___ Google Cloud CLI Core Libraries (Platform Specific)
+2025-09-04 18:07:53,577 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,577 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,577 INFO     ___FILE_ONLY___ 2025.05.23
+2025-09-04 18:07:53,577 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,577 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,577 INFO     ___FILE_ONLY___  < 1 MiB
+2025-09-04 18:07:53,578 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,578 INFO     ___FILE_ONLY___ │
+2025-09-04 18:07:53,578 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,578 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,578 INFO     ___FILE_ONLY___ Google Cloud CRC32C Hash Tool (Platform Specific)  
+2025-09-04 18:07:53,578 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,579 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,579 INFO     ___FILE_ONLY___      1.0.0
+2025-09-04 18:07:53,579 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,579 INFO     ___FILE_ONLY___ │ 
+2025-09-04 18:07:53,579 INFO     ___FILE_ONLY___  1.4 MiB
+2025-09-04 18:07:53,580 INFO     ___FILE_ONLY___  
+2025-09-04 18:07:53,580 INFO     ___FILE_ONLY___ │
+2025-09-04 18:07:53,580 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,580 INFO     ___FILE_ONLY___ └─────────────────────────────────────────────────────┴────────────┴──────────┘
+2025-09-04 18:07:53,580 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,580 INFO     ___FILE_ONLY___ 
+
+2025-09-04 18:07:53,588 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-09-04 18:07:54,607 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/RELEASE_NOTES HTTP/11" 200 1475962
+2025-09-04 18:08:16,076 INFO     ___FILE_ONLY___ For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+
+2025-09-04 18:08:16,078 INFO     ___FILE_ONLY___ Performing in place update...
+
+
+2025-09-04 18:08:16,079 INFO     ___FILE_ONLY___ ╔════════════════════════════════════════════════════════════╗
+
+2025-09-04 18:08:16,079 INFO     ___FILE_ONLY___ ╠═ Downloading: BigQuery Command Line Tool                  ═╣
+
+2025-09-04 18:08:16,079 INFO     ___FILE_ONLY___ ╚
+2025-09-04 18:08:16,087 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-09-04 18:08:16,829 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-bq-20250829143545.tar.gz HTTP/11" 200 1856368
+2025-09-04 18:08:42,733 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,735 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,736 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,737 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,739 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,740 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,741 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,742 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,743 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,744 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,744 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,745 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,746 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,747 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,748 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,748 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,749 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,750 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,750 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,751 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,752 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,752 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,753 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,753 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,754 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,755 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,755 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,756 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,756 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,757 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,757 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,758 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,759 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,760 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,760 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,761 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,761 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,762 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,762 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,764 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,765 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,766 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,767 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,767 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,768 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,769 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,769 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,770 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,771 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,771 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,772 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,772 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,773 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,773 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,774 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,775 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,776 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,777 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,778 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,778 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:08:42,779 INFO     ___FILE_ONLY___ ╝
+2025-09-04 18:08:42,781 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2025-09-04 18:08:42,782 INFO     ___FILE_ONLY___ ╠═ Downloading: BigQuery Command Line Tool (Platform Spe... ═╣
+
+2025-09-04 18:08:42,783 INFO     ___FILE_ONLY___ ╚
+2025-09-04 18:08:42,795 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-09-04 18:08:43,411 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-bq-nix-20250523104322.tar.gz HTTP/11" 200 1935
+2025-09-04 18:08:43,416 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-09-04 18:08:43,417 INFO     ___FILE_ONLY___ ╝
+2025-09-04 18:08:43,419 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2025-09-04 18:08:43,419 INFO     ___FILE_ONLY___ ╠═ Downloading: Cloud Storage Command Line Tool             ═╣
+
+2025-09-04 18:08:43,420 INFO     ___FILE_ONLY___ ╚
+2025-09-04 18:08:43,434 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-09-04 18:08:44,319 DEBUG    urllib3.connectionpool https://dl.google.com:443 "GET /dl/cloudsdk/channels/rapid/components/google-cloud-sdk-gsutil-20250627154417.tar.gz HTTP/11" 200 12962791
+2025-09-04 18:12:46,529 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,535 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,536 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,537 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,538 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,538 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,539 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,540 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,541 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,541 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,542 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,543 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,544 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,544 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,545 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,545 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,546 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,547 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,547 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,548 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,548 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,549 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,550 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,550 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,551 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,552 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,552 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,553 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,553 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,554 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,555 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,555 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,556 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,556 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,557 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,558 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,558 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,559 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,559 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,560 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,561 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,561 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,562 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,562 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,563 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,564 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,564 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,565 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,565 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,566 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,566 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,567 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,568 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,568 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,569 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,569 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,570 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,571 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,571 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,572 INFO     ___FILE_ONLY___ ═
+2025-09-04 18:12:46,572 INFO     ___FILE_ONLY___ ╝
+2025-09-04 18:12:46,585 INFO     ___FILE_ONLY___ ╠════════════════════════════════════════════════════════════╣
+
+2025-09-04 18:12:46,585 INFO     ___FILE_ONLY___ ╠═ Downloading: Cloud Storage Command Line Tool (Platfor... ═╣
+
+2025-09-04 18:12:46,586 INFO     ___FILE_ONLY___ ╚
+2025-09-04 18:12:46,637 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): dl.google.com:443
+2025-09-04 18:13:10,391 INFO     ___FILE_ONLY___ ════════════════════════════════════════════════════════════
+2025-09-04 18:13:10,392 INFO     ___FILE_ONLY___ ╝
+2025-09-04 18:13:10,416 DEBUG    root            (gcloud.components.update) The component [gsutil-nix] failed to download.
+
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/connection.py", line 467, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/util/retry.py", line 475, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/util/util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/urllib3/connection.py", line 467, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 1430, in getresponse
+    response.begin()
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.12/http/client.py", line 300, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 228, in DownloadTar
+    response = MakeRequest(url, command_path)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 115, in MakeRequest
+    return _RawRequest(url, headers=headers, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 163, in _RawRequest
+    return retryer.RetryOnException(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/util/retry.py", line 201, in RetryOnException
+    exceptions.reraise(exc_info[1], tb=exc_info[2])
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/exceptions.py", line 149, in reraise
+    six.reraise(type(exc_value), exc_value, tb)
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/six/__init__.py", line 719, in reraise
+    raise value
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/util/retry.py", line 182, in TryFunc
+    return func(*args, **kwargs), None
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 196, in _ExecuteRequestAndRaiseExceptions
+    response = requests_session.get(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/transport.py", line 280, in WrappedRequest
+    response = orig_request(*modified_args, **modified_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/requests.py", line 280, in WrappedRequest
+    return orig_request_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/third_party/requests/adapters.py", line 682, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 395, in _DownloadTar
+    return DownloadTar(
+           ^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 238, in DownloadTar
+    raise URLFetchError(e)
+googlecloudsdk.core.updater.installers.URLFetchError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 987, in Execute
+    resources = calliope_command.Run(cli=self, args=args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 946, in Run
+    resources = command_instance.Run(args)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/surface/components/update.py", line 119, in Run
+    update_manager.Update(args.component_ids, version=args.version)
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/update_manager.py", line 1067, in Update
+    downloads_map = self._UpdateWithProgressBar(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/update_manager.py", line 909, in _UpdateWithProgressBar
+    result = action_func(component.id, progress_callback=pb.SetProgress)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/update_manager.py", line 916, in Inner
+    return install_state.Download(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/local_state.py", line 104, in _TryFunc
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/local_state.py", line 465, in Download
+    downloaded_archive = self._component_installer.Download(
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 333, in Download
+    return self._DownloadTar(
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/n/google-cloud-sdk/lib/googlecloudsdk/core/updater/installers.py", line 399, in _DownloadTar
+    raise ComponentDownloadFailedError(component.id, e)
+googlecloudsdk.core.updater.installers.ComponentDownloadFailedError: The component [gsutil-nix] failed to download.
+
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-09-04 18:13:10,488 ERROR    root            (gcloud.components.update) The component [gsutil-nix] failed to download.
+
+('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
