@@ -64,7 +64,9 @@ require("lazy").setup({
     },
 
     -- UI & Theme
-    { "catppuccin/nvim",           name = "catppuccin",                                  priority = 1000 },
+    --
+    { 'Jemo69/money_gazer_nvim',   lazy = false,                                         priority = 1000 },
+    -- { "catppuccin/nvim",           name = "catppuccin",                                  priority = 1000 },
     { 'nvim-lualine/lualine.nvim', dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
@@ -208,7 +210,7 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 vim.opt.background = "dark"
-vim.opt.showmode = false
+vim.opt.showmode = true
 vim.opt.signcolumn = "yes"
 vim.opt.clipboard = "unnamedplus"
 vim.opt.tabstop = 4
@@ -501,8 +503,8 @@ end)
 vim.api.nvim_create_autocmd("ColorScheme", {
     pattern = "*",
     callback = function()
-        if vim.o.background == "dark" and vim.g.colors_name ~= "catppuccin" then
-            vim.cmd.colorscheme "catppuccin"
+        if vim.o.background == "dark" and vim.g.colors_name ~= "money_gazer_nvim" then
+            vim.cmd.colorscheme "money_gazer_nvim"
         end
     end,
 })
@@ -511,6 +513,10 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 -- This might be redundant with the above, but good for initial load.
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
-        pcall(vim.cmd.colorscheme, "catppuccin")
+        pcall(vim.cmd.colorscheme, "money_gazer_nvim")
     end,
+})
+-- enable virtual text
+vim.diagnostic.config({
+    virtual_text = true,
 })

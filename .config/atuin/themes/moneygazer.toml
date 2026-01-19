@@ -1,0 +1,11 @@
+[theme]
+name = "moneygazer"
+[colors]
+AlertInfo = "#40a02b"
+AlertWarn = "#fe640b"
+AlertError = "#d20f39"
+Annotation = "#fdc468"
+Base = "#060b13"
+Guidance = "#8a12ed"
+Important = "#fc9d03"
+Title = "#fc9d03"

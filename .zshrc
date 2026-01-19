@@ -24,6 +24,9 @@ export PATH="$(nvm_path):$PATH"
 eval "$(ssh-agent -s)" ssh-add ~/.ssh/jemo
 ssh -T git@github.com
 clear
+autoload -z edit-command-line
+zle -N edit-command-line
+bindkey "^X^E" edit-command-line
 
 
 
