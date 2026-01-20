@@ -9,6 +9,9 @@ autoload -Uz compinit
 compinit                                
 set -o vi
 
+autoload -z edit-command-line
+zle -N edit-command-line
+bindkey "^X" edit-command-line
 
 plugins=(git)
 
@@ -24,9 +27,6 @@ export PATH="$(nvm_path):$PATH"
 eval "$(ssh-agent -s)" ssh-add ~/.ssh/jemo
 ssh -T git@github.com
 clear
-autoload -z edit-command-line
-zle -N edit-command-line
-bindkey "^X^E" edit-command-line
 
 
 
@@ -38,6 +38,7 @@ alias cls="clear"
 alias n="nvim"
 alias ls="eza"
 alias open='explorer.exe .'
+alias oc="opencode"
 # git aliases
 alias gs='git stash'
 alias gsp='git stash pop'
