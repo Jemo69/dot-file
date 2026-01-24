@@ -65,6 +65,12 @@ require("lazy").setup({
 
     -- UI & Theme
     --
+    {
+        "razak17/tailwind-fold.nvim",
+        opts = {},
+        dependencies = { "nvim-treesitter/nvim-treesitter" },
+        ft = { "html", "svelte", "astro", "vue", "typescriptreact" },
+    },
     { 'Jemo69/money_gazer_nvim',   lazy = false,                                         priority = 1000 },
     -- { "catppuccin/nvim",           name = "catppuccin",                                  priority = 1000 },
     { 'nvim-lualine/lualine.nvim', dependencies = { 'linux-cultist/venv-selector.nvim' } },
