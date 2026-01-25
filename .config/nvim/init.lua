@@ -265,6 +265,7 @@ vim.keymap.set('v', '<leader>cs', '<cmd>CodeSnap<cr>', { desc = 'Code snap' })
 vim.keymap.set('n', '<leader>m', ':MarkdownPreviewToggle<CR>', { desc = 'Toggle markdown preview' })
 vim.keymap.set('n', '<leader>t', ':TodoTrouble<CR>', { desc = 'Todo (Trouble)' })
 vim.keymap.set('n', '<leader>nl', ':nohl<CR>')
+vim.keymap.set('n', '<leader>v', ':VenvSelect<CR>')
 
 -- VSCode-like keybindings
 vim.keymap.set('n', '<C-s>', ':w<CR>', { desc = 'Save file' })
@@ -447,7 +448,7 @@ pcall(function()
     require('lualine').setup {
         options = {
             icons_enabled = true,
-            theme = 'auto',
+            theme = 'moneygazer',
             component_separators = { left = '', right = '' },
             section_separators = { left = '', right = '' },
             disabled_filetypes = { statusline = { "NvimTree", "dashboard", "noice" }, winbar = {} },
@@ -508,8 +509,8 @@ end)
 vim.api.nvim_create_autocmd("ColorScheme", {
     pattern = "*",
     callback = function()
-        if vim.o.background == "dark" and vim.g.colors_name ~= "money_gazer_nvim" then
-            vim.cmd.colorscheme "money_gazer_nvim"
+        if vim.o.background == "dark" and vim.g.colors_name ~= "moneygazer" then
+            vim.cmd.colorscheme "moneygazer"
         end
     end,
 })
@@ -518,7 +519,7 @@ vim.api.nvim_create_autocmd("ColorScheme", {
 -- This might be redundant with the above, but good for initial load.
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
-        pcall(vim.cmd.colorscheme, "money_gazer_nvim")
+        pcall(vim.cmd.colorscheme, "moneygazer")
     end,
 })
 -- enable virtual text
