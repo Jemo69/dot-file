@@ -12,45 +12,60 @@ configs:
       width: 1600
       height: 900
   icons:
-    "trash:///":
-      row: 0
-      col: 0
     "/home/jemo/Desktop/vivaldi-stable_6.2gxAgF7b.9.3447.37-1_amd64.deb.part":
       row: 7
       col: 0
-    "/home/jemo/Desktop/vivaldi-stable_6.Fq49Z56J.8.3381.44-1_amd64.deb.part":
-      row: 5
+    "/home/jemo":
+      row: 2
       col: 0
-    "/home/jemo/Desktop/code_snippets.db-journal":
-      row: 4
+    "trash:///":
+      row: 0
+      col: 0
+    "4d152259-ba25-4c1a-b406-cb4aca0b8bf6":
+      row: 10
+      col: 0
+      last_seen: 1771461511336229
+    "/home/jemo/Desktop/code_snippets.db":
+      row: 3
       col: 1
-    "/home/jemo/Desktop/fireship":
+    "/home/jemo/Desktop/jemo":
+      row: 0
+      col: 1
+    "195 MB Volume":
+      row: 3
+      col: 0
+      last_seen: 1771454990487662
+    "/home/jemo/Desktop/vivaldi-stable_6.Fq49Z56J.8.3381.44-1_amd64.deb.part":
+      row: 10
+      col: 0
+    "/":
       row: 1
+      col: 0
+    "/home/jemo/Desktop/snipstudio-linux":
+      row: 2
       col: 1
     "Trash":
       row: 0
       col: 0
     "/home/jemo/Desktop/microsoft-edge.deb":
-      row: 3
+      row: 8
       col: 0
-    "/home/jemo":
-      row: 2
-      col: 0
-    "/home/jemo/Desktop/vivaldi-stable_6.8.3381.44-1_amd64.deb":
+    "407 MB Volume":
       row: 4
       col: 0
-    "/home/jemo/Desktop/code_snippets.db":
-      row: 3
-      col: 1
-    "/":
-      row: 1
+      last_seen: 1771454990493310
+    "/home/jemo/Desktop/lyrics.txt":
+      row: 5
       col: 0
-    "/home/jemo/Desktop/jemo":
-      row: 0
-      col: 1
-    "/home/jemo/Desktop/snipstudio-linux":
-      row: 2
-      col: 1
     "/home/jemo/Desktop/vivaldi-stable_6.9.3447.37-1_amd64.deb":
       row: 6
+      col: 0
+    "/home/jemo/Desktop/fireship":
+      row: 1
+      col: 1
+    "/home/jemo/Desktop/code_snippets.db-journal":
+      row: 4
+      col: 1
+    "/home/jemo/Desktop/vivaldi-stable_6.8.3381.44-1_amd64.deb":
+      row: 9
       col: 0

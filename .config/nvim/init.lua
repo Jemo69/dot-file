@@ -21,6 +21,16 @@ local is_termux = vim.fn.isdirectory("/data/data/com.termux") == 1
 -- Setup lazy.nvim with plugins
 require("lazy").setup({
     -- Core plugins
+    {
+        "knubie/sqlite-viewer.lua",
+        dependencies = {
+            "kkharji/sqlite.lua", -- Required dependency
+        },
+        config = function()
+            -- Optional: keymap to open the viewer
+            vim.keymap.set("n", "<leader>sv", "<cmd>SqliteViewer<cr>", { desc = "Open SQLite Viewer" })
+        end
+    },
     { 'nvim-lua/plenary.nvim' },
     { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',       dependencies = { 'nvim-lua/plenary.nvim' } },
     { 'nvim-treesitter/nvim-treesitter',             build = ':TSUpdate' },
