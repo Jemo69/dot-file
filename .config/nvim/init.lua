@@ -12,17 +12,15 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- Ensure NVM/Node.js path is in Neovim's environment
-vim.env.PATH = "/home/jemo/.nvm/versions/node/v24.11.1/bin:" .. vim.env.PATH
-
--- Check for Termux environment to conditionally load plugins
-local is_termux = vim.fn.isdirectory("/data/data/com.termux") == 1
+ -- Ensure NVM/Node.js path is in Neovim's environment
+ vim.env.PATH = "/home/jemo/.nvm/versions/node/v24.11.1/bin:" .. vim.env.PATH
 
 -- Setup lazy.nvim with plugins
 require("lazy").setup({
     -- Core plugins
+    { 'Jemo69/money_gazer_nvim', },
     { 'nvim-lua/plenary.nvim' },
-    { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',       dependencies = { 'nvim-lua/plenary.nvim' } },
+    { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',      dependencies = { 'nvim-lua/plenary.nvim' } },
     { 'nvim-treesitter/nvim-treesitter',             build = ':TSUpdate' },
     { 'neovim/nvim-lspconfig' },
     { 'hrsh7th/nvim-cmp' },
@@ -40,30 +38,13 @@ require("lazy").setup({
     { 'rcarriga/nvim-dap-ui' },
     { 'stevearc/conform.nvim' },
     { 'mfussenegger/nvim-lint' },
-    { 'williamboman/mason.nvim',                     cond = not is_termux },
-    { 'jay-babu/mason-lspconfig.nvim',               cond = not is_termux },
+    { 'williamboman/mason.nvim', },
+    { 'jay-babu/mason-lspconfig.nvim', },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
-    { "mattn/emmet-vim" },
-    {
-        "neovim/nvim-lspconfig",
-        config = function()
-            local capabilities = require("cmp_nvim_lsp").default_capabilities()
+     { "mattn/emmet-vim" },
 
-            vim.lsp.config('*', {
-                capabilities = capabilities,
-            })
-            vim.lsp.config['dartls'] = {
-                cmd = { "dart", "language-server", "--protocol=lsp" },
-            }
-            vim.lsp.enable("dartls")
-            vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
-            vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})
-            vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, {})
-        end,
-    },
-
-    -- UI & Theme
+     -- UI & Theme
     --
     {
         "razak17/tailwind-fold.nvim",
@@ -71,8 +52,6 @@ require("lazy").setup({
         dependencies = { "nvim-treesitter/nvim-treesitter" },
         ft = { "html", "svelte", "astro", "vue", "typescriptreact" },
     },
-    { 'Jemo69/money_gazer_nvim',   lazy = false,                                         priority = 1000 },
-    -- { "catppuccin/nvim",           name = "catppuccin",                                  priority = 1000 },
     { 'nvim-lualine/lualine.nvim', dependencies = { 'linux-cultist/venv-selector.nvim' } },
     {
         "folke/trouble.nvim",
@@ -152,7 +131,7 @@ require("lazy").setup({
     },
 
     -- AI & Completion
-    { "e3oroush/askCode",              config = function() require("askCode").setup() end },
+    { "e3oroush/askCode",          config = function() require("askCode").setup() end },
     {
         "monkoose/neocodeium",
         event = "VeryLazy",
@@ -183,7 +162,6 @@ require("lazy").setup({
     { 'numToStr/Comment.nvim',         opts = {} },
     { "christoomey/vim-tmux-navigator" },
     { "chenasraf/text-transform.nvim", version = "*" },
-    { "mistricky/codesnap.nvim",       build = "make build_generator" },
     { "APZelos/blamer.nvim" },
     {
         "linux-cultist/venv-selector.nvim",
@@ -330,46 +308,78 @@ pcall(function()
     local capabilities = vim.lsp.protocol.make_client_capabilities()
     capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
-    -- Define the list of servers to set up
-    local servers = {
-        'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
-        'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
-        'rust_analyzer', 'clangd', 'jdtls', 'ruff_lsp', 'dartls'
-    }
+      -- Define the list of servers to set up
+      local servers = {
+          'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
+          'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
+          'rust_analyzer', 'clangd', 'jdtls', 'ruff', 'dartls', 'ty'
+      }
 
-    if is_termux then
-        -- In Termux, LSPs are expected to be in the path.
-        -- We just need to set them up with lspconfig.
-        for _, server_name in ipairs(servers) do
-            lspconfig[server_name].setup {
-                capabilities = capabilities,
-            }
-        end
-    else
-        -- On other systems, use Mason to manage and set up LSPs.
-        require("mason").setup({
-            ui = {
-                border = "rounded",
-            },
-        })
-        require("mason-lspconfig").setup({
-            ensure_installed = servers,
-        })
-        require("mason-lspconfig").setup_handlers {
-            function(server_name)
-                if server_name == "dartls" then
-                    lspconfig[server_name].setup {
-                        capabilities = capabilities,
-                        cmd = { "/home/jemo/flutter/bin/cache/dart-sdk/bin/dart", "language-server" }
-                    }
-                else
-                    lspconfig[server_name].setup {
-                        capabilities = capabilities,
-                    }
-                end
-            end,
-        }
-    end
+     -- Use Mason to manage and set up LSPs
+     require("mason").setup({
+         ui = {
+             border = "rounded",
+         },
+     })
+     require("mason-lspconfig").setup({
+         ensure_installed = servers,
+     })
+      -- Mason handles installation; we configure and enable servers separately using modern API
+      require("mason-lspconfig").setup_handlers({})
+
+      -- Configure specific servers with custom commands
+      vim.lsp.config('dartls', {
+          cmd = { "dart", "language-server", "--protocol=lsp" },
+          capabilities = capabilities,
+      })
+      vim.lsp.config('ty', {
+          cmd = { "ty", "server" },
+          capabilities = capabilities,
+      })
+      vim.lsp.config('ruff', {
+          init_options = {
+              settings = {
+                  logLevel = 'info',
+              }
+          },
+          capabilities = capabilities,
+      })
+      vim.lsp.config('pyright', {
+          settings = {
+              pyright = {
+                  -- Using Ruff's import organizer
+                  disableOrganizeImports = true,
+              },
+              python = {
+                  analysis = {
+                      -- Ignore all files for analysis to exclusively use Ruff for linting
+                      ignore = { '*' },
+                  },
+              },
+          },
+          capabilities = capabilities,
+      })
+
+      -- Enable all servers
+      for _, server_name in ipairs(servers) do
+          vim.lsp.enable(server_name)
+      end
+
+      -- Disable hover in Ruff in favor of Pyright
+      vim.api.nvim_create_autocmd("LspAttach", {
+          group = vim.api.nvim_create_augroup('lsp_attach_disable_ruff_hover', { clear = true }),
+          callback = function(args)
+              local client = vim.lsp.get_client_by_id(args.data.client_id)
+              if client == nil then
+                  return
+              end
+              if client.name == 'ruff' then
+                  -- Disable hover in favor of Pyright
+                  client.server_capabilities.hoverProvider = false
+              end
+          end,
+          desc = 'LSP: Disable hover capability from Ruff',
+      })
 end)
 
 -- Formatter

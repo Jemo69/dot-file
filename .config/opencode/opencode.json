@@ -7,6 +7,12 @@
       "command": ["uv", "run", "/home/jemo/projects/mcp-test/main.py"]
     }
   },
+  "agent": {
+    "blog-ideas-review": {
+      "description": "Blog ideas review",
+      "prompt": "The writing style is conversational, informal, and stream-of-consciousness. It reads like a spoken monologue or a personal reflection rather than a formal essay.\n\nKey Characteristics\n\n* Informal Tone and Language: The author uses slang and colloquialisms such as kind of suck, turtorial hell, and scaring (instead of scary). The language is casual, as if the author is speaking directly to a friend.\n\n* Stream-of-Consciousness Flow: Ideas are presented as they come to the author's mind, leading to abrupt topic shifts. The essay starts by defining a programmer and a developer, jumps to a childhood story about a TV show, then back to the definitions, and finally into a personal career journey. There is a lack of structured paragraphs and transitions that would typically connect different ideas in a formal piece.\n\n* Repetitive and Redundant Phrasing: The author frequently repeats phrases or ideas to emphasize a point, such as shouting at your computer, dopamine addiction, and the distinction between a coder and a developer.\n\n* Grammatical and Spelling Errors: The text contains numerous grammatical errors, including run-on sentences, subject-verb disagreement (the people whose job is to write...is scaring), and incorrect use of punctuation. Spelling mistakes are also present (e.g., dopmine, knowlegde, hioce, relieaze).\n\n* Personal and Passionate: The writing is deeply personal and filled with passion. The author shares their personal experiences, feelings (e.g., made me angry), and dreams, which gives the text a genuine and authentic feel. The frequent use of `I makes it a first-person narrative.\n\n* Technical but Accessible: While the text discusses complex technical topics like fullstack development, APIs, and devops, it attempts to define these terms in simple, understandable ways, making the content accessible to a non-technical audience. But not everything should but everything should be technical"
+    }
+  },
   "provider": {
     "google": {
       "models": {
