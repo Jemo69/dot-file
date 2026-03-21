@@ -1,0 +1,26 @@
+[metadata]
+name = "find-idea-folders"
+description = "Find .idea directories on the system"
+
+[source]
+# Searching in ~ (home). Change to / if you want to search the whole system.
+# The 2>/dev/null hides permission denied errors.
+command = "find ~ -type d -name '.idea' 2>/dev/null"
+ansi = false
+
+[preview]
+# Lists the files inside the selected .idea directory
+command = "ls -la '{0}'"
+
+[ui]
+preview_panel = { header = "{0}" }
+
+[keybindings]
+enter = "actions:open_project"
+
+[actions.open_project]
+description = "Open the project folder in editor"
+# Uses dirname to strip the '/.idea' suffix so it opens the parent project folder
+command = "${EDITOR:-vim} $(dirname '{0}')"
+shell = "bash"
+mode = "execute"
