@@ -111,3 +111,4 @@ export ANDROID_HOME=/home/jemo/android-sdk
 export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator
 eval "$(uv generate-shell-completion zsh)"
 source <(jj util completion zsh)
+eval "$(tv init zsh)"
