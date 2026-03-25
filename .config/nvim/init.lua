@@ -308,62 +308,35 @@ pcall(function()
     local capabilities = vim.lsp.protocol.make_client_capabilities()
     capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
-      -- Define the list of servers to set up
       local servers = {
-          'tsserver', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
+          'ts_ls', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
           'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
           'rust_analyzer', 'clangd', 'jdtls', 'ruff', 'dartls', 'ty'
       }
 
-     -- Use Mason to manage and set up LSPs
-     require("mason").setup({
-         ui = {
-             border = "rounded",
-         },
-     })
-     require("mason-lspconfig").setup({
-         ensure_installed = servers,
-     })
-      -- Mason handles installation; we configure and enable servers separately using modern API
-      require("mason-lspconfig").setup_handlers({})
+     require("mason").setup({ ui = { border = "rounded" } })
+     require("mason-lspconfig").setup({ ensure_installed = servers })
 
-      -- Configure specific servers with custom commands
+      for _, server in ipairs(servers) do
+          vim.lsp.config(server, { capabilities = capabilities })
+          vim.lsp.enable(server)
+      end
+
       vim.lsp.config('dartls', {
           cmd = { "dart", "language-server", "--protocol=lsp" },
-          capabilities = capabilities,
       })
       vim.lsp.config('ty', {
           cmd = { "ty", "server" },
-          capabilities = capabilities,
       })
       vim.lsp.config('ruff', {
-          init_options = {
-              settings = {
-                  logLevel = 'info',
-              }
-          },
-          capabilities = capabilities,
+          init_options = { settings = { logLevel = 'info' } },
       })
       vim.lsp.config('pyright', {
           settings = {
-              pyright = {
-                  -- Using Ruff's import organizer
-                  disableOrganizeImports = true,
-              },
-              python = {
-                  analysis = {
-                      -- Ignore all files for analysis to exclusively use Ruff for linting
-                      ignore = { '*' },
-                  },
-              },
+              pyright = { disableOrganizeImports = true },
+              python = { analysis = { ignore = { '*' } } },
           },
-          capabilities = capabilities,
       })
-
-      -- Enable all servers
-      for _, server_name in ipairs(servers) do
-          vim.lsp.enable(server_name)
-      end
 
       -- Disable hover in Ruff in favor of Pyright
       vim.api.nvim_create_autocmd("LspAttach", {
@@ -458,7 +431,7 @@ pcall(function()
     require('lualine').setup {
         options = {
             icons_enabled = true,
-            theme = 'moneygazer',
+            theme = require('moneygazer').lualine(),
             component_separators = { left = '', right = '' },
             section_separators = { left = '', right = '' },
             disabled_filetypes = { statusline = { "NvimTree", "dashboard", "noice" }, winbar = {} },
@@ -516,20 +489,9 @@ pcall(function()
 end)
 
 -- Set colorscheme after plugins are loaded
-vim.api.nvim_create_autocmd("ColorScheme", {
-    pattern = "*",
-    callback = function()
-        if vim.o.background == "dark" and vim.g.colors_name ~= "moneygazer" then
-            vim.cmd.colorscheme "moneygazer"
-        end
-    end,
-})
-
--- Ensure the colorscheme is set on startup if LazyVim is ready.
--- This might be redundant with the above, but good for initial load.
 vim.api.nvim_create_autocmd("VimEnter", {
     callback = function()
-        pcall(vim.cmd.colorscheme, "moneygazer")
+        pcall(require('moneygazer').setup)
     end,
 })
 -- enable virtual text

@@ -112,3 +112,4 @@ export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-
 eval "$(uv generate-shell-completion zsh)"
 source <(jj util completion zsh)
 eval "$(tv init zsh)"
+source <(carapace _carapace)

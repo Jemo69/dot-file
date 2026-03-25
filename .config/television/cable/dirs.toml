@@ -7,10 +7,12 @@ requirements = ["fd"]
 command = ["fd -t d", "fd -t d --hidden"]
 
 [preview]
-command = "ls -la --color=always '{}'"
+command = "eza   -la --color=always --icons '{}'"
+
 
 [keybindings]
 shortcut = "f2"
+
 
 [actions.cd]
 description = "Open a shell in the selected directory"
