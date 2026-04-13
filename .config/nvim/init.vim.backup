@@ -1,0 +1,234 @@
+" ========================================
+" Neovim Configuration - VSCode Vim Style
+" ========================================
+
+" Plugin Management with vim-plug
+call plug#begin('~/.local/share/nvim/plugged')
+
+" Essential plugins for VSCode-like experience
+Plug 'tpope/vim-commentary'           " Comment/uncomment with gc
+Plug 'tpope/vim-surround'             " Surround text with quotes/brackets
+Plug 'tpope/vim-repeat'               " Repeat plugin commands with .
+Plug 'justinmk/vim-sneak'             " Fast navigation with s/S
+Plug 'vim-airline/vim-airline'        " Status line
+Plug 'vim-airline/vim-airline-themes' " Status line themes
+Plug 'preservim/nerdtree'             " File explorer
+Plug 'ctrlpvim/ctrlp.vim'             " Fuzzy file finder
+Plug 'jiangmiao/auto-pairs'           " Auto close brackets/quotes
+Plug 'machakann/vim-highlightedyank'  " Highlight yanked text
+Plug 'easymotion/vim-easymotion'      " Enhanced movement
+Plug 'terryma/vim-multiple-cursors'   " Multiple cursors
+Plug 'mg979/vim-visual-multi'         " Better multiple cursors
+Plug 'neoclide/coc.nvim', {'branch': 'release'} " IntelliSense
+
+call plug#end()
+
+" ========================================
+" Basic Settings (VSCode Vim defaults)
+" ========================================
+
+set number                  " Show line numbers
+set relativenumber          " Show relative line numbers
+set cursorline              " Highlight current line
+set showmatch               " Show matching brackets
+set ignorecase              " Case insensitive search
+set smartcase               " Override ignorecase if uppercase used
+set incsearch               " Incremental search
+set hlsearch                " Highlight search results
+set expandtab               " Use spaces instead of tabs
+set tabstop=4               " Number of spaces per tab
+set shiftwidth=4            " Number of spaces for indentation
+set softtabstop=4           " Number of spaces per tab when editing
+set autoindent              " Auto indentation
+set smartindent             " Smart indentation
+set wrap                    " Wrap long lines
+set scrolloff=8             " Keep 8 lines visible above/below cursor
+set sidescrolloff=8         " Keep 8 columns visible left/right of cursor
+set mouse=a                 " Enable mouse support
+set clipboard=unnamedplus   " Use system clipboard
+set splitbelow              " Split below current window
+set splitright              " Split to the right of current window
+set hidden                  " Allow hidden buffers
+set updatetime=300          " Faster completion
+set shortmess+=c            " Don't show completion messages
+set signcolumn=yes          " Always show sign column
+
+" ========================================
+" VSCode Vim Keybindings
+" ========================================
+
+" Set leader key to space (like VSCode)
+let mapleader = " "
+
+" Quick save and quit
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>x :x<CR>
+
+" File operations (VSCode style)
+nnoremap <C-n> :enew<CR>                    " New file
+nnoremap <C-s> :w<CR>                       " Save file
+nnoremap <C-o> :CtrlP<CR>                   " Open file
+nnoremap <C-S-p> :CtrlP<CR>                 " Command palette equivalent
+
+" Tab navigation (VSCode style)
+nnoremap <C-PageUp> :tabprevious<CR>
+nnoremap <C-PageDown> :tabnext<CR>
+nnoremap <C-w> :tabclose<CR>
+
+" Buffer navigation
+nnoremap <leader>bn :bnext<CR>
+nnoremap <leader>bp :bprevious<CR>
+nnoremap <leader>bd :bdelete<CR>
+
+" Window navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
+
+" Split windows
+nnoremap <leader>v :vsplit<CR>
+nnoremap <leader>h :split<CR>
+
+" Clear search highlighting
+nnoremap <Esc> :noh<CR><Esc>
+
+" Toggle file explorer
+nnoremap <C-b> :NERDTreeToggle<CR>
+nnoremap <leader>e :NERDTreeToggle<CR>
+
+" Find and replace (VSCode style)
+nnoremap <C-f> /
+nnoremap <C-h> :%s/
+
+" Select all
+nnoremap <C-a> ggVG
+
+" Duplicate line (VSCode Alt+Shift+Down)
+nnoremap <A-S-Down> :t.<CR>
+nnoremap <A-S-Up> :t.-1<CR>
+
+" Move lines up/down (VSCode Alt+Up/Down)
+nnoremap <A-Up> :m-2<CR>
+nnoremap <A-Down> :m+<CR>
+vnoremap <A-Up> :m'<-2<CR>gv
+vnoremap <A-Down> :m'>+<CR>gv
+
+" Multi-cursor support (Ctrl+D like VSCode)
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_start_word_key      = '<C-d>'
+let g:multi_cursor_select_all_word_key = '<A-C-d>'
+let g:multi_cursor_start_key           = 'g<C-d>'
+let g:multi_cursor_select_all_key      = 'g<A-C-d>'
+let g:multi_cursor_next_key            = '<C-d>'
+let g:multi_cursor_prev_key            = '<C-p>'
+let g:multi_cursor_skip_key            = '<C-x>'
+let g:multi_cursor_quit_key            = '<Esc>'
+
+" ========================================
+" Plugin Configurations
+" ========================================
+
+" NERDTree configuration
+let NERDTreeShowHidden=1
+let NERDTreeQuitOnOpen=1
+let NERDTreeAutoDeleteBuffer=1
+let NERDTreeMinimalUI=1
+let NERDTreeDirArrows=1
+
+" CtrlP configuration
+let g:ctrlp_map = '<C-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_show_hidden = 1
+
+" Airline configuration
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
+
+" Auto-pairs configuration
+let g:AutoPairsShortcutToggle = '<M-p>'
+let g:AutoPairsShortcutFastWrap = '<M-e>'
+
+" Highlighted yank configuration
+let g:highlightedyank_highlight_duration = 200
+
+" Sneak configuration (f/F enhancement)
+let g:sneak#label = 1
+let g:sneak#use_ic_scs = 1
+
+" EasyMotion configuration
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_smartcase = 1
+nmap s <Plug>(easymotion-overwin-f2)
+
+" ========================================
+" VSCode-like Visual Improvements
+" ========================================
+
+" Enable true color support
+if (has("nvim"))
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+if (has("termguicolors"))
+  set termguicolors
+endif
+
+" Set colorscheme (you can change this)
+colorscheme default
+
+" Highlight current line number
+highlight clear CursorLine
+highlight CursorLineNr cterm=bold ctermfg=yellow
+
+" Better visual for matching parentheses
+highlight MatchParen cterm=bold ctermbg=none ctermfg=magenta
+
+" ========================================
+" Custom Functions
+" ========================================
+
+" Toggle between relative and absolute line numbers
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set norelativenumber
+  else
+    set relativenumber
+  endif
+endfunc
+nnoremap <leader>n :call NumberToggle()<cr>
+
+" Remove trailing whitespace
+function! TrimWhiteSpace()
+  %s/\s\+$//e
+endfunction
+nnoremap <leader>tw :call TrimWhiteSpace()<CR>
+
+" ========================================
+" Auto Commands
+" ========================================
+
+augroup vscode_vim_config
+  autocmd!
+  " Auto-source vimrc on save
+  autocmd BufWritePost $MYVIMRC source $MYVIMRC
+  
+  " Remember cursor position
+  autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+  
+  " Auto-trim whitespace on save
+  autocmd BufWritePre * :call TrimWhiteSpace()
+augroup END
+
+" ========================================
+" Status Line (if airline not working)
+" ========================================
+
+if !exists('g:loaded_airline')
+  set laststatus=2
+  set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [POS=%l,%v][%p%%]\ %{strftime(\"%d/%m/%y\ -\ %H:%M\")}
+endif
+
+echo "VSCode-like Neovim configuration loaded!"
