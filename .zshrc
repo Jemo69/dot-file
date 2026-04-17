@@ -1,6 +1,5 @@
 
 
-
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="agnoster"
@@ -94,7 +93,7 @@ eval "$(zoxide init --cmd cd zsh)"
 
 eval "$(atuin init zsh)"
 eval "$(atuin init zsh)"
-eval "$(~/.local/bin/oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/jandedobbeleer.omp.json)"
+eval "$(~/.local/bin/oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/M365Princess.omp.json)"
 export PATH="$PATH:~/flutter/bin"
 
 
