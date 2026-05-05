@@ -208,6 +208,117 @@ vim.opt.splitright = true
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
 
+-- Startup ASCII art dashboard (from ~/.pi/art.sh)
+local function show_sledgehammer_startup_art()
+    -- Only show for plain `nvim` with no file/path arguments.
+    -- Do not steal the screen when opening files or directories.
+    if vim.fn.argc() ~= 0 then
+        return
+    end
+
+    local art_script = "/home/jemo/.pi/art.sh"
+    if vim.fn.filereadable(art_script) ~= 1 then
+        return
+    end
+
+    local art = vim.fn.systemlist({ "bash", art_script })
+    if vim.v.shell_error ~= 0 or #art == 0 then
+        return
+    end
+
+    local width = vim.o.columns
+    local height = vim.o.lines
+    local art_width = 0
+    for _, line in ipairs(art) do
+        art_width = math.max(art_width, vim.fn.strdisplaywidth(line))
+    end
+
+    local header = {
+        "╭────────────────────────────────────────╮",
+        "│        ⚒  OPERATION SLEDGEHAMMER  ⚒    │",
+        "╰────────────────────────────────────────╯",
+        "",
+    }
+    local footer = {
+        "",
+        "  [e] explore files    [space] commands    [q] close  ",
+    }
+
+    local content = {}
+    local total_lines = #header + #art + #footer
+    local top_padding = math.max(0, math.floor((height - total_lines - 2) / 2))
+    for _ = 1, top_padding do
+        table.insert(content, "")
+    end
+
+    local function centered(line)
+        local pad = math.max(0, math.floor((width - vim.fn.strdisplaywidth(line)) / 2))
+        return string.rep(" ", pad) .. line
+    end
+
+    for _, line in ipairs(header) do
+        table.insert(content, centered(line))
+    end
+    for _, line in ipairs(art) do
+        local pad = math.max(0, math.floor((width - art_width) / 2))
+        table.insert(content, string.rep(" ", pad) .. line)
+    end
+    for _, line in ipairs(footer) do
+        table.insert(content, centered(line))
+    end
+
+    vim.cmd("enew")
+    vim.cmd("vsplit")
+    local buf = vim.api.nvim_get_current_buf()
+    vim.bo[buf].buftype = "nofile"
+    vim.bo[buf].bufhidden = "wipe"
+    vim.bo[buf].swapfile = false
+    vim.bo[buf].modifiable = true
+    vim.bo[buf].filetype = "sledgehammer-art"
+    vim.api.nvim_buf_set_name(buf, "Operation Sledgehammer")
+    vim.api.nvim_buf_set_lines(buf, 0, -1, false, content)
+    vim.bo[buf].modifiable = false
+
+    vim.wo.number = false
+    vim.wo.relativenumber = false
+    vim.wo.signcolumn = "no"
+    vim.wo.foldcolumn = "0"
+    vim.wo.cursorline = false
+    vim.wo.colorcolumn = ""
+    vim.opt_local.list = false
+
+    vim.api.nvim_set_hl(0, "SledgehammerBorder", { fg = "#f59e0b", bold = true })
+    vim.api.nvim_set_hl(0, "SledgehammerHot", { fg = "#ff3131", bold = true })
+    vim.api.nvim_set_hl(0, "SledgehammerSteel", { fg = "#94a3b8" })
+    vim.api.nvim_set_hl(0, "SledgehammerDim", { fg = "#64748b" })
+    vim.api.nvim_set_hl(0, "SledgehammerKey", { fg = "#22d3ee", bold = true })
+
+    vim.cmd([[syntax clear]])
+    vim.cmd([[syntax match SledgehammerBorder /[╭╮╰╯─│⚒]/]])
+    vim.cmd([[syntax match SledgehammerHot /[+#*%=-]/]])
+    vim.cmd([[syntax match SledgehammerSteel /@/]])
+    vim.cmd([[syntax match SledgehammerKey /\[[a-z ]\+\]/]])
+    vim.cmd([[syntax match SledgehammerDim /explore files\|commands\|close/]])
+
+    vim.keymap.set("n", "q", "<cmd>bd<cr>", { buffer = buf, silent = true, desc = "Close startup art" })
+    vim.keymap.set("n", "e", "<cmd>NvimTreeFocus<cr>", { buffer = buf, silent = true, desc = "Focus file tree" })
+    vim.keymap.set("n", "<Space>", ":", { buffer = buf, silent = false, desc = "Command mode" })
+
+    -- Put the file tree in the left pane and keep the full logo visible on the right.
+    vim.schedule(function()
+        pcall(vim.cmd, "NvimTreeOpen")
+        pcall(vim.cmd, "NvimTreeResize 34")
+        vim.cmd("wincmd l")
+    end)
+end
+
+vim.api.nvim_create_autocmd("VimEnter", {
+    once = true,
+    callback = function()
+        vim.schedule(show_sledgehammer_startup_art)
+    end,
+})
+
 -- Keymappings
 vim.g.mapleader = ' '
 vim.keymap.set("i", "<A-f>", function() require("neocodeium").accept() end)

@@ -12,6 +12,7 @@ output = "{split: :0}"
 command = "ps -p '{split: :0}' -o user,pid,ppid,state,%cpu,%mem,command | fold"
 
 [keybindings]
+enter = "actions:kill"
 ctrl-k = "actions:kill"
 f2 = "actions:term"
 ctrl-s = "actions:stop"

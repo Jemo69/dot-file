@@ -1,5 +1,3 @@
-
-
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="agnoster"
@@ -58,6 +56,11 @@ alias gstc='git stash clear'
 alias gstl='git stash list'
 alias gstlsa='git stash list --stat'
 alias activate='source .venv/bin/activate'
+
+code-session() {
+  local session_name="${PWD:t}"
+  tmux new-session -A -s "$session_name" -c "$PWD"
+}
 
 # suffix aliases
 alias -s py=$EDITOR

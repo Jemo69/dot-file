@@ -11,6 +11,7 @@ command = "eza   -la --color=always --icons '{}'"
 
 
 [keybindings]
+enter = "actions:cd"
 shortcut = "f2"
 
 

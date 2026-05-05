@@ -1,5 +1,6 @@
 project-sledgehammer
 tpm
+.pi/agent/auth.json
 .config/github-copilot/apps.json
 .config/gh/hosts.yml
 .config/stripe/config.toml
