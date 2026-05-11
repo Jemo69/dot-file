@@ -116,3 +116,7 @@ source <(jj util completion zsh)
 eval "$(tv init zsh)"
 source <(carapace _carapace)
 eval "$(ruff generate-shell-completion zsh)"
+
+fpath+=~/.zfunc; autoload -Uz compinit; compinit
+
+zstyle ':completion:*' menu select

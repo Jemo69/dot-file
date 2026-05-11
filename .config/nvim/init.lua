@@ -12,13 +12,14 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
- -- Ensure NVM/Node.js path is in Neovim's environment
- vim.env.PATH = "/home/jemo/.nvm/versions/node/v24.11.1/bin:" .. vim.env.PATH
+-- Ensure NVM/Node.js path is in Neovim's environment
+vim.env.PATH = "/home/jemo/.nvm/versions/node/v24.11.1/bin:" .. vim.env.PATH
 
 -- Setup lazy.nvim with plugins
 require("lazy").setup({
     -- Core plugins
-    { 'Jemo69/money_gazer_nvim', },
+    --Jemo69/jemo_theme_nvim
+    { 'Jemo69/jemo_theme_nvim', lazy = false, priority = 1000 },
     { 'nvim-lua/plenary.nvim' },
     { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',      dependencies = { 'nvim-lua/plenary.nvim' } },
     { 'nvim-treesitter/nvim-treesitter',             build = ':TSUpdate' },
@@ -39,12 +40,12 @@ require("lazy").setup({
     { 'stevearc/conform.nvim' },
     { 'mfussenegger/nvim-lint' },
     { 'williamboman/mason.nvim', },
-    { 'jay-babu/mason-lspconfig.nvim', },
+    { 'williamboman/mason-lspconfig.nvim' },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
-     { "mattn/emmet-vim" },
+    { "mattn/emmet-vim" },
 
-     -- UI & Theme
+    -- UI & Theme
     --
     {
         "razak17/tailwind-fold.nvim",
@@ -419,51 +420,51 @@ pcall(function()
     local capabilities = vim.lsp.protocol.make_client_capabilities()
     capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
-      local servers = {
-          'ts_ls', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
-          'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
-          'rust_analyzer', 'clangd', 'jdtls', 'ruff', 'dartls', 'ty'
-      }
+    local servers = {
+        'ts_ls', 'cssls', 'html', 'jsonls', 'svelte', 'vue',
+        'pyright', 'lua_ls', 'bashls', 'dockerls', 'gopls',
+        'rust_analyzer', 'clangd', 'jdtls', 'ruff', 'dartls', 'ty'
+    }
 
-     require("mason").setup({ ui = { border = "rounded" } })
-     require("mason-lspconfig").setup({ ensure_installed = servers })
+    require("mason").setup({ ui = { border = "rounded" } })
+    require("mason-lspconfig").setup({ ensure_installed = servers })
 
-      for _, server in ipairs(servers) do
-          vim.lsp.config(server, { capabilities = capabilities })
-          vim.lsp.enable(server)
-      end
+    for _, server in ipairs(servers) do
+        vim.lsp.config(server, { capabilities = capabilities })
+        vim.lsp.enable(server)
+    end
 
-      vim.lsp.config('dartls', {
-          cmd = { "dart", "language-server", "--protocol=lsp" },
-      })
-      vim.lsp.config('ty', {
-          cmd = { "ty", "server" },
-      })
-      vim.lsp.config('ruff', {
-          init_options = { settings = { logLevel = 'info' } },
-      })
-      vim.lsp.config('pyright', {
-          settings = {
-              pyright = { disableOrganizeImports = true },
-              python = { analysis = { ignore = { '*' } } },
-          },
-      })
+    vim.lsp.config('dartls', {
+        cmd = { "dart", "language-server", "--protocol=lsp" },
+    })
+    vim.lsp.config('ty', {
+        cmd = { "ty", "server" },
+    })
+    vim.lsp.config('ruff', {
+        init_options = { settings = { logLevel = 'info' } },
+    })
+    vim.lsp.config('pyright', {
+        settings = {
+            pyright = { disableOrganizeImports = true },
+            python = { analysis = { ignore = { '*' } } },
+        },
+    })
 
-      -- Disable hover in Ruff in favor of Pyright
-      vim.api.nvim_create_autocmd("LspAttach", {
-          group = vim.api.nvim_create_augroup('lsp_attach_disable_ruff_hover', { clear = true }),
-          callback = function(args)
-              local client = vim.lsp.get_client_by_id(args.data.client_id)
-              if client == nil then
-                  return
-              end
-              if client.name == 'ruff' then
-                  -- Disable hover in favor of Pyright
-                  client.server_capabilities.hoverProvider = false
-              end
-          end,
-          desc = 'LSP: Disable hover capability from Ruff',
-      })
+    -- Disable hover in Ruff in favor of Pyright
+    vim.api.nvim_create_autocmd("LspAttach", {
+        group = vim.api.nvim_create_augroup('lsp_attach_disable_ruff_hover', { clear = true }),
+        callback = function(args)
+            local client = vim.lsp.get_client_by_id(args.data.client_id)
+            if client == nil then
+                return
+            end
+            if client.name == 'ruff' then
+                -- Disable hover in favor of Pyright
+                client.server_capabilities.hoverProvider = false
+            end
+        end,
+        desc = 'LSP: Disable hover capability from Ruff',
+    })
 end)
 
 -- Formatter
@@ -537,12 +538,37 @@ pcall(function()
     })
 end)
 
+local function jemo_lualine_theme()
+    local p = {
+        base = '#111231', fg = '#D8DEE0', muted = '#9AA7A9', navy = '#1A1C40',
+        indigo = '#282946', blue = '#7D949C', sage = '#708C82', red = '#7D423D',
+        wine = '#4E203C', teal = '#577E83', mauve = '#55464B',
+    }
+
+    return {
+        normal = {
+            a = { fg = p.base, bg = p.blue, gui = 'bold' },
+            b = { fg = p.fg, bg = p.indigo },
+            c = { fg = p.muted, bg = p.navy },
+        },
+        insert = { a = { fg = p.base, bg = p.sage, gui = 'bold' } },
+        visual = { a = { fg = p.base, bg = p.red, gui = 'bold' } },
+        replace = { a = { fg = p.base, bg = p.wine, gui = 'bold' } },
+        command = { a = { fg = p.base, bg = p.teal, gui = 'bold' } },
+        inactive = {
+            a = { fg = p.mauve, bg = p.navy, gui = 'bold' },
+            b = { fg = p.mauve, bg = p.navy },
+            c = { fg = p.mauve, bg = p.base },
+        },
+    }
+end
+
 -- Lualine
 pcall(function()
     require('lualine').setup {
         options = {
             icons_enabled = true,
-            theme = require('moneygazer').lualine(),
+            theme = jemo_lualine_theme(),
             component_separators = { left = '', right = '' },
             section_separators = { left = '', right = '' },
             disabled_filetypes = { statusline = { "NvimTree", "dashboard", "noice" }, winbar = {} },
@@ -600,11 +626,7 @@ pcall(function()
 end)
 
 -- Set colorscheme after plugins are loaded
-vim.api.nvim_create_autocmd("VimEnter", {
-    callback = function()
-        pcall(require('moneygazer').setup)
-    end,
-})
+pcall(vim.cmd.colorscheme, 'jemo')
 -- enable virtual text
 vim.diagnostic.config({
     virtual_text = true,
