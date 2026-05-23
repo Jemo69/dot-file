@@ -72,6 +72,11 @@ if command -v atuin >/dev/null 2>&1; then
   eval "$(atuin init zsh)"
 fi
 
+if command -v ssh-agent >/dev/null 2>&1 && command -v ssh-add >/dev/null 2>&1; then
+  [[ -z ${SSH_AUTH_SOCK-} ]] && eval "$(ssh-agent -s)" >/dev/null 2>&1
+  [[ -f "$HOME/.ssh/jemo" ]] && ssh-add -q "$HOME/.ssh/jemo" >/dev/null 2>&1 || true
+fi
+
 _omp_theme="${${(%):-%x}:A:h}/.config/oh-my-posh/theme.omp.json"
 [[ -r "$_omp_theme" ]] || _omp_theme="$HOME/.config/oh-my-posh/theme.omp.json"
 if command -v oh-my-posh >/dev/null 2>&1 && [[ -r "$_omp_theme" ]]; then
