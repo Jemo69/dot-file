@@ -47,8 +47,8 @@ if command -v atuin >/dev/null 2>&1; then
   eval "$(atuin init zsh)"
 fi
 
-if command -v oh-my-posh >/dev/null 2>&1 && [[ -r "$HOME/.cache/oh-my-posh/themes/M365Princess.omp.json" ]]; then
-  eval "$(oh-my-posh init zsh --config "$HOME/.cache/oh-my-posh/themes/M365Princess.omp.json")"
+if command -v oh-my-posh >/dev/null 2>&1 && [[ -r "$HOME/.config/oh-my-posh/theme.omp.json" ]]; then
+  eval "$(oh-my-posh init zsh --config "$HOME/.config/oh-my-posh/theme.omp.json")"
 fi
 
 command -v fzf >/dev/null 2>&1 && source <(fzf --zsh)
