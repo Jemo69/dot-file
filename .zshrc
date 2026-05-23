@@ -50,6 +50,7 @@ export BUN_INSTALL="$HOME/.bun"
 export ANDROID_HOME="$HOME/android-sdk"
 typeset -U path
 path=(
+  "$HOME/.local/bin"
   "$HOME/.opencode/bin"
   "$BUN_INSTALL/bin"
   "$HOME/flutter/bin"
@@ -71,8 +72,10 @@ if command -v atuin >/dev/null 2>&1; then
   eval "$(atuin init zsh)"
 fi
 
-if command -v oh-my-posh >/dev/null 2>&1 && [[ -r "$HOME/.config/oh-my-posh/theme.omp.json" ]]; then
-  eval "$(oh-my-posh init zsh --config "$HOME/.config/oh-my-posh/theme.omp.json")"
+_omp_theme="${${(%):-%x}:A:h}/.config/oh-my-posh/theme.omp.json"
+[[ -r "$_omp_theme" ]] || _omp_theme="$HOME/.config/oh-my-posh/theme.omp.json"
+if command -v oh-my-posh >/dev/null 2>&1 && [[ -r "$_omp_theme" ]]; then
+  eval "$(oh-my-posh init zsh --config "$_omp_theme")"
 fi
 
 command -v fzf >/dev/null 2>&1 && source <(fzf --zsh)
