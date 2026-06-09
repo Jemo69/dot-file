@@ -19,7 +19,7 @@ vim.env.PATH = "/home/jemo/.nvm/versions/node/v24.11.1/bin:" .. vim.env.PATH
 require("lazy").setup({
     -- Core plugins
     --Jemo69/jemo_theme_nvim
-    { 'Jemo69/jemo_theme_nvim', lazy = false, priority = 1000 },
+    { 'Jemo69/jemo_theme_nvim',                      lazy = false,       priority = 1000 },
     { 'nvim-lua/plenary.nvim' },
     { 'nvim-telescope/telescope.nvim',               tag = '0.1.5',      dependencies = { 'nvim-lua/plenary.nvim' } },
     { 'nvim-treesitter/nvim-treesitter',             build = ':TSUpdate' },
@@ -180,10 +180,10 @@ require("lazy").setup({
         },
     },
     {
-        "iamcco/markdown-preview.nvim",
-        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-        ft = { "markdown" },
-        build = function() vim.fn["mkdp#util#install"]() end,
+        'MeanderingProgrammer/render-markdown.nvim',
+        dependencies = { 'nvim-treesitter/nvim-treesitter', 'nvim-tree/nvim-web-devicons' },
+        ft = { 'markdown' },
+        opts = {},
     },
 
 }, {})
@@ -198,6 +198,7 @@ vim.opt.background = "dark"
 vim.opt.showmode = true
 vim.opt.signcolumn = "yes"
 vim.opt.clipboard = "unnamedplus"
+vim.opt.spellfile = vim.fn.stdpath("config") .. "/spell/en.utf-8.add"
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -335,7 +336,7 @@ vim.keymap.set('n', '<C-p>', ':Telescope find_files<CR>', { desc = 'Find files' 
 vim.keymap.set('n', '<leader>g', ':Telescope live_grep<CR>', { desc = 'Find text' })
 vim.keymap.set('n', '<leader>b', ':Telescope buffers<CR>', { desc = 'Find buffers' })
 vim.keymap.set('n', '<leader>h', ':Telescope help_tags<CR>', { desc = 'Find help' })
-vim.keymap.set('n', '<leader>r', ':Telescope oldfiles<CR>', { desc = 'Find recent files' })
+vim.keymap.set('n', '<leader>or', ':Telescope oldfiles<CR>', { desc = 'Find recent files' })
 vim.keymap.set('n', '<leader>gg', ':G<CR>', { desc = 'Git status' })
 vim.keymap.set('n', '<leader>gc', ':Git commit<CR>', { desc = 'Git commit' })
 vim.keymap.set('n', '<leader>gb', ':Git blame<CR>', { desc = 'Git blame' })
@@ -352,7 +353,7 @@ vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnos
 vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format { async = true } end, { desc = 'Format code (LSP)' })
 vim.keymap.set("n", "<leader>xt", "<cmd>TodoTrouble<cr>", { desc = "Todo (Trouble)" })
 vim.keymap.set('v', '<leader>cs', '<cmd>CodeSnap<cr>', { desc = 'Code snap' })
-vim.keymap.set('n', '<leader>m', ':MarkdownPreviewToggle<CR>', { desc = 'Toggle markdown preview' })
+vim.keymap.set('n', '<leader>m', ':RenderMarkdown toggle<CR>', { desc = 'Toggle markdown preview' })
 vim.keymap.set('n', '<leader>t', ':TodoTrouble<CR>', { desc = 'Todo (Trouble)' })
 vim.keymap.set('n', '<leader>nl', ':nohl<CR>')
 vim.keymap.set('n', '<leader>v', ':VenvSelect<CR>')
@@ -505,7 +506,7 @@ end)
 -- Treesitter
 pcall(function()
     require('nvim-treesitter.configs').setup({
-        ensure_installed = { 'javascript', 'typescript', 'python', 'lua', 'html', 'css', 'json', 'vim', 'vimdoc', 'svelte', 'vue' },
+        ensure_installed = { 'javascript', 'typescript', 'python', 'lua', 'html', 'css', 'json', 'vim', 'vimdoc', 'svelte', 'vue', 'markdown', 'markdown_inline' },
         highlight = { enable = true },
         indent = { enable = true },
         auto_install = true,
@@ -540,9 +541,17 @@ end)
 
 local function jemo_lualine_theme()
     local p = {
-        base = '#111231', fg = '#D8DEE0', muted = '#9AA7A9', navy = '#1A1C40',
-        indigo = '#282946', blue = '#7D949C', sage = '#708C82', red = '#7D423D',
-        wine = '#4E203C', teal = '#577E83', mauve = '#55464B',
+        base = '#111231',
+        fg = '#D8DEE0',
+        muted = '#9AA7A9',
+        navy = '#1A1C40',
+        indigo = '#282946',
+        blue = '#7D949C',
+        sage = '#708C82',
+        red = '#7D423D',
+        wine = '#4E203C',
+        teal = '#577E83',
+        mauve = '#55464B',
     }
 
     return {

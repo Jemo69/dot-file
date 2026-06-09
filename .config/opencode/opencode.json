@@ -10,7 +10,11 @@
         "--project",
         "/home/jemo/projects/mcp-test/",
         "/home/jemo/projects/mcp-test/main.py"
-      ]
+      ],
+      "environment": {
+        "APPFLOWY_EMAIL": "jemolife69@gmail.com",
+        "APPFLOWY_PASSWORD": "x*G@6!@&277F8*^LY^^xU9"
+      }
     },
     "youtube-mcp": {
       "type": "local",

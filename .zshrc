@@ -39,8 +39,7 @@ compdef _ng ng
 
 _bun() {
   unfunction _bun 2>/dev/null || true
-  [[ -r "$HOME/.bun/_bun" ]] && source "$HOME/.bun/_bun"
-  _bun
+  [[ -r "$HOME/.bun/_bun" ]] && source "$HOME/.bun/_bun" && _bun
 }
 compdef _bun bun
 
@@ -77,8 +76,7 @@ if command -v ssh-agent >/dev/null 2>&1 && command -v ssh-add >/dev/null 2>&1; t
   [[ -f "$HOME/.ssh/jemo" ]] && ssh-add -q "$HOME/.ssh/jemo" >/dev/null 2>&1 || true
 fi
 
-_omp_theme="${${(%):-%x}:A:h}/.config/oh-my-posh/theme.omp.json"
-[[ -r "$_omp_theme" ]] || _omp_theme="$HOME/.config/oh-my-posh/theme.omp.json"
+_omp_theme="$HOME/.config/oh-my-posh/theme.omp.json"
 if command -v oh-my-posh >/dev/null 2>&1 && [[ -r "$_omp_theme" ]]; then
   eval "$(oh-my-posh init zsh --config "$_omp_theme")"
 fi
@@ -97,12 +95,24 @@ alias cls="clear"
 alias n="nvim"
 alias ls="eza"
 alias open='explorer.exe .'
+alias activate='source .venv/bin/activate'
+alias omz-reload='source ~/.zshrc'
 alias oc="opencode"
+alias la='ls -la'
 
 # git aliases
+alias ga='git add .'
+alias gc='git commit -m'
+alias gp='git push'
+alias gco='git checkout'
+alias gbr='git branch'
+alias gm='git merge'
+alias gr='git reset HEAD~1'
+alias gup='git pull --rebase'
+alias gl='git log --oneline --graph --decorate --all'
 alias gs='git stash'
+alias gss='git stash save'
 alias gsp='git stash pop'
-alias gss='git stash show'
 alias gsl='git stash list'
 alias gsa='git stash apply'
 alias gsd='git stash drop'
@@ -118,13 +128,19 @@ alias gstd='git stash drop'
 alias gstc='git stash clear'
 alias gstl='git stash list'
 alias gstlsa='git stash list --stat'
-alias activate='source .venv/bin/activate'
 
 code-session() {
   local session_name="${PWD:t}"
   tmux new-session -A -s "$session_name" -c "$PWD"
 }
 
+take() {
+  local name="$1"
+  mkdir $name
+  cd $name
+  code-session
+  
+}
 # suffix aliases
 alias -s py=$EDITOR
 alias -s ts=$EDITOR

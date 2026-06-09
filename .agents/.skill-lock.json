@@ -15,9 +15,9 @@
       "sourceType": "github",
       "sourceUrl": "https://github.com/pbakaus/impeccable.git",
       "skillPath": ".agents/skills/impeccable/SKILL.md",
-      "skillFolderHash": "ea8a9f3bcf6025a511dcbd178c127479271ec331",
+      "skillFolderHash": "7e268ebe41c4a8ba1e6bccc00674d1ac53f71785",
       "installedAt": "2026-05-04T23:24:18.817Z",
-      "updatedAt": "2026-05-04T23:24:18.817Z"
+      "updatedAt": "2026-06-03T12:52:33.697Z"
     }
   },
   "dismissed": {
@@ -26,17 +26,17 @@
   "lastSelectedAgents": [
     "amp",
     "antigravity",
+    "antigravity-cli",
     "cline",
     "codex",
     "cursor",
     "deepagents",
-    "dexto",
-    "firebender",
     "gemini-cli",
     "github-copilot",
-    "kimi-cli",
+    "kimi-code-cli",
     "opencode",
     "warp",
+    "zed",
     "trae",
     "pi"
   ]
