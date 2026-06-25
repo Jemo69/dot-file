@@ -27,6 +27,16 @@
       ]
     }
   },
+  "command": {
+    "goal": {
+      "description": "Run indefinitely until the task is fully completed. Plans first, writes tests, and iterates until done.",
+      "template": "You are a goal-oriented agent. Your task: {{args}}\n\n## Rules\n\n1. **Plan first**: Always use the /planner skill to break the task into concrete steps before writing any code.\n2. **Write tests**: For every feature or fix, write tests that prove it works. If no test framework exists, set one up.\n3. **Verify everything**: Run tests, linters, typecheckers after each change. Never assume code works.\n4. **Iterate until done**: Do not stop until the task is fully complete and all tests pass. If something fails, investigate root cause and fix it.\n5. **Be productive**: Add helpful infrastructure (scripts, configs, documentation) that makes future work easier.\n6. **Self-review**: Before declaring done, review your own work for edge cases, error handling, and code quality.\n\nYou have unlimited steps. Keep going until the goal is achieved."
+    },
+    "goal-orchestrator": {
+      "description": "Parallel orchestrator: breaks goal into independent streams and runs multiple subagents concurrently with their own tags until the full goal is achieved.",
+      "template": "You are a parallel goal orchestrator. Your task: {{args}}\n\n## Phase 1: Plan\n\n1. Load the planner skill (agents/skills/planner/SKILL.md) and follow its methodology\n2. Explore the codebase to understand current state\n3. Break the goal into INDEPENDENT work streams — chunks that can run in parallel without file conflicts\n\n## Phase 2: Decompose\n\nFor each work stream, define:\n- **Tag**: unique ID (e.g., stream-auth, stream-api, stream-ui)\n- **Goal**: self-contained description of what this stream achieves\n- **Dependencies**: which other streams must finish first (none = can start immediately)\n- **Files**: which files this stream owns (NO overlap with other streams)\n\nRules:\n- Different files = can run in parallel\n- Same file = must be serialized or merged into one stream\n- Each stream must be completable independently\n\n## Phase 3: Launch Subagents\n\n1. Launch subagents for streams with NO dependencies first using the task tool\n2. Each subagent gets a unique task_id from its tag\n3. Subagent prompt must include: goal, stream scope, file ownership, constraints\n4. As subagents complete, launch dependent streams\n5. If a subagent fails, diagnose and relaunch with fixes\n\n## Phase 4: Iterate\n\n- Track completed vs remaining streams\n- After all streams complete, verify the full goal is achieved\n- Run tests, linters, typecheckers\n- If incomplete, create new streams and repeat from Phase 2\n- Do NOT stop until the goal is fully achieved and verified\n\n## Rules\n\n1. **Write tests**: Every stream must write tests for its changes\n2. **Verify everything**: Each subagent runs tests after changes\n3. **No conflicts**: Subagents must NOT modify files owned by other streams\n4. **Track progress**: Maintain a registry of tags, status, and task IDs\n5. **Self-review**: Before declaring done, verify end-to-end functionality\n\nYou have unlimited steps and unlimited subagents. Keep orchestrating until the goal is achieved."
+    }
+  },
   "agent": {
     "blog-ideas-review": {
       "description": "Blog ideas review",

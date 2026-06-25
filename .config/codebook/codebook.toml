@@ -1,0 +1,13 @@
+# ~/.config/codebook/codebook.toml
+[dictionary]
+# Words to completely ignore across the system or project
+ignore = [
+    "nvim",
+    "bun",
+    "svelte",
+    "fastapi",
+    "tortoise"
+    "django",
+    "trpc"
+    "jemo"
+]

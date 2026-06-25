@@ -1,7 +1,7 @@
 {
   "theme": "jemo",
-  "lastChangelogVersion": "0.75.3",
-  "defaultProvider": "github-copilot",
+  "lastChangelogVersion": "0.79.10",
+  "defaultProvider": "openai-codex",
   "defaultModel": "gpt-5.4-mini",
   "defaultThinkingLevel": "minimal"
 }

@@ -43,6 +43,11 @@ require("lazy").setup({
     { 'williamboman/mason-lspconfig.nvim' },
     { 'nvim-telescope/telescope-fzf-native.nvim',    build = 'make' },
     { 'nvim-telescope/telescope-live-grep-args.nvim' },
+    {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        dependencies = { "nvim-lua/plenary.nvim" },
+    },
     { "mattn/emmet-vim" },
 
     -- UI & Theme
@@ -304,6 +309,7 @@ local function show_sledgehammer_startup_art()
 
     vim.keymap.set("n", "q", "<cmd>bd<cr>", { buffer = buf, silent = true, desc = "Close startup art" })
     vim.keymap.set("n", "e", "<cmd>NvimTreeFocus<cr>", { buffer = buf, silent = true, desc = "Focus file tree" })
+    vim.api.nvim_set_keymap("i", "jj", "<Esc>", { noremap = false })
     vim.keymap.set("n", "<Space>", ":", { buffer = buf, silent = false, desc = "Command mode" })
 
     -- Put the file tree in the left pane and keep the full logo visible on the right.
@@ -323,6 +329,7 @@ vim.api.nvim_create_autocmd("VimEnter", {
 
 -- Keymappings
 vim.g.mapleader = ' '
+vim.keymap.set("i", "jj", "<Esc>", { noremap = true, desc = "Exit insert mode" })
 vim.keymap.set("i", "<A-f>", function() require("neocodeium").accept() end)
 vim.keymap.set("v", "<leader>ae", ":AskCodeExplain<CR>")
 vim.keymap.set("v", "<leader>ab", ":AskCode \"Find potential bugs\"<CR>")
@@ -537,6 +544,23 @@ pcall(function()
             respect_gitignore = false
         },
     })
+end)
+
+-- Harpoon
+pcall(function()
+    local harpoon = require("harpoon")
+    harpoon:setup()
+
+    vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end, { desc = "Harpoon: Add file" })
+    vim.keymap.set("n", "<C-e>", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end, { desc = "Harpoon: Quick menu" })
+
+    vim.keymap.set("n", "<C-u>", function() harpoon:list():select(1) end, { desc = "Harpoon: File 1" })
+    vim.keymap.set("n", "<C-t>", function() harpoon:list():select(2) end, { desc = "Harpoon: File 2" })
+    vim.keymap.set("n", "<C-n>", function() harpoon:list():select(3) end, { desc = "Harpoon: File 3" })
+    vim.keymap.set("n", "<C-g>", function() harpoon:list():select(4) end, { desc = "Harpoon: File 4" })
+
+    vim.keymap.set("n", "<C-S-P>", function() harpoon:list():prev() end, { desc = "Harpoon: Prev" })
+    vim.keymap.set("n", "<C-S-N>", function() harpoon:list():next() end, { desc = "Harpoon: Next" })
 end)
 
 local function jemo_lualine_theme()
