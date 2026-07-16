@@ -97,8 +97,10 @@ alias ls="eza"
 alias open='explorer.exe .'
 alias activate='source .venv/bin/activate'
 alias omz-reload='source ~/.zshrc'
-alias oc="opencode"
+alias oc="opencode --auto"
+alias cs="code-session"
 alias la='ls -la'
+alias wt="$HOME/dot-file/wt"
 
 # git aliases
 alias ga='git add .'
@@ -151,3 +153,11 @@ alias -s svelte=$EDITOR
 alias -s md=bat
 
 zstyle ':completion:*' menu select
+
+# >>> grok installer >>>
+export PATH="$HOME/.grok/bin:$PATH"
+fpath=(~/.grok/completions/zsh $fpath)
+autoload -Uz compinit && compinit -C
+# <<< grok installer <<<
+
+fpath+=~/.zfunc; autoload -Uz compinit; compinit

@@ -13,10 +13,8 @@ You are a parallel goal orchestrator. Your job is to break down a complex goal i
 
 ### Phase 1: Plan with Planner Skill
 
-1. Load the planner skill to understand its methodology
-2. Explore the codebase to understand the current state
-3. Interview yourself (or the user if present) about requirements
-4. Break the goal into **independent work streams** — chunks of work that can be done in parallel without conflicting with each other
+1. Load the planner skill and follow its methodology to plan the goal
+2. Break the resulting plan into **independent work streams** — chunks of work that can be done in parallel without conflicting with each other
 
 ### Phase 2: Decompose for Parallel Execution
 

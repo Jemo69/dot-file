@@ -1,0 +1,155 @@
+#!/usr/bin/env bash
+# wt — instantly spin up a jj workspace or git worktree and (optionally) a tmux session.
+#
+# Usage:
+#   wt <name> [--tmux]            create worktree/workspace in .workspace/<name> + tmux
+#   wt <name> --jj [--tmux]       force jj workspace
+#   wt <name> --git [--tmux]      force git worktree
+#   wt <name> --base <branch> [--tmux]
+#                                 worktree base branch / jj bookmark (default: current)
+#   wt --list                     list existing worktrees/workspaces
+#   wt --clean <name>             remove a worktree/workspace
+#
+# The VCS is auto-detected (jj if .jj exists, else git if .git exists and
+# jj is absent). Output directory defaults to .workspace/<name>, or
+# worktree/<name> if that directory exists in the repo.
+
+set -euo pipefail
+
+WT_DIR_DEFAULT=".workspace"
+
+usage() {
+  sed -n '2,18p' "$0" | sed 's/^# \{0,1\}//'
+  exit "${1:-0}"
+}
+
+is_jj_repo() { command -v jj >/dev/null 2>&1 && jj root >/dev/null 2>&1; }
+is_git_repo() { git rev-parse --is-inside-work-tree >/dev/null 2>&1; }
+
+list_entries() {
+  local dir="$1"
+  if [[ ! -d "$dir" ]]; then
+    echo "No '$dir' directory." >&2
+    return 1
+  fi
+  echo "Entries in $dir:"
+  for d in "$dir"/*/; do
+    [[ -d "$d" ]] || continue
+    printf '  %s\n' "$(basename "${d%/}")"
+  done
+}
+
+main() {
+  local name="" use_tmux=0 force_vcs="" base=""
+  local -a passthrough=()
+
+  [[ $# -eq 0 ]] && usage 1
+
+  while [[ $# -gt 0 ]]; do
+    case "$1" in
+      -h|--help) usage 0 ;;
+      --tmux) use_tmux=1 ;;
+      --jj) force_vcs="jj" ;;
+      --git) force_vcs="git" ;;
+      --base) base="${2:-}"; shift ;;
+      --list) shift; list_entries "${WT_DIR_DEFAULT}"; return $? ;;
+      --clean)
+        shift
+        local cn="${1:-}"
+        [[ -z "$cn" ]] && { echo "error: --clean requires a name" >&2; exit 1; }
+        clean_entry "$cn"
+        return $?
+        ;;
+      -*) echo "error: unknown flag $1" >&2; usage 1 ;;
+      *)
+        if [[ -z "$name" ]]; then name="$1"; else passthrough+=("$1"); fi
+        ;;
+    esac
+    shift
+  done
+
+  [[ -z "$name" ]] && { echo "error: a name is required" >&2; usage 1; }
+
+  # Decide VCS:
+  #   - .jj present (with or without .git) -> jj workspace
+  #   - only .git present                  -> git worktree
+  #   --jj / --git override the auto-detection above.
+  local vcs=""
+  if [[ -n "$force_vcs" ]]; then
+    vcs="$force_vcs"
+  elif is_jj_repo; then
+    vcs="jj"
+  elif is_git_repo; then
+    vcs="git"
+  else
+    echo "error: not inside a jj or git repository" >&2
+    exit 1
+  fi
+
+  # Decide output directory: prefer .workspace, fall back to worktree/ if it exists
+  local root
+  if [[ "$vcs" == "jj" ]]; then
+    root="$(jj root)"
+  else
+    root="$(git rev-parse --show-toplevel)"
+  fi
+  local wt_dir="$WT_DIR_DEFAULT"
+  if [[ ! -d "$root/$wt_dir" && -d "$root/worktree" ]]; then
+    wt_dir="worktree"
+  fi
+  local target="$root/$wt_dir/$name"
+
+  if [[ -e "$target" ]]; then
+    echo "error: $target already exists" >&2
+    exit 1
+  fi
+
+  mkdir -p "$root/$wt_dir"
+
+  if [[ "$vcs" == "jj" ]]; then
+    if [[ -n "$base" ]]; then
+      jj workspace add --name "$name" "$target" --revision "$base"
+    else
+      jj workspace add --name "$name" "$target"
+    fi
+  else
+    if [[ -n "$base" ]]; then
+      git worktree add "$target" -b "$name" "$base"
+    else
+      git worktree add "$target" -b "$name"
+    fi
+  fi
+
+  echo "Created $vcs ${wt_dir}/${name} at $target"
+
+  if [[ "$use_tmux" -eq 1 ]]; then
+    if ! command -v tmux >/dev/null 2>&1; then
+      echo "warning: tmux not found, skipping session" >&2
+    else
+      tmux new-session -A -s "$name" -c "$target"
+    fi
+  fi
+}
+
+clean_entry() {
+  local name="$1"
+  local root
+  if is_jj_repo; then root="$(jj root)"; else root="$(git rev-parse --show-toplevel)"; fi
+  local wt_dir="$WT_DIR_DEFAULT"
+  [[ ! -d "$root/$wt_dir" && -d "$root/worktree" ]] && wt_dir="worktree"
+  local target="$root/$wt_dir/$name"
+
+  if [[ ! -e "$target" ]]; then
+    echo "error: $target does not exist" >&2
+    return 1
+  fi
+
+  if is_jj_repo; then
+    jj workspace forget "$target"
+  else
+    git worktree remove "$target" --force
+  fi
+  echo "Removed ${wt_dir}/${name}"
+}
+
+main "$@"
